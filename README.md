@@ -1,2 +1,3 @@
 # websiteJekyll
-Website based on Devroll template
+
+UPE Website development using Jekyll with the Devroll template. 
