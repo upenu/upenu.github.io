@@ -1,22 +1,22 @@
 - name: Home
-  path: index.html
+  path: 
   section_id: home
 - name: About
-  path: about.html
+  path: about
   section_id: about
 - name: Services
-  path: services.html
+  path: services
   section_id: services
 - name: Portfolio
-  path: portfolio.html
+  path: portfolio
   section_id: portfolio
   children:
     - name: Portfolio
-      path: portfolio.html
+      path: portfolio
     - name: Portfolio item
-      path: portfolio-item.html
+      path: portfolio-item
 - name: Contact
-  path: contact.html
+  path: contact
   section_id: contact
 - name: Blog
   path: blog/
