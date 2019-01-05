@@ -2,8 +2,9 @@
 layout: default
 ---
 
+<base href={{site.baseurl |  prepend: site.url}}>
 
-<div class='full parallax' style='background-image: url({{site.url}}/images/@stock/blog-header-bg.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(/images/@stock/blog-header-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Our blog" tagline="Know what we are thinking and doing" color="#fff" class="big" %}

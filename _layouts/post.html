@@ -3,13 +3,15 @@ layout: blog
 section_id: blog
 ---
 
+<base href={{site.baseurl |  prepend: site.url}}>
+
 
 <div class='row'>
   <div class='large-12 columns'>
     <div class='mod modBlogPost big'>
       <div class='images'>
         {% for image in page.images %}
-          <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
+          <div class='image'><img alt="" src="/{{image}}" /></div>
         {% endfor %}
       </div>
       <div class='content'>
@@ -36,7 +38,7 @@ section_id: blog
         <li>
           <div class='meta'>
             <p class='avatar'>
-              <img width="39" height="39" alt="" src="{{site.url}}/images/avatar.png" />
+              <img width="39" height="39" alt="" src="/images/avatar.png" />
             </p>
             <p class='info'>
               <span class='name'>Amy</span>
@@ -51,7 +53,7 @@ section_id: blog
         <li>
           <div class='meta'>
             <p class='avatar'>
-              <img width="39" height="39" alt="" src="{{site.url}}/images/avatar.png" />
+              <img width="39" height="39" alt="" src="/images/avatar.png" />
             </p>
             <p class='info'>
               <span class='name'>Amy</span>
@@ -64,7 +66,7 @@ section_id: blog
             <li>
               <div class='meta'>
                 <p class='avatar'>
-                  <img width="39" height="39" alt="" src="{{site.url}}/images/avatar.png" />
+                  <img width="39" height="39" alt="" src="/images/avatar.png" />
                 </p>
                 <p class='info'>
                   <span class='name'>Amy</span>
@@ -79,7 +81,7 @@ section_id: blog
         <li>
           <div class='meta'>
             <p class='avatar'>
-              <img width="39" height="39" alt="" src="{{site.url}}/images/avatar.png" />
+              <img width="39" height="39" alt="" src="/images/avatar.png" />
             </p>
             <p class='info'>
               <span class='name'>Amy</span>

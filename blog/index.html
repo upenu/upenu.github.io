@@ -4,12 +4,14 @@ title: Blog
 section_id: blog
 ---
 
+<base href={{site.baseurl |  prepend: site.url}}>
+
 
 {% for post in paginator.posts %}
   <div class='big mod modBlogPost'>
     <div class='images'>
       {% for image in post.images %}
-        <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
+        <div class='image'><img alt="" src="/{{image}}" /></div>
       {% endfor %}
     </div>
     <div class='content'>
