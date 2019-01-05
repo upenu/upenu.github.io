@@ -1,14 +1,13 @@
 # Site settings
-title: UPE
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Upsilon Pi Epsilon
+email: info@upe.berkeley.edu
+description: >
+  Upsilon Pi Epsilon is the first and only international honor society for the Computing Sciences. 
+  The UC Berkeley chapter, launched in 1995, honors the top tier of Computer Science students on campus.
 #baseurl: "/~upe" # the subpath of your site, e.g. /blog/
 url: "https://www.ocf.berkeley.edu/~upe" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: ""
+github_username:  ""
 
 # Build settings
 markdown: kramdown
