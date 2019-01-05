@@ -1,6 +1,3 @@
-<base href={{site.baseurl |  prepend: site.url}}>
-
-
 <div class='contain-to-grid sticky'>
   <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
     <ul class='title-area'>
@@ -26,18 +23,18 @@
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    <a href="/{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}
