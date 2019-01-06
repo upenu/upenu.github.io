@@ -1,0 +1,101 @@
+- avatar: /images/@stock/member-1.jpg
+  name: Lindsay Yang
+  email: president@upe.berkeley.edu
+  desc: President
+- avatar: /images/@stock/member-2.jpg
+  name: Andrew Lee
+  email: vp@upe.berkeley.edu
+  desc: Vice President
+- avatar: /images/@stock/member-2.jpg
+  name: Daniel Zhang
+  email: treasurer@upe.berkeley.edu
+  desc: Treasurer
+- avatar: /images/officers/sarah.jpg
+  name: Sarah Young
+  email: secretary@upe.berkeley.edu
+  desc: Secretary
+
+- avatar: /images/officers/Ram.jpg
+  name: Ram Kalidhindi
+  email: publicity@upe.berkeley.edu
+  desc: Publicity Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Allyson Koo
+  email: publicity@upe.berkeley.edu
+  desc: Publicity Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Emily Zhu
+  email: publicity@upe.berkeley.edu
+  desc: Publicity Chair
+
+- avatar: /images/@stock/member-2.jpg
+  name: William Ma
+  email: social@upe.berkeley.edu
+  desc: Social Chair
+- avatar: /images/@stock/member-2.jpg
+  name: George Wang
+  email: social@upe.berkeley.edu
+  desc: Social Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Chenyu Shi
+  email: social@upe.berkeley.edu
+  desc: Social Chair
+
+- avatar: /images/@stock/member-2.jpg
+  name: Celena Chang
+  email: ir@upe.berkeley.edu
+  desc: Industrial Relations Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Leon Ming
+  email: ir@upe.berkeley.edu
+  desc: Industrial Relations Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Andrew Kim
+  email: ir@upe.berkeley.edu
+  desc: Industrial Relations Chair
+
+- avatar: /images/@stock/member-2.jpg
+  name: Daniel Zheng
+  email: profdev@upe.berkeley.edu
+  desc: Professional Development Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Mesut Yang
+  email: profdev@upe.berkeley.edu
+  desc: Professional Development Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Hugh Jiang
+  email: profdev@upe.berkeley.edu
+  desc: Professional Development Chair
+
+- avatar: /images/@stock/member-2.jpg
+  name: Lavanya Mittal
+  email: outreach@upe.berkeley.edu
+  desc: Outreach Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Vanessa Lin
+  email: outreach@upe.berkeley.edu
+  desc: Outreach Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Mary Xu
+  email: outreach@upe.berkeley.edu
+  desc: Outreach Chair
+
+- avatar: /images/officers/AdeelCheema.jpg
+  name: Adeel Cheema
+  email: facilities@upe.berkeley.edu
+  desc: Facilities Chair
+- avatar: /images/@stock/member-2.jpg
+  name: Sid Verma
+  email: facilities@upe.berkeley.edu
+  desc: Facilities Chair
+
+
+# - avatar: /images/@stock/member-4.jpg
+#   name: Name
+#   position: Email
+#   socials:
+#     - link: http://twitter.com
+#       icon: twitter
+#     - link: http://facebook.com
+#       icon: facebook
+#   desc: Position
