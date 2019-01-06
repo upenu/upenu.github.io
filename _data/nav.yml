@@ -6,6 +6,8 @@
   children: 
     - name: Officers
       path: /officers
+    - name: UPE
+      path: /upe
 - name: Student Services
   section_id: student-services
   children:
