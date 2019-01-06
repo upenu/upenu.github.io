@@ -4,7 +4,7 @@
     <div class='large-3 medium-3 columns'>
       <h1>
         <a href='/'>
-          <img alt="" src="{{site.url}}/images/WhaleWhite.png" />
+          <img alt="" src="{{site.url}}/images/WhaleWhiteFooter.png" />
         </a>
       </h1>
       <p>©2019 Upsilon Pi Epsilon</p>
@@ -15,13 +15,23 @@
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <div class='links'>
-        <h4>Some pages</h4>
+        <h4>Pages</h4>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="portfolio">View some works here</a></li>
-          <li><a href="blog">Follow our blog</a></li>
-          <li><a href="contact">Contact us</a></li>
-          <li><a href="services">Our services</a></li>
+          {% for item in site.data.nav %}
+          {% if item.children %}
+            {% for child in item.children %}
+              <li>
+                {% if child.redirect == null %}
+                  <a href="{{child.path}}">{{child.name}}</a>
+                {% else %}
+                  <a href="{{child.path}}" target="_blank">{{child.name}}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          {% else %}
+            <li><a href="{{ item.path }}">{{ item.name }}</a></li>
+          {% endif %}
+        {% endfor %}
         </ul>
       </div>
       <div class='spacing'></div>
@@ -29,12 +39,11 @@
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <div class='links'>
-        <h4>Recent posts</h4>
-        <ul>
-          {% for post in site.posts %}
-            <li><a href="{{post.url}}">{{post.title}}</a></li>
-          {% endfor %}
-        </ul>
+        <h4>Sponsors</h4>
+        <div id="sponsor-images">
+            <div class="img-col"><img src="/images/asuc-logo.png" alt="Sponsor"></div>
+            <div class="img-col"><a href="https://www.ocf.berkeley.edu"><img src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_mini8.png" alt="Hosted by the OCF"></a></div>
+        </div>
       </div>
       <div class='spacing'></div>
     </div>
@@ -48,23 +57,13 @@
       <div class='spacing'></div>
       <ul class='socials'>
         <li>
-          <a href='http://facebook.com'>
+          <a href='http://facebook.com/ucbupe/'>
             <i class='fa fa-facebook'></i>
           </a>
         </li>
         <li>
-          <a href='http://twitter.com'>
+          <a href='http://twitter.com/berkeleyUPE'>
             <i class='fa fa-twitter'></i>
-          </a>
-        </li>
-        <li>
-          <a href='http://dribbble.com'>
-            <i class='fa fa-dribbble'></i>
-          </a>
-        </li>
-        <li>
-          <a href='http://tumblr.com'>
-            <i class='fa fa-tumblr'></i>
           </a>
         </li>
       </ul>

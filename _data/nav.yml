@@ -1,19 +1,19 @@
 - name: Home
-  path: 
+  path: /
   section_id: home
 - name: About
   section_id: about
   children: 
     - name: Officers
-      path: officers
+      path: /officers
 - name: Student Services
   section_id: student-services
   children:
     - name: Office Hours
-      path: officehours
+      path: /officehours
     - name: Mock Interviews
       redirect: true
       path: https://www.google.com
 - name: Industrial Relations
-  path: indrel
+  path: /indrel
   section_id: indrel

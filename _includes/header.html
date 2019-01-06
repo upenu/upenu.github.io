@@ -4,7 +4,7 @@
       <li class='name'>
         <h1>
           <a href='{{site.url}}'>
-            <img alt="" src="{{site.url}}/images/WhaleBlue.png" />
+            <img alt="" src="{{site.url}}/images/WhaleBlueHeader.png" />
           </a>
         </h1>
       </li>
@@ -28,18 +28,17 @@
                 {% for child in item.children %}
                   <li>
                     {% if child.redirect == null %}
-                      <a href="{{site.url}}/{{child.path}}">{{child.name}}</a>
+                      <a href="{{child.path}}">{{child.name}}</a>
                     {% else %}
                       <a href="{{child.path}}" target="_blank">{{child.name}}</a>
                     {% endif %}
-                    
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{ item.path }}">{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}
