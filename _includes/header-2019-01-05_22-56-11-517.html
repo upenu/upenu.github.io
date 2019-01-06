@@ -27,12 +27,7 @@
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    {% if child.redirect == null %}
-                      <a href="{{site.url}}/{{child.path}}">{{child.name}}</a>
-                    {% else %}
-                      <a href="{{child.path}}" target="_blank">{{child.name}}</a>
-                    {% endif %}
-                    
+                    <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>

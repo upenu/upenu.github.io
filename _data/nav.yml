@@ -2,22 +2,18 @@
   path: 
   section_id: home
 - name: About
-  path: about
   section_id: about
-- name: Services
-  path: services
-  section_id: services
-- name: Portfolio
-  path: portfolio
-  section_id: portfolio
+  children: 
+    - name: Officers
+      path: officers
+- name: Student Services
+  section_id: student-services
   children:
-    - name: Portfolio
-      path: portfolio
-    - name: Portfolio item
-      path: portfolio-item
-- name: Contact
-  path: contact
-  section_id: contact
-- name: Blog
-  path: blog/
-  section_id: blog
+    - name: Office Hours
+      path: officehours
+    - name: Mock Interviews
+      redirect: true
+      path: https://www.google.com
+- name: Industrial Relations
+  path: indrel
+  section_id: indrel
