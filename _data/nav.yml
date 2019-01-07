@@ -16,6 +16,8 @@
     - name: Mock Interviews
       redirect: true
       path: https://www.google.com
+    - name: Events
+      path: /events
 - name: Industrial Relations
   path: /indrel
   section_id: indrel

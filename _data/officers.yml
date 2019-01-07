@@ -1,4 +1,4 @@
-- avatar: /images/@stock/member-1.jpg
+- avatar: /images/officers/Lindsay.jpg
   name: Lindsay Yang
   email: president@upe.berkeley.edu
   desc: President
@@ -23,7 +23,7 @@
   name: Allyson Koo
   email: publicity@upe.berkeley.edu
   desc: Publicity Chair
-- avatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Emily.jpg
   name: Emily Zhu
   email: publicity@upe.berkeley.edu
   desc: Publicity Chair
@@ -36,7 +36,7 @@
   name: George Wang
   email: social@upe.berkeley.edu
   desc: Social Chair
-- avatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Chenyu.jpg
   name: Chenyu Shi
   email: social@upe.berkeley.edu
   desc: Social Chair
@@ -54,7 +54,7 @@
   email: ir@upe.berkeley.edu
   desc: Industrial Relations Chair
 
-- avatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Daniel_Zeng.jpg
   name: Daniel Zeng
   email: profdev@upe.berkeley.edu
   desc: Professional Development Chair
@@ -71,11 +71,11 @@
   name: Lavanya Mittal
   email: outreach@upe.berkeley.edu
   desc: Outreach Chair
-- avatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Vanessa.jpg
   name: Vanessa Lin
   email: outreach@upe.berkeley.edu
   desc: Outreach Chair
-- avatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Mary.jpg
   name: Mary Xu
   email: outreach@upe.berkeley.edu
   desc: Outreach Chair
