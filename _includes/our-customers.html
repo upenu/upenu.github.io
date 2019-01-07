@@ -14,7 +14,11 @@
       <div class='mod modClients' data-slides_to_show='4'>
         <div class='clients'>
           {% for client in site.data.clients %}
-            <div class='client-image'><img alt="" src="{{client.image}}" /></div>
+            <div class='client-image'>
+              <a href="{{client.link_to}}">
+                <img alt="" src="{{client.image}}" />
+              </a>
+            </div>
           {% endfor %}
         </div>
       </div>
