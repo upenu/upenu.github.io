@@ -3,10 +3,14 @@
 	padding: 15px;
 }
 
+.intro {
+	margin-bottom: 20px;
+}
+
 .intro-text {
 	margin-bottom: 0px;
 }
 
-.intro {
-	margin-bottom: 20px;
+.intro-email {
+	font-style: italic;
 }
