@@ -1,0 +1,120 @@
+- coverphoto: /images/events/2018.11.28_Bloomberg.png
+  name: Bloomberg Code Con
+  date: November 28, 2018
+  desc: Face off against your classmates at CodeCon, a live coding competition hosted by Bloomberg. Push your programming and problem solving skills to the limit against the clock! The top three finishers from each school will be invited to the Bloomberg headquarters in NYC for a showdown against finalists from schools across the globe.
+  link: https://www.facebook.com/events/1105191172980779/
+- coverphoto: /images/events/2018.11.15_CS_Intended_Panel.png
+  name: CS Intended Panel
+  date: November 15, 2018
+  desc: Please join us for a CS Intended Panel where we will clarify the exact process for how to get declared as a CS major, tips to have a smooth and successful CS undergrad career, and an open panel where you can ask your peers any remaining questions. This is especially a good resource if you are stressed about the GPA cap, as we will be giving tips on how to maximize your chances regardless of your GPA.
+  link: https://www.facebook.com/events/1166636016846057/
+- coverphoto: /images/events/2018.10.24_Affirm.png
+  name: Affirm Infosession
+  date: October 24, 2018
+  desc: Affirm is reinventing credit to make it more honest, transparent, and friendly. Our mission is simple– deliver honest financial products to improve lives. Unlike traditional credit options, we show you exactly what you’ll owe up front– no penalty fees, no compounding interest. By letting you pay over time, Affirm is empowering consumers to advance their financial well-being. Bring your resumes!
+  link: https://www.facebook.com/events/1247299798755888/
+- coverphoto: /images/events/2018.10.22_UPE_Negotations.png
+  name: UPE Negotations Workshop
+  date: October 22, 2018
+  desc: How to negotiate offers and promotions! Presentations by UPE Alumni who are currently working as a Senior Software Engineer @Workday and a Senior Software Engineering Manager @Salesforce. Q&A with UPE alumni is followed! 
+  link: https://www.facebook.com/events/2308769369195162/
+- coverphoto: /images/events/2018.10.19_Opentable.png
+  name: OpenTable Infosession
+  date: October 19, 2018
+  desc: Do you love to eat?  Do you love engineering? Join the OpenTable team for a tech talk to learn about the intersection of dining out and software engineering! Since 1998, we’ve been committed to helping restaurants grow and run their businesses, to enabling diners to discover and book the perfect table every time they dine, our story is one of connection—among diners, restaurants, and their communities. But the table is just the start. Now, we’re growing globally like never before,  as we span countries and cultures, we’re very aware of an essential ingredient in making the power of our products possible– you. You are the reason why we work hard to be one step ahead of the moment and what inspires us to embody the true spirit of hospitality. So come listen to OpenTable software engineer and Cal EECS alum Valerie Chen discuss query understanding and user intent. Bring your resumes!
+  link: https://www.facebook.com/events/698240110575004/
+- coverphoto: /images/events/2018.10.17_Gusto.png
+  name: Gusto Infosession
+  date: October 17, 2018
+  desc: Deciding between multiple job/internship offers? Join us on 10/17 to learn about to how to evaluate job offers. There will be a Panel Q&A as well as yummy food! Learn more about job offer decision-making, and ask our panel about the cool problems our engineering team is tackling and about life at Gusto.
+  link: https://www.facebook.com/events/171768953687287/
+- coverphoto: /images/events/2018.10.16_Google.png
+  name: Google APM Infosession
+  date: October 16, 2018
+  desc: UPE is hosting an APM workshop with guest speakers from Google! Did you apply to Google's APM summer 2019 internship or full-time APM role? Join us to meet former APM interns, APMs and PMs as they provide an overview of the program, and run an interactive workshop providing some interview tips for you to consider. This session will be most helpful for 3rd and 4th year students interested in APM roles. See you there! 
+  link: https://www.facebook.com/events/2074730209504708/
+- coverphoto: /images/events/2018.10.8_Splunk.png
+  name: Splunk Infosession
+  date: October 10, 2018
+  desc: Splunk offers the leading platform for Operational Intelligence. It enables the curious to look closely at what others ignore—machine data—and find what others never see– insights that can help make companies more productive, profitable, competitive and secure. What can you do with Splunk? Come and find out. Recruiting for both internships and full-time positions. Bring resumes and questions!
+  link: https://www.facebook.com/events/1723049551097297/
+- coverphoto: /images/events/2018.9.21_Jane_Street.png
+  name: Jane Street Tech Talk
+  date: September 21, 2018
+  desc: Electronic exchanges play an important role in the world financial system, acting as focal points where actors from across the world meet to trade with each other. But building an exchange is a difficult technical challenge, requiring high transaction rates, low, deterministic response times, fairness, and reliability. This talk looks at the question of how to design an exchange through the lens of JX, a crossing engine we built at Jane Street in the last two years. Performance plays an interesting role in this design, in that, although the end-to-end latency of the system is not important in and of itself, the ability of individual components of JX to handle messages rates in the 500k/sec range with latencies in the single-digit microseconds helped us build a replicated system that is both simple and robust.
+  link: https://www.facebook.com/events/507587129654126/
+- coverphoto: /images/events/2018.9.18_Uber.png
+  name: Uber Infosession
+  date: September 18, 2018
+  desc: We believe that by solving some of the biggest problems of our time, we can create a future where there is limitless freedom of movement for people and things all across the world. It's a bright future that we can create together. Uber the the perfect place to start and grow your career! Presentation by Xinxi Chen, Senior Software Engineer. Come say hello, be ready to ask questions, fill up on food, and get to know Uber!
+  link: https://www.facebook.com/events/550123315429960/
+- coverphoto: /images/events/2018.9.10_Nutanix.png
+  name: Nutanix Infosession
+  date: September 10, 2018
+  desc: Wondering what  hyper-converged infrastructure is? Come to Nutanix's infosession! Nutanix is looking for the next group of innovative and passionate students to join our family. Staff engineers, Malcolm Crossley and Igor Grobman will be leading an engaging technical discussion on the Nutanix journey and the future of our technologies. Stop by and learn more about our mission.
+  link: https://www.facebook.com/events/240325456685684/
+- coverphoto: /images/events/2018.8.23_Workday.png
+  name: Workday Infosession
+  date: September 4, 2018
+  desc: Workday is a leading provider of enterprise cloud applications for finance and human resources. Founded in 2005, Workday delivers financial management, human capital management, and analytics applications designed for the world’s largest companies, educational institutions, and government agencies. Organizations ranging from medium-sized businesses to Fortune 50 enterprises have selected Workday.
+  link: https://www.facebook.com/events/903852889824507/ 
+- coverphoto: /images/events/2018.8.29_IXL.png
+  name: IXL Infosession
+  date: August 29, 2018
+  desc: Learn how IXL is advancing education through online technology! Join Sidney and other IXL'ers as they talk about their experiences post graduation, why they chose to work in Edtech, and how you can join their team. Bring your resume to the infosession and enter to win an echodot!
+  link: https://www.facebook.com/events/2100387726893897/
+- coverphoto: /images/events/2018.4.5_Negotiations_Workshop.png
+  name: UPE Negotations Workshop
+  date: April 5, 2018
+  desc: Come out to UPE's last professional event of the semester! Learn from Berkeley CS alumni how to negotiate a strong job offer and get the best salary/benefits possible!
+  link: https://www.facebook.com/events/778091299058016/
+- coverphoto: /images/events/UPE_Presents_ML.png
+  name: UPE Presents Machine Learning
+  date: April 2, 2018
+  desc: The rise of Deep Learning (DL) has marked the most fruitful era of AI research to date. Today, startups and larger companies are rapidly deploying DL-enabled technologies into products. However, to effectively deploy DL at scale, you need a "full stack" DL engineering team that covers a wide range of skills. In this talk, I begin by I inclusively defining the full stack of skills and technologies that go into DL engineering. Second, for the future entrepreneurs in the room, I provide some advice on how to build, coach, and grow a full-stack DL engineering team. Third, I provide advice on how a generalist or specialist engineer can engage with a full-stack DL engineering team, and I describe a path for how to ultimately become a full-stack DL engineer. As a bonus, I share some lessons and experiences that I have picked up on my journey from completing a PhD in EECS at UC Berkeley to founding and growing our company, DeepScale.
+  link: https://www.facebook.com/events/160391354776233/
+- coverphoto: /images/events/2018.3.9_Accel_Scholars.png
+  name: Accel Scholars Infosession
+  date: March 19, 2018
+  desc: Co-sponsored by HKN and UPE, please come out to the Wozniak Lounge to learn about an exclusive partnership between Accel Partners and EECS Berkeley– The Accel Scholars Program. It is the leading program of its kind, providing unparalleled opportunities for students to get exposure to industry. The program is designed to make different career paths accessible, build out your network with high-quality folks from the companies that matter, and provide ongoing mentorship and connectivity within the tech ecosystem. Students will have the opportunity to participate in educational meetings, mentoring events with industry experts, and receive a guaranteed summer internship or job offer from an Accel portfolio company. This is a unique opportunity only available for Berkeley students.
+  link: https://www.facebook.com/events/2042036292679289/
+- coverphoto: /images/events/2018.3.14_Datavisor.png
+  name: Datavisor Infosession
+  date: March 14, 2018
+  desc: Join us in Wozniak Lounge as Julian Wong, VP of Customer Success at DataVisor, discusses how DataVisor uses machine learning models to help detect and attack fraud.
+  link: https://www.facebook.com/events/1836577763051749/
+- coverphoto: /images/events/2018.2.27_Oracle.png
+  name: Oracle Infosession/Tech Talk
+  date: February 27, 2018
+  desc: This is your chance to discover what everyday life at Oracle is like. We’ll also talk about Database In-Memory, an Oracle product that provides a unique, dual-format architecture and leverages state-of-the-art algorithms for scans, joins, and aggregations to deliver leading-edge, in-memory analytic performance for Real Time Enterprises. See you there! 
+  link: https://www.facebook.com/events/153245068647292/
+- coverphoto: /images/events/UPE_Presents_QC.png
+  name: UPE Presents Quantum Computing
+  date: February 26, 2018
+  desc: Rigetti is a Berkeley based quantum computing startup trying to build quantum integrated circuits. Superconducting devices are promising candidates for building a fully-functional quantum computer. In this talk, Guenevere Prawiroatmodjo and Chris Osborn will present basic notions of superconducting circuits, single qubit rotations and two-qubit entangling gates. They will briefly present some fabrication techniques adopted at Rigetti Computing, and some quantum algorithms that can be run on near term quantum devices. They will also talk about building programming languages and writing programs for quantum computers.
+  link: https://www.facebook.com/events/587067604973276/
+- coverphoto: /images/events/2018.2.21_IXL_Infosession.png
+  name: IXL Infosession
+  date: February 21, 2018
+  desc: Learn how IXL is advancing education through online technology! Join our IXLers as they talk about their experiences post graduation, why they chose to work in edtech, and how you can join our team!
+  link: https://www.facebook.com/events/198688897542604/
+- coverphoto: /images/events/UPE_Presents_Blockchain.png
+  name: UPE Presents Blockchain
+  date: February 13, 2018
+  desc: Wondering what a blockchain is? Confused on the difference between bitcoin and ethereum? Interested in learning how money can be created from bits? Blockchain@Berkeley and UPE will be joint hosting an infosession explaining one of the coolest innovations in the digital age– the blockchain! Come out to the Wozniak Lounge on Tuesday, February 13th at 8:00pm to have all your questions about cryptocurrency answered!
+  link: https://www.facebook.com/events/1431983626910924/
+- coverphoto: /images/events/2018.1.31_UPE_Resume_Workshop.png
+  name: UPE Resume Workshop
+  date: January 31, 2018
+  desc: First workshop in a series on professional development hosted by UPE. Learn about how to talk to recruiters and how to make an awesome resume (i.e. how to land an interview!!)! Presentations by UPE professional development committee and Q&A with current and former UC Berkeley students.
+  link: https://www.facebook.com/events/1662453943815062/
+- coverphoto: /images/events/2018.1.30_Uber_Infosession.png
+  name: Uber Infosession
+  date: January 30, 2018
+  desc: Massive change is afoot at Uber! In 2017 we welcomed a million women drivers to our platformed, changed the face of freight, tested out autonomous vehicles on the road, and worked on tackling gender bias in the app. Talk to Molly Long, a senior software engineer on the Customer Identity Team, as she discusses the challenges and exciting efforts she has been working on. We'll talk about Uber's tradition on building innovation while securing the users, focus on personal growth and support, as well as initiatives for changing the way we transport around the world.
+  link: https://www.facebook.com/events/175169836582623/
+- coverphoto: /images/events/2018.1.18_Workday_Infosession.png
+  name: Workday Infosession
+  date: January 18, 2018
+  desc: Interested in working at Workday? Workday is an on‑demand financial management and human capital management software vendor. Join us on Thursday 1/18 at 5:30PM in Wozniak Lounge to learn more about technical roles at Workday! Bring your resumes and questions.
+  link: https://www.facebook.com/events/147141892614945/
