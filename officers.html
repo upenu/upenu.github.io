@@ -20,6 +20,11 @@ section_id: about
         <div class='mod modTeamMember'>
           <div class='member'>
             <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <!-- Hover option; commented out for the time being -->
+            <!-- <img class="avatar" alt=""
+              src="{{ member.avatar }}"
+              onmouseover="this.src='{{ member.hoveravatar }}';"
+              onmouseout="this.src='{{ member.avatar }}';" /> -->
             <div class='overlay'>
               <div class='intro'>
                 <h3>{{member.name}}</h3>
