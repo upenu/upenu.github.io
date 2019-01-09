@@ -19,10 +19,10 @@ section_id: about
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember'>
           <div class='member'>
-            <img class="avatar" alt=""
-              src="{{ member.avatar }}"
-              onmouseover="this.src='{{ member.hoveravatar }}';"
-              onmouseout="this.src='{{ member.avatar }}';" />
+              <img alt="" src="{{member.avatar}}"/>
+              <div class="overlay-image">
+                <img alt="" src="{{member.hoveravatar}}"/>
+              </div>
           </div>
           <div class = "officer-desc">
             <div class='intro'>
