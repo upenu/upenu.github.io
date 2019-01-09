@@ -3,18 +3,18 @@
   name: Lindsay Yang
   email: president (at) upe.berkeley.edu
   desc: President
-- avatar: /images/@stock/member-2.jpg
-  hoveravatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Andrew_Lee.jpg
+  hoveravatar: /images/officers/Andrew_Lee_Fun.jpg
   name: Andrew Lee
   email: vp (at) upe.berkeley.edu
   desc: Vice President
-- avatar: /images/officers/Daniel.jpg
-  hoveravatar: /images/officers/Daniel.jpg
+- avatar: /images/officers/Daniel_Zhang.jpg
+  hoveravatar: /images/officers/Daniel_Zhang.jpg
   name: Daniel Zhang
   email: treasurer (at) upe.berkeley.edu
   desc: Treasurer
-- avatar: /images/officers/sarah.jpg
-  hoveravatar: /images/officers/sarah.jpg
+- avatar: /images/officers/Sarah.jpg
+  hoveravatar: /images/officers/Sarah_Fun.jpg
   name: Sarah Young
   email: secretary (at) upe.berkeley.edu
   desc: Secretary
@@ -35,8 +35,8 @@
   email: publicity (at) upe.berkeley.edu
   desc: Publicity Chair
 
-- avatar: /images/@stock/member-2.jpg
-  hoveravatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Will.jpg
+  hoveravatar: /images/officers/Will_Fun.jpg
   name: William Ma
   email: social (at) upe.berkeley.edu
   desc: Social Chair
@@ -51,18 +51,18 @@
   email: social (at) upe.berkeley.edu
   desc: Social Chair
 
-- avatar: /images/@stock/member-2.jpg
-  hoveravatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Celena.jpg
+  hoveravatar: /images/officers/Celena.jpg
   name: Celena Chang
   email: ir (at) upe.berkeley.edu
   desc: Industrial Relations Chair
-- avatar: /images/@stock/member-2.jpg
-  hoveravatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Leon.jpg
+  hoveravatar: /images/officers/Leon_Fun.jpg
   name: Leon Ming
   email: ir (at) upe.berkeley.edu
   desc: Industrial Relations Chair
 - avatar: /images/@stock/member-2.jpg
-  hoveravatar: /images/@stock/member-2.jpg
+  hoveravatar: /images/officers/Andrew_Kim.jpg
   name: Andrew Kim
   email: ir (at) upe.berkeley.edu
   desc: Industrial Relations Chair
@@ -89,18 +89,18 @@
   email: outreach (at) upe.berkeley.edu
   desc: Outreach Chair
 - avatar: /images/officers/Vanessa.jpg
-  hoveravatar: /images/officers/Vanessa.jpg
+  hoveravatar: /images/officers/Vanessa_Fun.jpg
   name: Vanessa Lin
   email: outreach (at) upe.berkeley.edu
   desc: Outreach Chair
 - avatar: /images/officers/Mary.jpg
-  hoveravatar: /images/officers/Mary.jpg
+  hoveravatar: /images/officers/Mary_Fun.jpg
   name: Mary Xu
   email: outreach (at) upe.berkeley.edu
   desc: Outreach Chair
 
-- avatar: /images/officers/AdeelCheema.jpg
-  hoveravatar: /images/officers/AdeelCheema.jpg
+- avatar: /images/officers/Adeel.jpg
+  hoveravatar: /images/officers/Adeel.jpg
   name: Adeel Cheema
   email: facilities (at) upe.berkeley.edu
   desc: Facilities Chair
