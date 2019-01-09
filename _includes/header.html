@@ -23,7 +23,7 @@
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="">{{ item.name }}</a>
+              <a href="" onclick='return false;'>{{ item.name }}</a>
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
