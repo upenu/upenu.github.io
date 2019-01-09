@@ -30,7 +30,7 @@ p {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .3s ease;
+  transition: .15s ease;
 }
 
 .overlay-image:hover {
