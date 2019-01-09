@@ -2,48 +2,11 @@
 layout: default
 section_id: about
 slides:
-  - bg: /images/@stock/slide-1.jpg
-    small_title:
-      klass: bottom-to-top
-      text: The perfect theme for
-    title:
-      klass: bottom-to-top
-      text: Many purposes
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Learn More
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  - bg: /images/sp19.jpg
   - bg: /images/@stock/slide-4.jpg
-    klass: centered-text
-    small_title:
-      klass: bottom-to-top
-      text: We make websites that are
-    title:
-      klass: bottom-to-top
-      text: Creative &amp; Powerful
-    buttons:
-      klass: bottom-to-top
-      items:
-        - klass: boxed
-          text: View Features
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-        - text: Purchase Now
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
+    
   - bg: /images/@stock/slide-5.jpg
-    small_title:
-      klass: bottom-to-top
-      text: This is a creative theme that you'll
-    title:
-      klass: bottom-to-top
-      text: definitely love...
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Learn More
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-
-
+    
 
 works:
   - image: /images/@stock/work-1.jpg
@@ -89,20 +52,20 @@ works:
 
 
 services:
-  - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: graduation-cap
+    title: Academic Support Professional Resources
+    desc: UPE engages students with <a href = "/officehours">tutoring</a>, <a href = "">mock interviews</a>, <a href = "/officehours">resume critiques</a>, and more, making us renowned for our service to the university community. We not only reach out to computer science students and faculty, but also the EECS, math, and other engineering majors. We work with the department and other organizations to host events such as the Data Scholars workshop.
 
-milestones:
+  - icon: cogs
+    title: Industry events
+    desc: We partner with the EECS department and work closely with major corporations, organizing events ranging from brief one-hour info-sessions about companies and recruiting opportunities to full-scale day-long sessions to showcase their research and product development. Our resumé books make it easier for companies to target the top Berkeley CS students. Companies interested in working with us can visit us <a href = "/indrel">here</a>.
+
+  - icon: group
+
+    title: Community, Fun, and Network
+    desc: UPE has a wide alumni base and an active network of information and support. We have alumni in companies such as Facebook, Google, Amazon, Microsoft Research, Two Sigma, Goldman Sachs, Workday, Lyft, and virtually every other company you can think of! UPE also holds several fun socials for our members, alumni, and candidates throughout the semester, as well as a semesterly retreat, for members and alumni to bond and have fun! We partner with other organizations to host fun events for the CS community as well!
+
+<!-- milestones:
   - icon: folder-open
     from: 0
     to: 69
@@ -118,7 +81,7 @@ milestones:
   - icon: file-text
     from: 0
     to: 21
-    title: Articles Published
+    title: Articles Published -->
 
 ---
 
@@ -128,19 +91,75 @@ milestones:
       {% include section-header.html title="About UPE" %}
       <div class='spacing'></div>
       <p>
-        Upsilon Pi Epsilon is the first and only international honor society for the Computing Sciences. The UC Berkeley chapter, launched in 1995, honors the top tier of Computer Science students on campus.
+        Upsilon Pi Epsilon is the first and only international honor society for the computing and information disciplines and is endorsed by ACM and IEEE. UPE aims to recognize academic excellence and promote academic and professional growth of its members. The UC Berkeley chapter, launched in 1995, honors the top tier of Computer Science students on campus. 
+
+      </p>
+      <p>
+        Each semester, we extend membership to the top third of declared CS majors as provided by the CS department. Candidates will join one of our committees and contribute to the Berkeley CS community. Initiates are UPE members for life.
       </p>
       <div class='three spacing'></div>
     </div>
   </div>
   <div class='row'>
     <div class='medium-6 columns'>
-      <img class="fadeinleft" alt="" src="/images/@stock/responsive.png" />
+      <br><br><br><br>
+
+
+
+
+
+
+
+
+
+      <!-- <div class='mod modDefaultSlider'>
+        <div class='sequence' data-autostop='on' data-timeout='0'>
+          <a class='sequence-prev' href='javascript:void(0);'>
+            <span></span>
+          </a>
+          <a class='sequence-next' href='javascript:void(0);'>
+            <span></span>
+          </a>
+          <ul class='sequence-pagination'>
+            {% for slide in page.slides %}
+              {% if forloop.first %}
+                {% assign class = 'current' %}
+              {% else %}
+                {% assign class = '' %}
+              {% endif %}
+              <li class="{{class}}"></li>
+            {% endfor %}
+          </ul>
+          <ul class='sequence-canvas'>
+            {% for slide in page.slides %}
+              {% if forloop.first %}
+                {% assign style = 'static' %}
+              {% else %}
+                {% assign style = '' %}
+              {% endif %}
+
+              <li class='frame {{style}} {{ slide.klass }}'>
+                <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+
+                
+              
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+ -->
+
+
+
+
+
+      <img class="fadeinleft" alt="" src="/images/initfa18.JPG" />
       <div class='three spacing'></div>
     </div>
     <div class='medium-6 columns'>
       {% for service in page.services %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+        <div class='fadein mod modIconText' data-delay='{{ 200 | times:forloop.index0 }}'>
           <div class='icon-text-simple'>
             <i class='fa fa-{{service.icon}}'></i>
             <h3>{{service.title}}</h3>
