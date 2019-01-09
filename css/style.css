@@ -1243,7 +1243,8 @@ form input.error, form textarea.error {
   position: relative;
   left: 0;
   top: 0;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .slick-track:before, .slick-track:after {
   content: "";
@@ -1573,7 +1574,8 @@ form input.error, form textarea.error {
   position: relative;
   left: 0;
   top: 0;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .slick-track:before, .slick-track:after {
   content: "";
@@ -1853,7 +1855,8 @@ form input.error, form textarea.error {
   position: relative;
   left: 0;
   top: 0;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .slick-track:before, .slick-track:after {
   content: "";
@@ -3391,7 +3394,8 @@ body {
   position: relative;
   left: 0;
   top: 0;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .slick-track:before, .slick-track:after {
   content: "";

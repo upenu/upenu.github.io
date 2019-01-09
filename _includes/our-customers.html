@@ -1,11 +1,7 @@
-<div class='full parallax' style='background-image: url(/images/@stock/customers-bg.jpg); color: #fff;'>
+<div class='full parallax'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Whom we have worked with" color="#fff" %}
-      <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
+      {% include section-header.html title="Whom we have worked with" %}
       <div class='spacing'></div>
     </div>
   </div>
@@ -14,7 +10,11 @@
       <div class='mod modClients' data-slides_to_show='4'>
         <div class='clients'>
           {% for client in site.data.clients %}
-            <div><img alt="" src="{{client.image}}" /></div>
+            <div class='client-image'>
+              <a href="{{client.link_to}}" target="_blank">
+                <img alt="" src="{{client.image}}" />
+              </a>
+            </div>
           {% endfor %}
         </div>
       </div>

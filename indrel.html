@@ -2,32 +2,24 @@
 layout: default
 title: Industrial Relations
 section_id: indrel
-services_left:
-  - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-services_right:
-  - icon: compass
-    title: Art Direction
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: image
-    title: Photography
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: database
-    title: Data
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: film
-    title: Video
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+faq:
+  - title: When and where are infosessions held?
+    answer: We typically host it in a room appropriate for the venue. It could be the Wozniak Lounge to a spacious room in Soda Hall. It is more a case-by-case basis. We typically host the events around 6PM if we can and have them go for about an hour.
+  - title: How is the event publicized?
+    answer: We make sure to let our honor society members know about the events, get the word out to the general computer science community, place flyers throughout computer science hotspots, Facebook events, and more.
+  - title: What is the student turnout for the event?
+    answer: This really is dependent on the company, the speaker, and time of year. If you email us and we know the topic, we could help better estimate for you the student turnout.
+  - title: How are events for CAP and non-CAP companies different?
+    answer: You do not have to be a CAP-member to hold an event with UPE and the CS community at Cal, but without the membership, you may not actively recruit and collect resumes at the event. 
+  - title: How much does it cost?
+    answer: If you are a CAP-member, you have already paid membership, so you are allowed 1 info session per semester with the EECS department. If you would like an event still, we can help setup a non-recruiting event to the general public for $1000 and we can host a honor society only recruiting event with just our honor society for $1000.
+  - title: Can it be co-sponsored?
+    answer: We have done events with other organizers in the past and wouldn’t be opposed to do it again in the future, but we would prefer to be the sole organization. This helps to keep the communication consistent and more reliable when we plan our event.
+  - title: Have you worked with startups before?
+    answer: Yes we have and the events we have done for startups have gone quite well. This is because startups typically can dedicate people who know the entire (or close to the entire) operations of the company. They bring a wealth of knowledge that students crave and is always a fun give and take environment.
+  - title: How do I have an event with UPE?
+    answer: Please email us at <i>ir (at) upe.berkeley.edu</i> as soon as possible if you would like us to help host an event for you at Cal. Ideally, you should contact us 4+ weeks prior to the date on which you want to have the event. This is because we have to book rooms, and the closer to the date, the harder it is to book a room with enough capacity for the event.
+
 ---
 
 <div class='full parallax' style='background-image: url(/images/@stock/service-page-header.jpg); color: #fff;'>
@@ -42,26 +34,23 @@ services_right:
 
 <div class='full'>
   <div class='row'>
-    <div class='medium-6 columns'>
-      {% for service in page.services_left %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      {% endfor %}
+    <div class='large-12 columns'>
+      {% include section-header.html title="Resume Book" %}
+      <div class='spacing'></div>
+      <p>The Berkeley UPE Resume Book contains resumes of our members, who are in the top third of the declared Computer Science student population at UC Berkeley. Our resume book is updated every semester and includes resumes from our alumni, graduate students, and undergraduate students (mostly seniors and juniors). The resumes in the book are grouped by students’ graduation years and ordered alphabetically. Our resume book costs $200, and it comes in the form of a downloadable PDF.</p>
+      <p>To purchase, please email <i>ir (at) upe.berkeley.edu</i> with "UPE Resume Book Purchase" as the subject line.</p>
+      <p>If you have any questions or want more information about our current resume book, please email <i>ir (at) upe.berkeley.edu</i> with "UPE Resume Book Interest" as the subject line.</p>
+      <div class='spacing'></div>
     </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services_right %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Infosessions" %}
+      <p>We help host events at UC Berkeley for all companies—for those <a href = "https://eecs.berkeley.edu/industry/recruit-students" target = "_blank">in the CAP</a> and those that are not.</p>
+      {% for question in page.faq %}
+        <div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
+          <h3>{{question.title}}</h3>
+          <p>{{question.answer}}</p>
           <div class='two spacing'></div>
         </div>
       {% endfor %}
