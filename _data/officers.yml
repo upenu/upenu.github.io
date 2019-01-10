@@ -20,7 +20,7 @@
   desc: Secretary
 
 - avatar: /images/officers/Ram.jpg
-  hoveravatar: /images/officers/Ram.jpg
+  hoveravatar: /images/officers/Ram_Fun.jpg
   name: Ram Kalidhindi
   email: publicity (at) upe.berkeley.edu
   desc: Publicity Chair
@@ -68,7 +68,7 @@
   desc: Industrial Relations Chair
 
 - avatar: /images/officers/Daniel_Zeng.jpg
-  hoveravatar: /images/officers/Daniel_Zeng.jpg
+  hoveravatar: /images/officers/Daniel_Zeng_Fun.jpg
   name: Daniel Zeng
   email: profdev (at) upe.berkeley.edu
   desc: Professional Development Chair
@@ -77,8 +77,8 @@
   name: Mesut Yang
   email: profdev (at) upe.berkeley.edu
   desc: Professional Development Chair
-- avatar: /images/@stock/member-2.jpg
-  hoveravatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Hugh.jpg
+  hoveravatar: /images/officers/Hugh_Fun.jpg
   name: Hugh Jiang
   email: profdev (at) upe.berkeley.edu
   desc: Professional Development Chair
