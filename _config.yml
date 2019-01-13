@@ -5,7 +5,7 @@ description: >
   Upsilon Pi Epsilon is the first and only international honor society for the Computing Sciences. 
   The UC Berkeley chapter, launched in 1995, honors the top tier of Computer Science students on campus.
 #baseurl: "/~upe" # the subpath of your site, e.g. /blog/
-url: "https://upenu.github.io" # the base hostname & protocol for your site
+url: "https://upe.berkeley.edu" # the base hostname & protocol for your site
 twitter_username: ""
 github_username:  ""
 

@@ -9,12 +9,12 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/additions.css" | prepend: site.baseurl }}">
-  <script src="{{ "/javascripts/libs.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ "/css/foundation.css" }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" }}">
+  <link rel="stylesheet" href="{{ "/css/fontello.css" }}">
+  <link rel="stylesheet" href="{{ "/css/font-awesome.css" }}">
+  <link rel="stylesheet" href="{{ "/css/additions.css" }}">
+  <script src="{{ "/javascripts/libs.js" }}" type="text/javascript"></script>
   <script>
     // terrificjs bootstrap
     (function($) {
@@ -32,9 +32,9 @@
     })(Tc.$);
   </script>
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
-  <script src="{{ "/javascripts/masonry.pkgd.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-  <script src="{{ "/javascripts/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-  <script src="{{ "/javascripts/slick.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-  <script src="{{ "/javascripts/json2.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <script src="{{ "/javascripts/masonry.pkgd.js" }}" type="text/javascript"></script>
+  <script src="{{ "/javascripts/imagesloaded.pkgd.min.js" }}" type="text/javascript"></script>
+  <script src="{{ "/javascripts/slick.min.js" }}" type="text/javascript"></script>
+  <script src="{{ "/javascripts/json2.js" }}" type="text/javascript"></script>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 </head>
