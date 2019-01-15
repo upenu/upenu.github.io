@@ -9,32 +9,37 @@
 
 <url>
   <loc>https://upe.berkeley.edu/</loc>
-  <lastmod>2019-01-10T23:26:16+00:00</lastmod>
+  <lastmod>2019-01-15T09:08:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://upe.berkeley.edu/officers/</loc>
-  <lastmod>2019-01-10T23:26:16+00:00</lastmod>
+  <lastmod>2019-01-15T09:08:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://upe.berkeley.edu/upe/</loc>
-  <lastmod>2019-01-10T23:26:16+00:00</lastmod>
+  <lastmod>2019-01-15T09:08:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://upe.berkeley.edu/officehours/</loc>
-  <lastmod>2019-01-10T23:26:16+00:00</lastmod>
+  <lastmod>2019-01-15T09:08:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://upe.berkeley.edu/interview/</loc>
+  <lastmod>2019-01-15T09:08:06+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>https://upe.berkeley.edu/events/</loc>
-  <lastmod>2019-01-10T23:26:16+00:00</lastmod>
+  <lastmod>2019-01-15T09:08:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://upe.berkeley.edu/indrel/</loc>
-  <lastmod>2019-01-10T23:26:16+00:00</lastmod>
+  <lastmod>2019-01-15T09:08:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
