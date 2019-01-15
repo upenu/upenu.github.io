@@ -14,8 +14,7 @@
     - name: Office Hours
       path: /officehours
     - name: Mock Interviews
-      redirect: true
-      path: https://www.google.com
+      path: /interview
     - name: Events
       path: /events
 - name: Industrial Relations
