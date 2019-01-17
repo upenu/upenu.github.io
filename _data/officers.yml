@@ -24,8 +24,8 @@
   name: Ram Kalidhindi
   email: publicity (at) upe.berkeley.edu
   desc: Publicity Chair
-- avatar: /images/@stock/member-2.jpg
-  hoveravatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Ally.jpg
+  hoveravatar: /images/officers/Ally_Fun.jpg
   name: Allyson Koo
   email: publicity (at) upe.berkeley.edu
   desc: Publicity Chair
@@ -72,8 +72,8 @@
   name: Daniel Zeng
   email: profdev (at) upe.berkeley.edu
   desc: Professional Development Chair
-- avatar: /images/@stock/member-2.jpg
-  hoveravatar: /images/@stock/member-2.jpg
+- avatar: /images/officers/Mesut.jpg
+  hoveravatar: /images/officers/Mesut.jpg
   name: Mesut Yang
   email: profdev (at) upe.berkeley.edu
   desc: Professional Development Chair
@@ -105,7 +105,7 @@
   email: facilities (at) upe.berkeley.edu
   desc: Facilities Chair
 - avatar: /images/officers/Sid.jpg
-  hoveravatar: /images/officers/Sid.jpg
+  hoveravatar: /images/officers/Sid_Fun.jpg
   name: Sid Verma
   email: facilities (at) upe.berkeley.edu
   desc: Facilities Chair
