@@ -1,8 +1,16 @@
 - coverphoto: /images/events/2019.1.23_CapitalOne.jpg
   name: Capital One Infosession/Tech Talk
   date: January 23, 2019
-  link: https://www.facebook.com/events/224196078484203/
+  link: 224196078484203
+- coverphoto: /images/events/2019.1.25_Arista.jpg
+  name: Arista Infosession
+  date: January 25, 2019
+  link: 301411754055526
+- coverphoto: /images/events/2019.1.29_Atlassian.jpg
+  name: Atlassian Tech Talk
+  date: January 29, 2019
+  link: 2258627777533930
 - coverphoto: /images/events/2019.2.9_JaneStreet.jpg
   name: Jane Street Electronic Trading Challenge
   date: February 9, 2019
-  link: https://www.facebook.com/events/316761988966946/
+  link: 316761988966946
