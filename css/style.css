@@ -3830,3 +3830,11 @@ body {
     display: none;
   }
 }
+
+
+.small-title {
+  text-shadow: 3px 3px 5px black;
+}
+
+.title {
+  text-shadow: 3px 3px 5px black;
