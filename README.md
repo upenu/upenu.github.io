@@ -2,7 +2,7 @@ Official website for UPE @ UC Berkeley.
 Website is based of off the Devoll Jekyll template.
 
 You need to have Ruby/Jekyll installed. We are not using bundler, nor do we have a Gemfile.
-Here are some instructions to get Ruby and Jekyll (though since we don't use bundler, running ```gem istall jekyll``` after installing Ruby should be enough.
+Here are some instructions to get Ruby and Jekyll (though since we don't use bundler, running ```gem install jekyll``` after installing Ruby should be enough.
 https://jekyllrb.com/docs/installation/
 
 After you Ruby/Jekyll installed, clone the repo. To view the website locally, run ```jekyll serve``` in the root directory. This will usually host the website at ```localhost:4000```, but read the output if that does not work. 
