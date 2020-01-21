@@ -8,6 +8,8 @@
       path: /officers
     - name: UPE
       path: /upe
+- name: Events
+  path: /events
 - name: Student Services
   section_id: student-services
   children:
@@ -15,8 +17,12 @@
       path: /officehours
     - name: Mock Interviews
       path: /interview
-    - name: Events
-      path: /events
+    - name: Resume Critiques
+      path: /resume
+    - name: Professional Peer Advising
+      path: /peer-advising
+    - name: Schedule An Appointment!
+      path: /schedule
 - name: Industrial Relations
   path: /indrel
   section_id: indrel
