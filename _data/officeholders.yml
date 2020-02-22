@@ -179,11 +179,17 @@
   classes: CS 188, CS 170, CS 161, CS 189, CS 162, CS 186
   interests: Backend
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/office-holders/sp20/Cindy_Zhang.jpg
   name: Cindy Zhang
   hours: Wednesday, 3PM - 4PM
   classes: CS 170
   interests: Fullstack, Frontend
+- 
+  avatar: /images/office-holders/sp20/Evan_McNeil.jpg
+  name: Evan McNeil
+  hours: Wednesday, 3PM - 4PM
+  classes: CS 151, CS 161, CS 162, CS 164, CS 170, CS 186, CS 188, CS 189, EECS 127, EE 120
+  interests: Robotics, ML/AI
 - 
   avatar: /images/office-holders/sp20/Chenyu_Shi.jpg
   name: Chenyu Shi
