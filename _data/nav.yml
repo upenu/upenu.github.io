@@ -6,6 +6,8 @@
   children: 
     - name: Officers
       path: /officers
+    - name: Office Hour Holders
+      path: /officeholder
     - name: UPE
       path: /upe
 - name: Events
