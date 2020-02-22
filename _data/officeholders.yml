@@ -1,9 +1,9 @@
 - 
-  avatar: /images/office-holders/sp20/Addison_Chan.jpg
-  name: Addison Chan
-  hours: Monday, 11 AM - 12 PM
-  classes: CS170, CS162
-  interests: Backend, Security, Distributed Systems
+  avatar: /images/office-holders/sp20/Clark_Wang.jpg
+  name: Clark Wang
+  hours: Monday,11 AM - 12 PM
+  classes: CS170, EECS126 (IP), EECS127 (IP)
+  interests: Full Stack, CS Theory, Algorithms
 - 
   avatar: /images/office-holders/sp20/Eric_Fu.jpg
   name: Eric Fu
@@ -15,7 +15,13 @@
   name: Ankit Agarwal
   hours: Monday, 12 PM - 1 PM
   classes: CS 170, EECS 126, CS 162, EECS 127, CS 189, CS 161
-  interests: Full Stack Web-Development, Math, ML / AI, Deep Learning
+  interests: Full Stack Web-Development, Math, ML / AI, Deep Learning 
+- 
+  avatar: /images/office-holders/sp20/Manu_Chopra.jpg
+  name: Manu Chopra
+  hours: Monday, 12 PM - 1 PM
+  classes: CS 170, Data 100
+  interests: Backend, Fullstack, ML
 - 
   avatar: /images/office-holders/sp20/Will_Wu.jpg
   name: Will Wu
@@ -35,11 +41,29 @@
   classes: CS 170, CS 162, CS 161
   interests: Fintech, General Backend
 - 
+  avatar: /images/office-holders/sp20/Haiming_Xu.jpg
+  name: Haiming Xu
+  hours: Monday, 2PM - 3PM
+  classes: CS 170
+  interests: Backend, Full-Stack Web Development
+- 
   avatar: /images/office-holders/sp20/Won_Ryu.jpg
   name: Won Ryu
   hours: Monday, 3PM - 4PM
   classes: CS 170, CS 188, CS 186, CS 162
   interests: Backend, Embedded Systems
+- 
+  avatar: /images/office-holders/sp20/Addison_Chan.jpg
+  name: Addison Chan
+  hours: Monday, 3 PM - 4 PM
+  classes: CS 170, CS 162
+  interests: Backend, Security, Distributed Systems
+- 
+  avatar: /images/office-holders/sp20/Joy_Ma.jpg
+  name: Joy Ma
+  hours: Monday, 3 PM - 4 PM
+  classes: CS 170, CS 188, CS 186
+  interests: Backend, Firmware
 - 
   avatar: /images/office-holders/sp20/Dylan_Tran.jpg
   name: Dylan Tran
@@ -59,6 +83,12 @@
   classes: CS 170, CS 188, CS 160, CS 189
   interests: Backend, Full Stack
 - 
+  avatar: /images/office-holders/sp20/Linda_Deng.jpg
+  name: Linda Deng
+  hours: Tuesday, 12PM - 1PM
+  classes: CS170, CS186
+  interests: Full-Stack, Backend, Frontend, Web-Development
+- 
   avatar: /images/office-holders/sp20/Andrew_Lee.png
   name: Andrew Lee
   hours: Tuesday, 1PM - 2PM
@@ -77,11 +107,23 @@
   classes: EECS 126, CS 170
   interests: Data Science/Statistics, ML/AI, Algorithms, Optimization, Math
 - 
+  avatar: /images/office-holders/sp20/Jonathan_Wang.png
+  name: Jonathan Wang
+  hours: Tuesday, 2PM - 3PM
+  classes: CS 188
+  interests: Natural Language Processing, Blockchain, Full-Stack
+- 
   avatar: /images/office-holders/sp20/Jacqueline_Young.jpg
   name: Jacqueline Young
   hours: Tuesday, 3PM - 4PM
   classes: CS 170, CS 188
   interests: Backend, Full-Stack, Data Science
+- 
+  avatar: /images/office-holders/sp20/Ayush_Kamat.jpg
+  name: Ayush Kamat
+  hours: Tuesday, 3PM - 4PM
+  classes: CS 188, CS 170, EECS 127
+  interests: Data Science, ML/AI
 - 
   avatar: /images/office-holders/sp20/Bell_Wu.jpg
   name: Bell Wu
@@ -101,6 +143,12 @@
   classes: CS 170, CS 188
   interests: ML/AI, VR, Backend
 - 
+  avatar: /images/office-holders/sp20/Stella_Wan.jpg
+  name: Stella Wan
+  hours: Wednesday, 12PM - 1PM
+  classes: CS 170 
+  interests: ML/AI
+- 
   avatar: /images/office-holders/sp20/Lakshya_Jain.jpg
   name: Lakshya Jain
   hours: Wednesday, 1PM - 2PM
@@ -119,11 +167,23 @@
   classes: CS 170, CS 188, CS 162, CS 161, Stat 140, Data 100
   interests: ML/AI, Systems Engineering
 - 
+  avatar: /images/office-holders/sp20/Valerie_Yip.jpg
+  name: Valerie Yip
+  hours: Wednesday, 2PM - 3PM
+  classes: CS 170, CS 188, CS 162, CS 161, Stat 140, Data 100
+  interests: Full-Stack Web Development
+- 
   avatar: /images/whale-green.png
   name: Dee Guo
   hours: Wednesday, 3PM - 4PM
   classes: CS 188, CS 170, CS 161, CS 189, CS 162, CS 186
   interests: Backend
+- 
+  avatar: /images/office-holders/sp20/Cindy_Zhang.png
+  name: Cindy Zhang
+  hours: Wednesday, 3PM - 4PM
+  classes: CS 170
+  interests: Fullstack, Frontend
 - 
   avatar: /images/office-holders/sp20/Chenyu_Shi.jpg
   name: Chenyu Shi
@@ -145,27 +205,39 @@
 - 
   avatar: /images/office-holders/sp20/Tim_Lee.jpg
   name: Tim Lee
-  hours: Wednesday, 1PM - 2PM
+  hours: Thursday, 1PM - 2PM
   classes: CS 162, CS 170, CS 186, CS 188
   interests: Backend
 - 
   avatar: /images/office-holders/sp20/Celena_Chang.jpg
   name: Celena Chang
-  hours: Wednesday, 1PM - 2PM
+  hours: Thursday, 1PM - 2PM
   classes: CS 161, CS 162, CS 168, CS 170, CS 186, CS 188
   interests: Fullstack, Frontend, Backend
 - 
   avatar: /images/whale-green.png
   name: Rick Surya
-  hours: Wednesday, 2PM - 3PM
+  hours: Thursday, 2PM - 3PM
   classes: CS 170
   interests: Backend
 - 
+  avatar: /images/office-holders-sp20/Dustin_Luong
+  name: Dustin Luong
+  hours: Thursday, 2PM - 3PM
+  classes: CS 170
+  interests: ML/Ai, VR/AR
+- 
   avatar: /images/whale-green.png
   name: Abinav Routhu
-  hours: Wednesday, 3PM - 4PM
+  hours: Thursday, 3PM - 4PM
   classes: CS 170, EECS 127
   interests: Fullstack, NLP
+- 
+  avatar: /images/office-holders/Sajal_Sharma
+  name: Sajal Sharma
+  hours: Thursday, 3PM - 4PM
+  classes: CS 170, Data 100, Stat 140, CS 188
+  interests: Backend, Fullstack, Data Science, ML/AI
 - 
   avatar: /images/office-holders/sp20/Prashant_Malyala.png
   name: Prashant Malyala
@@ -196,6 +268,14 @@
   hours: Friday, 1PM - 2PM
   classes: CS 161, CS 162, CS 170, CS 188, CS 189, EECS 126, CS 186
   interests: Backend
+- 
+  avatar: /images/office-holders/sp20/Yin_Deng.jpg
+  name: Yin Deng
+  hours: Friday, 1PM - 2PM
+  classes: CS 170, Data 100
+  interests: Data Science, ML/AI
+
+
 
 # - avatar: /images/@stock/member-4.jpg
 #   name: Name
