@@ -1,5 +1,5 @@
 - 
-  avatar: /images/office-holders/sp20/Clark_Wang.jpg
+  avatar: /images/whale-green.png
   name: Clark Wang
   hours: Monday,11 AM - 12 PM
   classes: CS170, EECS126 (IP), EECS127 (IP)
@@ -15,19 +15,19 @@
   name: Ankit Agarwal
   hours: Monday, 12 PM - 1 PM
   classes: CS 170, EECS 126, CS 162, EECS 127, CS 189, CS 161
-  interests: Full Stack Web-Development, Math, ML / AI, Deep Learning 
-- 
-  avatar: /images/office-holders/sp20/Manu_Chopra.jpg
-  name: Manu Chopra
-  hours: Monday, 12 PM - 1 PM
-  classes: CS 170, Data 100
-  interests: Backend, Fullstack, ML
+  interests: Full Stack Web-Development, Math, ML / AI
 - 
   avatar: /images/office-holders/sp20/Will_Wu.jpg
   name: Will Wu
   hours: Monday, 1 PM - 2 PM
   classes: CS 170, CS 188, CS 189, Stat 133, Stat 134, Stat 135, Stat 150, Stat 210A
   interests: Data Science, ML / AI
+- 
+  avatar: /images/whale-green.png
+  name: Manu Chopra
+  hours: Monday, 12 PM - 1 PM
+  classes: CS 170, Data 100
+  interests: Backend, Fullstack, ML
 - 
   avatar: /images/office-holders/sp20/Taejin_Hwang.jpg
   name: Taejin Hwang
@@ -39,9 +39,9 @@
   name: Michelle D'Souza
   hours: Monday, 2PM - 3PM
   classes: CS 170, CS 162, CS 161
-  interests: Fintech, General Backend
+  interests: Fintech, Full Stack, General
 - 
-  avatar: /images/office-holders/sp20/Haiming_Xu.jpg
+  avatar: /images/whale-green.png
   name: Haiming Xu
   hours: Monday, 2PM - 3PM
   classes: CS 170
@@ -59,7 +59,7 @@
   classes: CS 170, CS 162
   interests: Backend, Security, Distributed Systems
 - 
-  avatar: /images/office-holders/sp20/Joy_Ma.jpg
+  avatar: /images/whale-green.png
   name: Joy Ma
   hours: Monday, 3 PM - 4 PM
   classes: CS 170, CS 188, CS 186
@@ -107,11 +107,17 @@
   classes: EECS 126, CS 170
   interests: Data Science/Statistics, ML/AI, Algorithms, Optimization, Math
 - 
-  avatar: /images/office-holders/sp20/Jonathan_Wang.png
+  avatar: /images/whale-green.png
   name: Jonathan Wang
   hours: Tuesday, 2PM - 3PM
   classes: CS 188
   interests: Natural Language Processing, Blockchain, Full-Stack
+- 
+  avatar: /images/office-holders/sp20/Lakshya_Jain.jpg
+  name: Lakshya Jain
+  hours: Wednesday, 1PM - 2PM
+  classes: CS170, CS 188, CS 186, EECS 126, Math 110, CS 189, CS 282A, CS 194-26, EE290S, EECS 219C, CS 285
+  interests: Data Science, ML/AI, Databases
 - 
   avatar: /images/office-holders/sp20/Jacqueline_Young.jpg
   name: Jacqueline Young
@@ -119,7 +125,7 @@
   classes: CS 170, CS 188
   interests: Backend, Full-Stack, Data Science
 - 
-  avatar: /images/office-holders/sp20/Ayush_Kamat.jpg
+  avatar: /images/whale-green.png
   name: Ayush Kamat
   hours: Tuesday, 3PM - 4PM
   classes: CS 188, CS 170, EECS 127
@@ -143,17 +149,11 @@
   classes: CS 170, CS 188
   interests: ML/AI, VR, Backend
 - 
-  avatar: /images/office-holders/sp20/Stella_Wan.jpg
+  avatar: /images/whale-green.png
   name: Stella Wan
   hours: Wednesday, 12PM - 1PM
   classes: CS 170 
   interests: ML/AI
-- 
-  avatar: /images/office-holders/sp20/Lakshya_Jain.jpg
-  name: Lakshya Jain
-  hours: Wednesday, 1PM - 2PM
-  classes: CS170, CS 188, CS 186, EECS 126, Math 110, CS 189, CS 282A, CS 194-26, EE290S, EECS 219C, CS 285
-  interests: Data Science, ML/AI, Databases
 - 
   avatar: /images/office-holders/sp20/Vanessa_Lin.jpg
   name: Vanessa Lin
@@ -179,7 +179,7 @@
   classes: CS 188, CS 170, CS 161, CS 189, CS 162, CS 186
   interests: Backend
 - 
-  avatar: /images/office-holders/sp20/Cindy_Zhang.png
+  avatar: /images/whale-green.png
   name: Cindy Zhang
   hours: Wednesday, 3PM - 4PM
   classes: CS 170
@@ -215,7 +215,7 @@
   classes: CS 161, CS 162, CS 168, CS 170, CS 186, CS 188
   interests: Fullstack, Frontend, Backend
 - 
-  avatar: /images/office-holders/sp20/Samuel_Chen.jpg
+  avatar: /images/whale-green.png
   name: Samuel Chen
   hours: Thursday, 1PM - 2PM
   classes: CS 170
@@ -227,7 +227,7 @@
   classes: CS 170
   interests: Backend
 - 
-  avatar: /images/office-holders-sp20/Dustin_Luong
+  avatar: /images/whale-green.png
   name: Dustin Luong
   hours: Thursday, 2PM - 3PM
   classes: CS 170
@@ -239,7 +239,7 @@
   classes: CS 170, EECS 127
   interests: Fullstack, NLP
 - 
-  avatar: /images/office-holders/Sajal_Sharma
+  avatar: /images/office-holders/sp20/Sajal_Sharma.jpg
   name: Sajal Sharma
   hours: Thursday, 3PM - 4PM
   classes: CS 170, Data 100, Stat 140, CS 188
@@ -275,7 +275,7 @@
   classes: CS 161, CS 162, CS 170, CS 188, CS 189, EECS 126, CS 186
   interests: Backend
 - 
-  avatar: /images/office-holders/sp20/Yin_Deng.jpg
+  avatar: /images/whale-green.png
   name: Yin Deng
   hours: Friday, 1PM - 2PM
   classes: CS 170, Data 100
