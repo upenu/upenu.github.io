@@ -9,7 +9,7 @@ After you Ruby/Jekyll installed, clone the repo. To view the website locally, ru
 
 If there are questions regarding the website, please contact <publicity (at) upe.berkeley.edu>.
 
-The website is up at upenu@github.io for testing. If everything is working there, changes can be pushed to the live version.
+The website is up at upenu.github.io for testing. If everything is working there, changes can be pushed to the live version.
 
 Once in the OCF hosting machince (only UPE Dev Team), go to the git repo and follow these steps:
 ```git status``` Make sure there are not any local changes. 
