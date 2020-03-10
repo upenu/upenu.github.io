@@ -10,21 +10,11 @@
       path: /officeholder
     - name: UPE
       path: /upe
-- name: Events
-  path: /events
+# - name: Events #Put the link back if y'all update it :) !
+#   path: /events
 - name: Student Services
+  path: /schedule
   section_id: student-services
-  children:
-    - name: Mock Interviews
-      path: /interview
-    - name: Resume Critiques
-      path: /resume
-    - name: Peer Advising
-      path: /peer-advising
-    - name: Schedule An Appointment
-      path: /schedule
-    - name: Office Hour Feedback
-      path: /oh-feedback
 - name: Industrial Relations
   path: /indrel
   section_id: indrel
