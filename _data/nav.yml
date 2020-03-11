@@ -13,8 +13,12 @@
 # - name: Events #Put the link back if y'all update it :) !
 #   path: /events
 - name: Student Services
-  path: /schedule
   section_id: student-services
+  children:
+    - name: Office Hours
+      path: /schedule
+    - name: Feedback
+      path: /oh-feedback
 - name: Industrial Relations
   path: /indrel
   section_id: indrel
