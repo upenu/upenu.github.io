@@ -1,0 +1,31 @@
+*								{ margin: 0; padding: 0; }
+body							{ font-family: "Lucida Grande", Arial, Sans-Serif; background: #c4e3f5; } 
+
+a								{ text-decoration: none; outline: none; }
+a img							{ border: none; }
+
+h2								{ font-family: Georgia, Serif; font-size: 36px; text-align: center; 
+								  font-weight: normal; }
+
+i								{ font-family: Georgia, Serif; font-size: 16px; text-align: center; 
+								  font-weight: normal; }
+
+
+#page-wrap						{ background: white; width: 960px; margin: 0 auto; 
+								  padding: 50px 0; }
+
+#slider							{ background: white; height: 397px; overflow: hidden;
+								  position: relative; margin: 50px 0; }
+								  
+                                /* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */								  
+#mover							{ width: 2880px; position: relative; }
+
+.slide							{ padding: 40px 30px; width: 900px; float: left; position: relative; }
+.slide h1						{ font-family: Helvetica, Sans-Serif; font-size: 30px; letter-spacing: -1px;
+								  color: #006dac; }
+
+.slide p						{ color: #999; font-size: 12px; line-height: 22px; width: 300px; }
+.slide img						{ position: absolute; top: 20px; left: 349px; }
+#slider-stopper					{ position: absolute; top: 1px; right: 20px; background: #006dac; color: white;
+								  padding: 3px 8px; font-size: 10px; text-transform: uppercase; z-index: 1000; }
