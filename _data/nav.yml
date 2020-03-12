@@ -22,3 +22,6 @@
 - name: Industrial Relations
   path: /indrel
   section_id: indrel
+- name: Interview Advice
+  path: https://upe-profdev.gitlab.io/advice/#
+  section_id: Interview Advice
