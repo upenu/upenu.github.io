@@ -6,9 +6,14 @@ parent_dict = {}
 
 
 def add_person(person_string):
-    name, year = [s.strip() for s in person_string.split(",")]
+    data = [s.strip() for s in person_string.split(",")]
+    name = data[0]
+    if len(data) > 1:
+        year = "Class of " + data[1]
+    else:
+        year = ""
     person = { "name": name,
-               "year": "Class of " + year,
+               "year": year,
                "children": [] }
     ppl[person_string] = person
     tree["children"].append(person)
@@ -37,7 +42,7 @@ def connect(big_string, little_string):
     big["children"].append(little)
     parent_dict[little_string] = big
 
-with open("orgchart.txt", "r") as data:
+with open("orgchart/orgchart.txt", "r") as data:
     for line in data:
         fam = [s.strip() for s in line.split(";")]
         big = fam[0]
@@ -45,5 +50,5 @@ with open("orgchart.txt", "r") as data:
         for little in littles:
             connect(big, little)
 
-with open("orgchart.json", "w") as output:
+with open("orgchart/orgchart.json", "w") as output:
     json.dump(tree, output)
