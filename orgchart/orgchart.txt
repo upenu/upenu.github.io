@@ -18,7 +18,7 @@ Andrew Lee; Jonathan Wang
 Lindsay Yang; Caitlyn Chen; Valerie Yip
 Richard Huang; Yimo Xu
 Dylan Tran; Daniel Shin
-Richard Liu 2020; Jason Li XiangJun
+Richard Liu, 2020; Jason Li XiangJun
 Alan Pham; Jamie Ip
 George Wang; Albert Wilcox
 William Ma; Owen Gong
@@ -32,10 +32,39 @@ Anita Cu; Ujjaini Mukhopadhyay
 Lakshya Jain; Qasim Iqbal; Haiming Xu
 Celena Chang; Sabrina Zhao; Joy Ma
 Brian Lee; Sean Sananikone
-Jason Wang; Alex Yang
+Jason Wang, 2021; Alex Yang
 Daniel Zhang; Nicholas Berberi
 Bell Wu; MengZhu Sun
 Lauren Go; Duowei Pan
 Xinyun Cao; Chirag Sharma
 Michelle D'Souza; Vanya Rhotgi
 Taejin Hwang; Max Lord
+Celena Chang; Reini Lin; Jialin Li
+Boren Tsai; Qinhong Chen
+Tom Bousso; Samuel Yuen
+Josh Yeung; Alan Pham; Tarun Singh
+Andrew Aikawa; Benjamin Zhang
+Taejin Hwang; Bernard Zhao
+Ankit Agarwal; Danny Halawi
+Eric Fu; Vidur Maheshwari; Ryan Koh
+Emily Zhong; Rosemary Yin
+JC Dy; Richard Liu, 2020
+Anita Cu; Richard Huang
+Andrew Lee; Jacqueline Yeung; Jason Wang, 2021
+Lindsay Yang; Carol Wang
+Peter Wang; Austin Nguyen; Jocelyn
+Lauren Go; Richard Liu, 2022
+Vanessa Lin; Tim Lee
+Won Ryu; Wallace Lim; Addison Chan
+Will Wu; Prashant Malyala
+Christina Zhang; Frank Liu; Monica Tang
+Pratibha Sriram; Alan Liang
+Mary Xu; George Matheos
+Sajal Sharma; Vivek Datta; Andy Zhao
+Danlin Lillemark; Balaji Veeramani
+George Wang; Hannah Yan
+Tom Kim; Sahil Saxena; Alex Welty
+Starr Yang; Kunal Agarwal
+Dylan Tran; Bridget Cheng; Sean Chen
+Sambhav Sunkerneni; Chris Bender; Abinav Routhu
+Anthony Han; Victor Yin
