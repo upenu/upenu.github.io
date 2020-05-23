@@ -182,6 +182,11 @@ jQuery(document).foundation();
 
     }
 
+    // Family Tree
+    $.getJSON("orgchart.json", function(data) {
+      var options = { 'data': data }
+      $('#chartContainer').orgchart(options);
+    });
 
   });
 })(jQuery);
@@ -745,10 +750,10 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 (function($) {
-  Tc.Module.SectionHeader = Tc.Module.extend({    
+  Tc.Module.SectionHeader = Tc.Module.extend({
     init: function($ctx, sandbox, modId) {
       this._super($ctx, sandbox, modId);
-    },    
+    },
     dependencies: function() {
     },
     onBinding: function() {
@@ -797,5 +802,4 @@ jQuery(document).foundation();
     }
   })
 })(Tc.$);
-
 
