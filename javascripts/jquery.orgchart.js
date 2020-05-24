@@ -26,7 +26,7 @@
       'toggleSiblingsResp': false,
       'visibleLevel': 999,
       'chartClass': '',
-      'exportButton': true,
+      'exportButton': false,
       'exportFilename': 'UPE Family OrgChart',
       'exportFileextension': 'png',
       'parentNodeSymbol': 'oci-leader',
