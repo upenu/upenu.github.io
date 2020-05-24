@@ -183,7 +183,7 @@ jQuery(document).foundation();
     }
 
     // Family Tree
-    $.getJSON("orgchart.json", function(data) {
+    $.getJSON("famtree.json", function(data) {
       var options = { 'data': data }
       $('#chartContainer').orgchart(options);
     });
