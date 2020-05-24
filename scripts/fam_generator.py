@@ -44,6 +44,8 @@ def connect(big_string, little_string):
 
 with open("orgchart/orgchart.txt", "r") as data:
     for line in data:
+        if not line.strip() or line.strip()[0] == '#':
+            continue
         fam = [s.strip() for s in line.split(";")]
         big = fam[0]
         littles = fam[1:]

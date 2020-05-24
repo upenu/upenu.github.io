@@ -1,3 +1,4 @@
+# Spring 2020
 Lindsay Yang, 2020; Leon Ming, 2021; Sid Verma, 2021
 Leon Ming, 2021; Chase Norman, 2023; Jay Monga, 2022
 Reini Lin; Ayush Kamat
@@ -15,7 +16,7 @@ Sajal Sharma; Michael Yang
 Christina Zhang; Dustin Luong
 Will Wu; Julia Liu
 Andrew Lee; Jonathan Wang
-Lindsay Yang; Caitlyn Chen; Valerie Yip
+Lindsay Yang, 2020; Caitlyn Chen; Valerie Yip
 Richard Huang; Yimo Xu
 Dylan Tran; Daniel Shin
 Richard Liu, 2020; Jason Li XiangJun
@@ -39,6 +40,8 @@ Lauren Go; Duowei Pan
 Xinyun Cao; Chirag Sharma
 Michelle D'Souza; Vanya Rhotgi
 Taejin Hwang; Max Lord
+
+# Fall 2019
 Celena Chang; Reini Lin; Jialin Li
 Boren Tsai; Qinhong Chen
 Tom Bousso; Samuel Yuen
@@ -51,7 +54,7 @@ Emily Zhong; Rosemary Yin
 JC Dy; Richard Liu, 2020
 Anita Cu; Richard Huang
 Andrew Lee; Jacqueline Yeung; Jason Wang, 2021
-Lindsay Yang; Carol Wang
+Lindsay Yang, 2020; Carol Wang
 Peter Wang; Austin Nguyen; Jocelyn
 Lauren Go; Richard Liu, 2022
 Vanessa Lin; Tim Lee
@@ -68,3 +71,53 @@ Starr Yang; Kunal Agarwal
 Dylan Tran; Bridget Cheng; Sean Chen
 Sambhav Sunkerneni; Chris Bender; Abinav Routhu
 Anthony Han; Victor Yin
+
+# Spring 2019
+Andrew Lee; Benjamin Ulrich; Dylan Tran
+Emily Zhu; Neil Kulkarni; Yash Agarwal
+Mary Xu; Olivia Shiah; Pratibha Sriram
+Daniel Zeng; Debbie Liang; Jackson Leisure
+Celena Chang; Taejin Hwang; Jeffrey Chen
+Chenyu Shi; Albert Xu; Nancy Shaw
+Vanessa Lin; Won Ryu; Gary Xiang
+Lindsay Yang, 2020; Richard Lin; Lauren Go
+Daniel Zhang; Boren Tsai; Stephen Costello
+Ram Kal; Varun Dashora; Sajal Sharma
+George Wang; Xiaochen Han; Eric Ge
+Sarah Young; Joshua Yeung; Hrishi Dharam
+Charles Tang; Matthew Khudari; Evan McNeil
+Joan Zhu; James Gao; Albert Pun
+Ankit Agarwal; Manan Khattar; Calvin Chen
+Ziqi Chen; Amy Wang; Eric Leong
+Annie Tang; Anthony Zhou; Jinwoo Park
+Duy Nguyen; Eden McEwen; Nikita Dhawan
+Emily Hua; Jonathan Kung; Chendi Wu
+Peter Wang; Shaviv Hoffman-Lowitz; Will Wu
+Aakash Adesara; Richard Huang; Christopher Liu
+Ally Koo; Danlin Lillemark; Christina Zhang
+Hugh Jiang; Emily Zou; Ryan Tjitro
+Sambhav Sunkerneni; Bell Wu; Chris Niu
+Andrew Lee; Matthew Khudari (co); Evan McNeil (co)
+Emily Zhu; James Gao (co); Albert Pun (co)
+Mary Xu; Manan Khattar (co); Calvin Chen (co)
+Daniel Zeng; Amy Wang (co); Eric Leong (co)
+Celena Chang; Anthony Zhou (co); Jinwoo Park (co)
+Chenyu Shi; Eden McEwen (co); Nikita Dhawan (co)
+Vanessa Lin; Jonathan Kung (co); Chendi Wu (co)
+Lindsay Yang, 2020; Shaviv Hoffman-Lowitz (co); Will Wu (co)
+Daniel Zhang; Richard Huang (co); Christopher Liu (co)
+Ram Kal; Danlin Lillemark (co); Christina Zhang (co)
+George Wang; Emily Zou (co); Ryan Tjitro (co)
+Sarah Young; Bell Wu (co); Chris Niu (co)
+Charles Tang; Benjamin Ulrich (co); Dylan Tran (co)
+Joan Zhu; Neil Kulkarni (co); Yash Agarwal (co)
+Ankit Agarwal; Olivia Shiah (co); Pratibha Sriram (co)
+Ziqi Chen; Debbie Liang (co); Jackson Leisure (co)
+Annie Tang; Taejin Hwang (co); Jeffrey Chen (co)
+Duy Nguyen; Albert Xu (co); Nancy Shaw (co)
+Emily Hua; Won Ryu (co); Gary Xiang (co)
+Peter Wang; Richard Lin (co); Lauren Go (co)
+Aakash Adesara; Boren Tsai (co); Stephen Costello (co)
+Ally Koo; Varun Dashora (co); Sajal Sharma (co)
+Hugh Jiang; Xiaochen Han (co); Eric Ge (co)
+Sambhav Sunkerneni; Joshua Yeung (co); Hrishi Dharam (co)
