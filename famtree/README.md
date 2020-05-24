@@ -4,12 +4,12 @@
 ## Summary
 Records of the UPE Big Little Program, and its many past variations, have largely been scattered across Google sheets from past semesters. This is unfortunate because it hinders us from maintaining institutional memory and from remaining connected, both spiritually and in fact, with our predecessors. We wanted to create a page where people can visualize and appreciate the social web of our honor society.
 
-## Goals
-1. Maintainability
+## Goals 
+1. **Maintainability**  
    The process for updating the chart must be as simple as possible so that this task doesn't become burdensome for future generations.
-2. Scalability
+2. **Scalability**  
    The family tree must be able to display hundreds, potentially thousands, of nodes.
-3. Visual Appeal
+3. **Visual Appeal**  
    The tree must be visually appealing enough that people would be willing to look at it :)
 
 ## Implementation
