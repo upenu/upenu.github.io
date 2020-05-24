@@ -12,7 +12,6 @@
 #chartContainer {
   position: relative;
   display: block;
-  height: 420px;
   width: calc(100% - 24px);
   border-radius: 5px;
   overflow: auto;
