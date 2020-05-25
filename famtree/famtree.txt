@@ -1,5 +1,5 @@
 # Spring 2020
-Lindsay Yang, 2020; Leon Ming, 2021; Sid Verma, 2021
+Lindsay Yang, 2020; Leon Ming, 2021; Siddharth Verma, 2021
 Leon Ming, 2021; Chase Norman, 2023; Jay Monga, 2022
 Reini Lin; Ayush Kamat
 Jacqueline Yeung; Cynthia Zhong
@@ -121,3 +121,78 @@ Aakash Adesara; Boren Tsai (co); Stephen Costello (co)
 Ally Koo; Varun Dashora (co); Sajal Sharma (co)
 Hugh Jiang; Xiaochen Han (co); Eric Ge (co)
 Sambhav Sunkerneni; Joshua Yeung (co); Hrishi Dharam (co)
+
+# Fall 2018
+Sandy Zhang; Jane Kuang
+Emily Hua; Anita Cu
+Sarah Young; Vanessa Lin
+Evelyn Li; Ida Liu
+Ziqi Chen; Maya Shen
+Ally Koo; Batool Naqvi
+Emily Zhu; Lyric Yu
+Yiling Kao; Mary Xu
+Yitian Zou; Ailyn Tong
+Andrew Lee; Nathan Fong
+Neel Somani; Sanil Rajput
+Ram Kalidhindi; Ankit Agarwal
+Ram Kalidhindi; Mark Wu
+Lavanya Mittal; Daniel Zeng
+Aneesh Khera; Jeffrey Chen
+Michael Hsiu; Yiming Yang
+Adeel Cheema; George Wang
+Adeel Cheema; Chenyu Shi
+Jared Rosner; Alex Kassil
+Jared Rosner; Adrian Jules Sales
+Jason Lum; Joshua Zhou
+Lindsay Yang, 2020; Leon Ming, 2021
+Lindsay Yang, 2020; Siddharth Verma, 2021
+Daniel Lengyel; William Ma
+Aakash Adesara; Hugh Jiang
+Max McArthur; Michael Luo
+Robert Quitt; Duy Nguyen
+Victor Sun; Tom Bousso
+
+# Spring 2018
+Eric Xia; Alvin Hsu
+Katie Wu; Lavanya Mittal
+Ziqi Chen; Emma Jaeger
+Audrey Ku; Annie Huang
+Lindsay Yang, 2020; Sarah Tang
+Brandon Clement; Chuck Tang
+Julie Deng; Celena Chang
+Ram Kal; Josh Rubin
+Jeffrey Li; Michael Luo
+Emily Hua; Sarafina Smith
+Jeremy Dong; Albert Jin
+Justin Yum; Michael Hsiu
+Katherine Li; Zongmin Yin
+Adeel Cheema; Chris Sreesangkom
+Jack Wang; Zachary Kirby
+Daniel Zhang; Noah Golmant
+Florin Langer; Anthony Yu
+Jc Dy; Sachit Shroff
+Victor Sun; Jason Lan
+Weiwei Zhang; Yunqi Li
+Jerry Wu; Jared Rosner
+Sandy Zhang; Shalandy Zhang
+Raymond Ng; Neil Lugovoy
+Serena Jiang; Sarah Young
+Casey Takeda; Gavin Mak
+Harley Patton; Darren Huang
+Neel Somani; Luke Dzwonczyk
+Nadir Akhtar; Sukhpreet Pabla
+Andy Yan; Peter Veerman
+Ally Koo; Kelly Chen
+George Lee; Ryan Panwar
+Christina Lin; Emily Zhu
+Kevin Colkitt; Sean Dooher; Marvin Luong
+Ruihan Zhao; Theodore Tran
+Kimmy Ko; Annie Nguyen
+Edward Im; Vasudev Venkatesh
+Ming Li; Yowsean Li
+Vinitra Swamy; Yiling Kao
+Steven Ho; An Ho
+Jack Yang; Rishab Srivastava
+Patrick Lu; Ryan Deng
+Shanaaz Deo; Shreya Sahoo
+Franky Guerrero; Peter Wang
