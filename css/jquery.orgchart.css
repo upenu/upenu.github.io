@@ -241,6 +241,7 @@
   background-color: rgba(217, 83, 79, 0.8);
   color: #fff;
   border-radius: 4px 4px 0 0; 
+  text-shadow: none;
 }
 
 .orgchart.b2t .node .title {

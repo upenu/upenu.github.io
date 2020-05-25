@@ -743,8 +743,7 @@
           '<i class="edge horizontalEdge leftEdge oci"></i>');
       }
       if(Number(flags.substr(2,1))) {
-        $nodeDiv.append('<i class="edge verticalEdge bottomEdge oci"></i>')
-          .children('.title').prepend('<i class="oci '+ opts.parentNodeSymbol + ' symbol"></i>');
+        $nodeDiv.append('<i class="edge verticalEdge bottomEdge oci"></i>');
       }
       // register click/hover listeners
       $nodeDiv.on('mouseenter mouseleave', this.nodeEnterLeaveHandler.bind(this));
