@@ -12,10 +12,10 @@
 #chartContainer {
   position: relative;
   display: block;
-  width: calc(100% - 24px);
   border-radius: 5px;
   overflow: auto;
   text-align: center;
+  margin: 0px 20px 0px 20px;
 }
 
 .orgchart {
@@ -29,7 +29,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-image: linear-gradient(90deg, rgba(200, 0, 0, 0.15) 10%, rgba(0, 0, 0, 0) 10%), linear-gradient(rgba(200, 0, 0, 0.15) 10%, rgba(0, 0, 0, 0) 10%);
+  background-image: linear-gradient(90deg, rgba(0, 0, 200, 0.15) 10%, rgba(0, 0, 0, 0) 10%), linear-gradient(rgba(0, 0, 200, 0.15) 10%, rgba(0, 0, 0, 0) 10%);
   background-size: 10px 10px;
   border: 1px dashed rgba(0,0,0,0);
   padding: 20px;
@@ -60,7 +60,7 @@
 }
 .orgchart .verticalNodes>td::before {
   content: '';
-  border: 1px solid rgba(217, 83, 79, 0.8);
+  border: 1px solid rgba(11, 86, 135, 0.8);
 }
 .orgchart .verticalNodes>td>ul>li:first-child::before {
   box-sizing: border-box;
@@ -78,7 +78,7 @@
   content: '';
   position: absolute;
   left: -6px;
-  border-color: rgba(217, 83, 79, 0.8);
+  border-color: rgba(11, 86, 135, 0.8);
   border-style: solid;
   border-width: 0 0 2px 2px;
 }
@@ -146,23 +146,23 @@
 }
 
 .orgchart .lines .topLine {
-  border-top: 2px solid rgba(217, 83, 79, 0.8);
+  border-top: 2px solid rgba(11, 86, 135, 0.8);
 }
 
 .orgchart .lines .rightLine {
-  border-right: 1px solid rgba(217, 83, 79, 0.8);
+  border-right: 1px solid rgba(11, 86, 135, 0.8);
   float: none;
   border-radius: 0;
 }
 
 .orgchart .lines .leftLine {
-  border-left: 1px solid rgba(217, 83, 79, 0.8);
+  border-left: 1px solid rgba(11, 86, 135, 0.8);
   float: none;
   border-radius: 0;
 }
 
 .orgchart .lines .downLine {
-  background-color: rgba(217, 83, 79, 0.8);
+  background-color: rgba(11, 86, 135, 0.8);
   margin: 0 auto;
   height: 20px;
   width: 2px;
@@ -202,8 +202,9 @@
 }
 
 .orgchart .node:hover {
-  background-color: rgba(238, 217, 54, 0.5);
-  transition: .5s;
+  background-color: rgba(11, 86, 135, 0.5);
+  border-radius: 4px;
+  transition: .1s;
   cursor: default;
   z-index: 20;
 }
@@ -238,7 +239,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  background-color: rgba(217, 83, 79, 0.8);
+  background-color: rgba(11, 86, 135, 0.8);
   color: #fff;
   border-radius: 4px 4px 0 0; 
   text-shadow: none;
@@ -267,7 +268,7 @@
 
 .orgchart .node .title .symbol::before {
   background-color: #fff;
-  border-color: rgba(217, 83, 79, 0.8);
+  border-color: rgba(11, 86, 135, 0.8);
 }
 
 .orgchart .node .title .symbol::after {
@@ -279,7 +280,7 @@
   padding: 2px;
   height: 20px;
   font-size: 0.625rem;
-  border: 1px solid rgba(217, 83, 79, 0.8);
+  border: 1px solid rgba(11, 86, 135, 0.8);
   border-radius: 0 0 4px 4px;
   text-align: center;
   background-color: #fff;

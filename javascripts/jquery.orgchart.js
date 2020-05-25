@@ -437,9 +437,11 @@
       var $node = event.data.node;
       event.data.animatedNodes.removeClass('sliding');
       event.data.animatedNodes.closest('.nodes').prevAll('.lines').removeAttr('style').addBack().addClass('hidden');
+      /* We don't this anymore because we hid the arrows
       if (this.isInAction($node)) {
         this.switchVerticalArrow($node.children('.bottomEdge'));
       }
+      */
     },
     // recursively hide the descendant nodes of the specified node
     hideChildren: function ($node) {
@@ -455,9 +457,11 @@
     showChildrenEnd: function (event) {
       var $node = event.data.node;
       event.data.animatedNodes.removeClass('sliding');
+      /* We don't need this anymore because we hid the arrows
       if (this.isInAction($node)) {
         this.switchVerticalArrow($node.children('.bottomEdge'));
       }
+      */
     },
     // show the children nodes of the specified node
     showChildren: function ($node) {
@@ -735,22 +739,33 @@
       $nodeDiv.data('nodeData', nodeData);
       // append 4 direction arrows or expand/collapse buttons
       var flags = data.relationship || '';
+      /*
       if (Number(flags.substr(0,1))) {
         $nodeDiv.append('<i class="edge verticalEdge topEdge oci"></i>');
       }
-      if(Number(flags.substr(1,1))) {
+      if (Number(flags.substr(1,1))) {
         $nodeDiv.append('<i class="edge horizontalEdge rightEdge oci"></i>' +
           '<i class="edge horizontalEdge leftEdge oci"></i>');
       }
-      if(Number(flags.substr(2,1))) {
-        $nodeDiv.append('<i class="edge verticalEdge bottomEdge oci"></i>');
+      if (Number(flags.substr(2,1))) {
+        $nodeDiv.append('<i class="edge verticalEdge bottomEdge oci"></i>')
+          .children('.title').prepend('<i class="oci '+ opts.parentNodeSymbol + ' symbol"></i>');
       }
-      // register click/hover listeners
+      */
+
+      // Add a signifier to show that a person has little(s) (so they can be expanded)
+      if (Number(flags.substr(2,1))) {
+        $nodeDiv.children('.title').prepend('<i class="oci '+ opts.parentNodeSymbol + ' symbol"></i>');
+      }
+
+      /* Register click/hover listeners. I removed all the arrows and reassigned the handler
+       * for showing/hiding the children to the node's onClick instead */
+      // $nodeDiv.on('click', this.nodeClickHandler.bind(this));
+      // $nodeDiv.on('click', '.topEdge', this.topEdgeClickHandler.bind(this));
+      // $nodeDiv.on('click', '.bottomEdge', this.bottomEdgeClickHandler.bind(this));
+      // $nodeDiv.on('click', '.leftEdge, .rightEdge', this.hEdgeClickHandler.bind(this));
       $nodeDiv.on('mouseenter mouseleave', this.nodeEnterLeaveHandler.bind(this));
-      $nodeDiv.on('click', this.nodeClickHandler.bind(this));
-      $nodeDiv.on('click', '.topEdge', this.topEdgeClickHandler.bind(this));
-      $nodeDiv.on('click', '.bottomEdge', this.bottomEdgeClickHandler.bind(this));
-      $nodeDiv.on('click', '.leftEdge, .rightEdge', this.hEdgeClickHandler.bind(this));
+      $nodeDiv.on('click', this.bottomEdgeClickHandler.bind(this));
 
       return $nodeDiv;
     },
