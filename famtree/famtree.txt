@@ -82,7 +82,7 @@ Chenyu Shi; Albert Xu; Nancy Shaw
 Vanessa Lin; Won Ryu; Gary Xiang
 Lindsay Yang, 2020; Richard Lin; Lauren Go
 Daniel Zhang; Boren Tsai; Stephen Costello
-Ram Kal; Varun Dashora; Sajal Sharma
+Ram Kalidhindi; Varun Dashora; Sajal Sharma
 George Wang; Xiaochen Han; Eric Ge
 Sarah Young; Joshua Yeung; Hrishi Dharam
 Charles Tang; Matthew Khudari; Evan McNeil
@@ -106,7 +106,7 @@ Chenyu Shi; Eden McEwen (co); Nikita Dhawan (co)
 Vanessa Lin; Jonathan Kung (co); Chendi Wu (co)
 Lindsay Yang, 2020; Shaviv Hoffman-Lowitz (co); Will Wu (co)
 Daniel Zhang; Richard Huang (co); Christopher Liu (co)
-Ram Kal; Danlin Lillemark (co); Christina Zhang (co)
+Ram Kalidhindi; Danlin Lillemark (co); Christina Zhang (co)
 George Wang; Emily Zou (co); Ryan Tjitro (co)
 Sarah Young; Bell Wu (co); Chris Niu (co)
 Charles Tang; Benjamin Ulrich (co); Dylan Tran (co)
@@ -160,7 +160,7 @@ Audrey Ku; Annie Huang
 Lindsay Yang, 2020; Sarah Tang
 Brandon Clement; Chuck Tang
 Julie Deng; Celena Chang
-Ram Kal; Josh Rubin
+Ram Kalidhindi; Josh Rubin
 Jeffrey Li; Michael Luo
 Emily Hua; Sarafina Smith
 Jeremy Dong; Albert Jin
