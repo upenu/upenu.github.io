@@ -1,7 +1,7 @@
 import json
 
-tree = { "name": "root", "children": [] }
-ppl = { "root": tree}
+tree = { "name": "Nu Chapter", "year": "Founded in 1995", "children": [] }
+ppl = { "Nu Chapter, Founded in 1995": tree}
 parent_dict = {}
 
 

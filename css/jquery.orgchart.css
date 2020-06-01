@@ -10,139 +10,85 @@
  */
 
 #chartContainer {
-  position: relative;
   display: block;
-  border-radius: 5px;
+  position: relative;
   overflow: auto;
+  border-radius: 5px;
   text-align: center;
-  margin: 0px 20px 0px 20px;
-}
-
-.orgchart {
-  box-sizing: border-box;
-  display: inline-block;
-  min-height: 202px;
-  min-width: 202px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+  margin: 0px;
+  padding: 20px;
   user-select: none;
   background-image: linear-gradient(90deg, rgba(0, 0, 200, 0.15) 10%, rgba(0, 0, 0, 0) 10%), linear-gradient(rgba(0, 0, 200, 0.15) 10%, rgba(0, 0, 0, 0) 10%);
   background-size: 10px 10px;
-  border: 1px dashed rgba(0,0,0,0);
-  padding: 20px;
 }
 
-.orgchart .hidden, .orgchart~.hidden {
-  display: none;
-}
-
-.orgchart.b2t {
-  transform: rotate(180deg);
-}
-
-.orgchart.l2r {
-  position: absolute;
-  transform: rotate(-90deg) rotateY(180deg);
-  transform-origin: left top;
-}
-
-.orgchart .verticalNodes ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 18px;
-  text-align: left;
-}
-.orgchart .verticalNodes ul:first-child {
-  margin-top: 2px;
-}
-.orgchart .verticalNodes>td::before {
-  content: '';
-  border: 1px solid rgba(11, 86, 135, 0.8);
-}
-.orgchart .verticalNodes>td>ul>li:first-child::before {
+.orgchart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
   box-sizing: border-box;
-  top: -4px;
-  height: 30px;
-  width: calc(50% - 2px);
-  border-width: 2px 0 0 2px;
-}
-.orgchart .verticalNodes ul>li {
-  position: relative;
-}
-.orgchart .verticalNodes ul>li::before,
-.orgchart .verticalNodes ul>li::after {
-  box-sizing: border-box;
-  content: '';
-  position: absolute;
-  left: -6px;
-  border-color: rgba(11, 86, 135, 0.8);
-  border-style: solid;
-  border-width: 0 0 2px 2px;
-}
-.orgchart .verticalNodes ul>li::before {
-  top: -4px;
-  height: 30px;
-  width: 11px;
-}
-.orgchart .verticalNodes ul>li::after {
-  top: 1px;
-  height: 100%;
-}
-.orgchart .verticalNodes ul>li:first-child::after {
-  box-sizing: border-box;
-  top: 24px;
-  width: 11px;
-  border-width: 2px 0 0 2px;
-}
-.orgchart .verticalNodes ul>li:last-child::after {
-  box-sizing: border-box;
-  border-width: 2px 0 0;
+  min-height: 80vh;
+  overflow: auto;
 }
 
-.orgchart.r2l {
-  position: absolute;
-  transform: rotate(90deg);
-  transform-origin: left top;
-}
+.orgchart .fam {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
 
-.orgchart>.spinner::before {
-  width: 100px;
-  height: 100px;
-  border-width: 10px;
-  border-radius: 50px;
-  margin-top: 30px;
-  border-top-color: rgba(68, 157, 68, 0.8);
-  border-bottom-color: rgba(68, 157, 68, 0.8);
-  border-left-color: rgba(68, 157, 68, 0.8);
-}
+  flex-grow: 1;
 
-.orgchart table {
   border-spacing: 0;
   border-collapse: separate;
   background: transparent;
   border: none;
+  padding: 0;
+  transition: 1s;
 }
 
-.orgchart table tr {
-  background: transparent;
-}
-
-.orgchart>table:first-child{
+.orgchart>.fam:first-child{
   margin: 20px auto;
 }
 
-.orgchart td {
-  text-align: center;
-  vertical-align: top;
-  padding: 0;
+.orgchart .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  flex-grow: 1;
+
+  max-width: none;
+  box-sizing: border-box;
+  margin: 0;
+  background: transparent;
+  transition: 1s;
 }
 
-.orgchart .lines:nth-child(3) td {
-  box-sizing: border-box;
+.orgchart .slide-up {
+  opacity: 0%;
+  transform: translate(0, -20px);
+}
+
+.orgchart .node.squeeze {
+  width: 0;
+  padding: 0;
+  border: none;
+  overflow:hidden;
+}
+
+/* lines */
+.orgchart .lines div {
+  display: inline-block;
+  flex-grow: 1;
   height: 20px;
+  transition: 1s;
 }
 
 .orgchart .lines .topLine {
@@ -161,109 +107,52 @@
   border-radius: 0;
 }
 
-.orgchart .lines .downLine {
-  background-color: rgba(11, 86, 135, 0.8);
-  margin: 0 auto;
-  height: 20px;
-  width: 2px;
-  float: none;
-}
-
 /* node styling */
 .orgchart .node {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  width: 160px;
   box-sizing: border-box;
-  display: inline-block;
-  position: relative;
-  margin: 0;
   padding: 3px;
-  border: 2px dashed transparent;
-  text-align: center;
-}
-
-.orgchart.l2r .node, .orgchart.r2l .node {
-  width: 50px;
-  height: 140px;
-}
-
-.orgchart .node>.spinner {
-  position: absolute;
-  top: calc(50% - 1rem);
-  left: calc(50% - 1rem);
-}
-
-.orgchart .node>.spinner::before {
-  width: 2rem;
-  height: 2rem;
-  border-width: 0.2rem;
-  border-radius: 1rem;
-  border-top-color: rgba(68, 157, 68, 0.8);
-  border-bottom-color: rgba(68, 157, 68, 0.8);
-  border-left-color: rgba(68, 157, 68, 0.8);
+  
+  z-index: 99;
+  transition: 1s;
 }
 
 .orgchart .node:hover {
   background-color: rgba(11, 86, 135, 0.5);
   border-radius: 4px;
-  transition: .1s;
+  transition: .05s;
   cursor: default;
   z-index: 20;
 }
 
-.orgchart .node.focused {
-  background-color: rgba(238, 217, 54, 0.5);
-}
-
-.orgchart .ghost-node {
-  position: fixed;
-  left: -10000px;
-  top: -10000px;
-}
-
-.orgchart .ghost-node rect {
-  fill: #ffffff;
-  stroke: #bf0000;
-}
-
-.orgchart .node.allowedDrop {
-  border-color: rgba(68, 157, 68, 0.9);
-}
-
 .orgchart .node .title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
   box-sizing: border-box;
+  height: 25px;
   padding: 2px;
-  width: 130px;
-  text-align: center;
-  font-size: 0.75rem;
-  font-weight: bold;
-  height: 20px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  background-color: rgba(11, 86, 135, 0.8);
-  color: #fff;
   border-radius: 4px 4px 0 0; 
-  text-shadow: none;
-}
 
-.orgchart.b2t .node .title {
-  transform: rotate(-180deg);
-  transform-origin: center bottom;
-}
-
-.orgchart.l2r .node .title {
-  transform: rotate(-90deg) translate(-45px, -45px) rotateY(180deg);
-  transform-origin: bottom center;
-}
-
-.orgchart.r2l .node .title {
-  transform: rotate(-90deg) translate(-45px, -45px);
-  transform-origin: bottom center;
+  background-color: rgba(11, 86, 135, 0.8);
+  transition: 1s;
 }
 
 .orgchart .node .title .symbol {
   float: left;
-  margin-top: 12px;
-  margin-left: 2px;
+  margin-top: 10px;
+  margin-left: 6px;
+  width: 10px;
+  transition: 1s;
 }
 
 .orgchart .node .title .symbol::before {
@@ -275,147 +164,37 @@
   background-color: #fff;
 }
 
+.orgchart .node .title .name {
+  padding: 2px 6px 0px 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  white-space: nowrap;
+  text-shadow: none;
+  color: #fff;
+  transition: 1s;
+}
+
 .orgchart .node .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
   box-sizing: border-box;
-  padding: 2px;
   height: 20px;
-  font-size: 0.625rem;
+  padding: 2px;
   border: 1px solid rgba(11, 86, 135, 0.8);
   border-radius: 0 0 4px 4px;
-  text-align: center;
+
+  font-size: 0.625rem;
   background-color: #fff;
   color: #333;
   text-overflow: ellipsis;
   white-space: nowrap;
+  transition: 1s;
 }
 
-.orgchart.b2t .node .content {
-  transform: rotate(180deg);
-  transform-origin: center top;
-}
-
-.orgchart.l2r .node .content {
-  transform: rotate(-90deg) translate(-45px, -45px) rotateY(180deg);
-  transform-origin: top center;
-  width: 130px;
-}
-
-.orgchart.r2l .node .content {
-  transform: rotate(-90deg) translate(-45px, -45px);
-  transform-origin: top center;
-  width: 130px;
-}
-
-.orgchart .node .edge {
-  position: absolute;
-  cursor: default;
-  transition: .2s;
-}
-
-.orgchart .node .edge::before {
-  border-color: rgba(68, 157, 68, 0.5);
-}
-
-.orgchart.noncollapsable .node .edge {
-  display: none;
-}
-
-.orgchart .node .edge:hover {
-  cursor: pointer;
-}
-
-.orgchart .edge:hover::before {
-  border-color: #449d44;
-}
-
-.orgchart .node .verticalEdge {
-  width: calc(100% - 6px);
-  width: -webkit-calc(100% - 6px);
-  width: -moz-calc(100% - 6px);
-  height: 10px;
-  left: 3px;
-}
-
-.orgchart .node .verticalEdge::before {
-  position: absolute;
-  left: calc(50% - 0.3125rem);
-}
-
-.orgchart .node .topEdge {
-  top: -2px;
-}
-
-.orgchart .node .topEdge.oci-chevron-up::before {
-  top: 2px;
-}
-
-.orgchart .node .topEdge.oci-chevron-down::before {
-  bottom: 3px;
-}
-
-.orgchart .node .bottomEdge {
-  bottom: -2px;
-}
-
-.orgchart .node .bottomEdge.oci-chevron-up::before {
-  bottom: -3px;
-}
-
-.orgchart .node .bottomEdge.oci-chevron-down::before {
-  bottom: 1px;
-}
-
-.orgchart .node .horizontalEdge {
-  width: 10px;
-  height: calc(100% - 6px);
-  height: -webkit-calc(100% - 6px);
-  height: -moz-calc(100% - 6px);
-  top: 3px;
-}
-
-.orgchart .node .rightEdge {
-  right: -2px;
-}
-
-.orgchart .node .leftEdge {
-  left: -2px;
-}
-
-.orgchart .node .horizontalEdge::before {
-  position: absolute;
-  top: calc(50% - 0.3125rem);
-}
-
-.orgchart .node .rightEdge.oci-chevron-left::before {
-  right: -3px;
-}
-
-.orgchart .node .rightEdge.oci-chevron-right::before {
-  right: 1px;
-}
-
-.orgchart .node .leftEdge.oci-chevron-right::before {
-  left: -3px;
-}
-
-.orgchart .node .leftEdge.oci-chevron-left::before {
-  left: 1px;
-}
-
-.orgchart .node .toggleBtn {
-  position: absolute;
-  left: 5px;
-  bottom: -2px;
-}
-
-.orgchart .node .toggleBtn::before {
-  background-color: rgba(68, 157, 68, 0.6);
-}
-
-.orgchart .node .toggleBtn:hover::before {
-  background-color: #449d44;
-}
-
+/* export button */
 .oc-export-btn {
   display: inline-block;
   position: absolute;
@@ -450,132 +229,12 @@
   border-color: #347a34;
 }
 
-.orgchart~.mask {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 999;
-  text-align: center;
-  background-color: rgba(0,0,0,0.3);
-}
-
-.orgchart~.mask .spinner {
-  position: absolute;
-  top: calc(50% - 50px);
-  left: calc(50% - 50px);
-}
-
-.orgchart~.mask .spinner::before {
-  width: 100px;
-  height: 100px;
-  border-width: 10px;
-  border-radius: 50px;
-  border-top-color: rgba(68, 157, 68, 0.8);
-  border-bottom-color: rgba(68, 157, 68, 0.8);
-  border-left-color: rgba(68, 157, 68, 0.8);
-}
-
-.orgchart .node {
-  transition: transform 0.3s, opacity 0.3s;
-}
-
-.orgchart .slide-down {
-  opacity: 0;
-  transform: translateY(40px);
-}
-
-.orgchart.l2r .node.slide-down, .orgchart.r2l .node.slide-down {
-  transform: translateY(130px);
-}
-
-.orgchart .slide-up {
-  opacity: 0;
-  transform: translateY(-40px);
-}
-
-.orgchart.l2r .node.slide-up, .orgchart.r2l .node.slide-up {
-  transform: translateY(-130px);
-}
-
-.orgchart .slide-right {
-  opacity: 0;
-  transform: translateX(130px);
-}
-
-.orgchart.l2r .node.slide-right, .orgchart.r2l .node.slide-right {
-  transform: translateX(40px);
-}
-
-.orgchart .slide-left {
-  opacity: 0;
-  transform: translateX(-130px);
-}
-
-.orgchart.l2r .node.slide-left, .orgchart.r2l .node.slide-left {
-  transform: translateX(-40px);
-}
-
 /* oci means organization chart icons */
 .oci {
   display: inline-block;
   position: relative;
   font-style: normal;
   font-family: Arial;
-}
-
-.oci-chevron-up::before {
-  content: "";
-  display: inline-block;
-  box-sizing: border-box;
-  vertical-align: text-bottom;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-width: 0 0.2rem 0.2rem 0;
-  border-style: solid;
-  border-color: #000;
-  background: transparent;
-  transform: rotate(-135deg);
-}
-
-.oci-chevron-right::before {
-  content: "";
-  display: inline-block;
-  box-sizing: border-box;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-width: 0 0.2rem 0.2rem 0;
-  border-style: solid;
-  border-color: #000;
-  background: transparent;
-  transform: rotate(-45deg);
-}
-
-.oci-chevron-down::before {
-  content: "";
-  display: inline-block;
-  box-sizing: border-box;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-width: 0 0.2rem 0.2rem 0;
-  border-style: solid;
-  border-color: #000;
-  background: transparent;
-  transform: rotate(45deg);
-}
-
-.oci-chevron-left::before {
-  content: "";
-  display: inline-block;
-  box-sizing: border-box;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-width: 0 0.2rem 0.2rem 0;
-  border-style: solid;
-  border-color: #000;
-  background: transparent;
-  transform: rotate(135deg);
 }
 
 .oci-leader::before {
@@ -600,111 +259,4 @@
   background: #000;
   top: -0.3rem;
   left: -0.125rem;
-}
-
-.oci-plus-square::before {
-  content: "+";
-  display: inline-block;
-  vertical-align: text-bottom;
-  text-align: center;
-  width: 1rem;
-  height: 1rem;
-  background-color: #000;
-  color: #fff;
-}
-
-.oci-plus-circle::before {
-  content: "+";
-  display: inline-block;
-  vertical-align: text-bottom;
-  text-align: center;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  background-color: #000;
-  color: #fff;
-}
-
-.oci-minus-square::before {
-  content: "−";
-  display: inline-block;
-  vertical-align: text-bottom;
-  text-align: center;
-  width: 1rem;
-  height: 1rem;
-  background-color: #000;
-  color: #fff;
-}
-
-.oci-minus-circle::before {
-  content: "−";
-  display: inline-block;
-  vertical-align: text-bottom;
-  text-align: center;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  background-color: #000;
-  color: #fff;
-}
-
-.oci-arrow-circle-up::before {
-  content: "▲";
-  display: inline-block;
-  text-align: center;
-  vertical-align: text-bottom;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  background-color: #000;
-  color: #fff;
-  font-size: 0.875rem;
-}
-
-.oci-arrow-circle-down::before {
-  content: "▼";
-  text-align: center;
-  display: inline-block;
-  vertical-align: text-bottom;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  background-color: #000;
-  color: #fff;
-  font-size: 0.875rem;
-}
-
-.oci-info-circle::before {
-  content: "i";
-  display: inline-block;
-  vertical-align: text-bottom;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-}
-
-.oci-spinner::before {
-  content: "";
-  vertical-align: text-bottom;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 1rem;
-  height: 1rem;
-  border: 0.1rem solid #000;
-  border-right-color: transparent;
-  border-radius: 0.625rem;
-  animation: oci-infinite-spinning .75s linear infinite;
-}
-
-@keyframes oci-infinite-spinning {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
