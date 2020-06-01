@@ -60,6 +60,8 @@
       this.buildHierarchy($chart, this.attachRel(data, '00'), 0, 1);
       $chartContainer.append($chart);
 
+      $chart.scrollLeft(($chart.find('.fam:first-child').width() - $chart.width()) / 2);
+
       if (this.options.exportButton && !$chartContainer.find('.oc-export-btn').length) {
         this.attachExportButton();
       }
@@ -296,13 +298,13 @@
 
     // Hide the descendant nodes of the specified node
     hideChildren: function ($node) {
-      $node.closest('.fam').children().slice(2).find('*').addClass('slide-up');
+      $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine').addClass('slide-up');
       $node.closest('.fam').children().slice(2).find('.node').addClass('squeeze');
     },
 
     // Show the children nodes of the specified node
     showChildren: function ($node) {
-      $node.closest('.fam').children().slice(2).find('*').removeClass('slide-up');
+      $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine').removeClass('slide-up');
       $node.closest('.fam').children().slice(2).find('.node').removeClass('squeeze');
     },
 
