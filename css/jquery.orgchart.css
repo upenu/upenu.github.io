@@ -48,7 +48,6 @@
   background: transparent;
   border: none;
   padding: 0;
-  transition: 1s;
 }
 
 .orgchart>.fam:first-child{
@@ -68,12 +67,14 @@
   box-sizing: border-box;
   margin: 0;
   background: transparent;
-  transition: 1s;
 }
 
 .orgchart .slide-up {
   opacity: 0%;
-  /*transform: translate(0, -20px);*/
+  transform: translate(0, -40px);
+  pointer-events: none;
+  z-index: -1;
+  transition: 1s;
 }
 
 .orgchart .node.squeeze {
@@ -81,6 +82,7 @@
   padding: 0;
   border: none;
   overflow:hidden;
+  transition: 1s;
 }
 
 /* lines */
@@ -119,15 +121,14 @@
   box-sizing: border-box;
   padding: 3px;
   
-  z-index: 99;
-  transition: 1s;
+  transition: 0.4s ease-out, width 1s, transform 1s;
 }
 
-.orgchart .node:hover {
+.orgchart .node.isbig:hover {
   background-color: rgba(11, 86, 135, 0.5);
   border-radius: 4px;
-  transition: .05s;
-  cursor: default;
+  transition: 0.1s ease-in 0.05s;
+  cursor: pointer;
   z-index: 20;
 }
 
@@ -144,7 +145,6 @@
   border-radius: 4px 4px 0 0; 
 
   background-color: rgba(11, 86, 135, 0.8);
-  transition: 1s;
 }
 
 .orgchart .node .title .symbol {
@@ -152,7 +152,6 @@
   margin-top: 10px;
   margin-left: 6px;
   width: 10px;
-  transition: 1s;
 }
 
 .orgchart .node .title .symbol::before {
@@ -171,7 +170,6 @@
   white-space: nowrap;
   text-shadow: none;
   color: #fff;
-  transition: 1s;
 }
 
 .orgchart .node .content {
@@ -191,7 +189,6 @@
   color: #333;
   text-overflow: ellipsis;
   white-space: nowrap;
-  transition: 1s;
 }
 
 /* export button */

@@ -345,6 +345,7 @@
       if (Number(flags.substr(2,1))) {
         // Add a signifier to show that a person has little(s) (so they can be expanded)
         $title.append($('<i class="oci '+ opts.parentNodeSymbol + ' symbol"></i>'));
+        $nodeDiv.addClass('isbig');
       }
       $title.append($('<div class="name">' + data[opts.nodeTitle] + '</div>'));
 
