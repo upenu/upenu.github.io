@@ -298,14 +298,44 @@
 
     // Hide the descendant nodes of the specified node
     hideChildren: function ($node) {
-      $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine').addClass('slide-up');
-      $node.closest('.fam').children().slice(2).find('.node').addClass('squeeze');
+      var $toAnimate = $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine')
+      $toAnimate.each(function(n, el) {
+        setTimeout(function() {
+          $(el).addClass('slide-up');
+        }, 0);
+      });
+      var $toAnimateSqueeze = $node.closest('.fam').children().slice(2).find('.node').addClass('squeeze');
+      $toAnimateSqueeze.each(function(n, el) {
+        setTimeout(function() {
+          $(el).addClass('squeeze');
+        }, 300 + 0 * n);
+      });
+
+      setTimeout(function() {
+        var $chart = $('.orgchart');
+        var targetX = $('#main').width() / 2;
+        var nodeX = $node.offset().left;
+        var diff = nodeX - targetX;
+        var currScroll = $chart.scrollLeft();
+        //$chart.scrollLeft(currScroll + diff);
+		$chart.animate({scrollLeft: currScroll + diff}, 500, 'linear')
+	  }, 500);
     },
 
     // Show the children nodes of the specified node
     showChildren: function ($node) {
-      $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine').removeClass('slide-up');
-      $node.closest('.fam').children().slice(2).find('.node').removeClass('squeeze');
+      var $toAnimate = $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine')
+      $toAnimate.each(function(n, el) {
+        setTimeout(function() {
+          $(el).removeClass('slide-up');
+        }, 0);
+      });
+      var $toAnimateSqueeze = $node.closest('.fam').children().slice(2).find('.node').addClass('squeeze');
+      $toAnimateSqueeze.each(function(n, el) {
+        setTimeout(function() {
+          $(el).removeClass('squeeze');
+        }, 300 + 0 * n);
+      });
     },
 
     // Either hides or shows children
