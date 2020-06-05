@@ -74,7 +74,6 @@
   transform: translate(0, -40px);
   pointer-events: none;
   z-index: -1;
-  transition: 1s;
 }
 
 .orgchart .node.squeeze {
@@ -82,7 +81,6 @@
   padding: 0;
   border: none;
   overflow:hidden;
-  transition: 1s;
 }
 
 /* lines */
@@ -121,13 +119,13 @@
   box-sizing: border-box;
   padding: 3px;
   
-  transition: 1s;
+  transition: 1s, background-color 0.2s ease-out;
 }
 
 .orgchart .node.isbig:hover {
   background-color: rgba(11, 86, 135, 0.5);
   border-radius: 4px;
-  transition: background-color 0.1s ease-in 0.05s;
+  transition: background-color 0.2s ease-in 0.1s;
   cursor: pointer;
   z-index: 20;
 }
