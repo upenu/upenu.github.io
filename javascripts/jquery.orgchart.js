@@ -60,7 +60,8 @@
       this.buildHierarchy($chart, this.attachRel(data, '00'), 0, 1);
       $chartContainer.append($chart);
 
-      $chart.scrollLeft(($chart.find('.fam:first-child').width() - $chart.width()) / 2);
+      $chart.css({ 'width': $chart.find('.fam:first-child').width() });
+      $chartContainer.scrollLeft(($chart.find('.fam:first-child').width() - $chartContainer.width()) / 2);
 
       if (this.options.exportButton && !$chartContainer.find('.oc-export-btn').length) {
         this.attachExportButton();
@@ -298,39 +299,29 @@
 
     // Hide the descendant nodes of the specified node
     hideChildren: function ($node) {
-      var $toAnimate = $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine')
+      var $toAnimate = $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine');
       $toAnimate.each(function(n, el) {
         setTimeout(function() {
           $(el).addClass('slide-up');
-        }, 0);
+        }, 0 * n);
       });
-      var $toAnimateSqueeze = $node.closest('.fam').children().slice(2).find('.node').addClass('squeeze');
+      var $toAnimateSqueeze = $node.closest('.fam').children().slice(2).find('.node');
       $toAnimateSqueeze.each(function(n, el) {
         setTimeout(function() {
           $(el).addClass('squeeze');
         }, 300 + 0 * n);
       });
-
-      setTimeout(function() {
-        var $chart = $('.orgchart');
-        var targetX = $('#main').width() / 2;
-        var nodeX = $node.offset().left;
-        var diff = nodeX - targetX;
-        var currScroll = $chart.scrollLeft();
-        //$chart.scrollLeft(currScroll + diff);
-		$chart.animate({scrollLeft: currScroll + diff}, 500, 'linear')
-	  }, 500);
     },
 
     // Show the children nodes of the specified node
     showChildren: function ($node) {
-      var $toAnimate = $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine')
+      var $toAnimate = $node.closest('.fam').children().slice(2).find('.node, .leftLine, .rightLine, .bottomLine');
       $toAnimate.each(function(n, el) {
         setTimeout(function() {
           $(el).removeClass('slide-up');
         }, 0);
       });
-      var $toAnimateSqueeze = $node.closest('.fam').children().slice(2).find('.node').addClass('squeeze');
+      var $toAnimateSqueeze = $node.closest('.fam').children().slice(2).find('.node');
       $toAnimateSqueeze.each(function(n, el) {
         setTimeout(function() {
           $(el).removeClass('squeeze');
