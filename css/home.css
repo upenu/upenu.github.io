@@ -1,0 +1,24 @@
+.bg {
+  background-attachment: fixed;
+}
+
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  max-width: 80rem;
+  margin: 10vh auto 10vh auto;
+  padding: 0 5vh 0 5vh;
+}
+
+.section .modSectionHeader h2::after {
+  width: 100%;
+}
+
+.section p {
+  font-size: 1.4rem;
+}
