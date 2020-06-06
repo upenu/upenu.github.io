@@ -64,3 +64,15 @@
 .officer-desc {
   margin: 20px 0 40px 0;
 }
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  margin-bottom: 0px;
+}
+
+.intro-email {
+  font-style: italic;
+}
