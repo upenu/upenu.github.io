@@ -803,6 +803,10 @@ ul.shortcode-list i {
   z-index: 100;
 }
 .top-bar .title-area .name h1 a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   font-size: 2.57143rem;
   color: #333;
 }
