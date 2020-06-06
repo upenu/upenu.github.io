@@ -60,8 +60,12 @@
       this.buildHierarchy($chart, this.attachRel(data, '00'), 0, 1);
       $chartContainer.append($chart);
 
-      $chart.css({ 'width': $chart.find('.fam:first-child').width() });
-      $chartContainer.scrollLeft(($chart.find('.fam:first-child').width() - $chartContainer.width()) / 2);
+      // Hack to center the chart without cutting off the left side
+      var $wholeFam = this.$wholeFam = $chart.find('.fam:first-child');
+      $chart.css({ 'width': $wholeFam.width() + 2 * parseInt($wholeFam.css('marginLeft')) });
+
+      this.scrollToCenter();
+      $chartContainer.on('dblclick', this.scrollToCenter.bind(this));
 
       if (this.options.exportButton && !$chartContainer.find('.oc-export-btn').length) {
         this.attachExportButton();
@@ -76,6 +80,12 @@
       }
 
       return this;
+    },
+    scrollToCenter: function () {
+      this.$chartContainer.scrollLeft(
+          (this.$wholeFam.width() +
+           2 * parseInt(this.$wholeFam.css('marginLeft')) -
+           this.$chartContainer.width()) / 2);
     },
 
     //

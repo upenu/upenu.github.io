@@ -16,7 +16,6 @@
   border-radius: 5px;
   text-align: center;
   margin: 0px;
-  padding: 20px;
   user-select: none;
   /*
   background-image: linear-gradient(90deg, rgba(0, 0, 200, 0.15) 10%, rgba(0, 0, 0, 0) 10%), linear-gradient(rgba(0, 0, 200, 0.15) 10%, rgba(0, 0, 0, 0) 10%);
@@ -32,7 +31,6 @@
   align-items: flex-start;
   
   box-sizing: border-box;
-  min-height: 80vh;
   overflow: auto;
 }
 
@@ -51,7 +49,7 @@
 }
 
 .orgchart>.fam:first-child{
-  margin: 20px auto;
+  margin: 20px;
 }
 
 .orgchart .row {
