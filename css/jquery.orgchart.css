@@ -85,7 +85,7 @@
 .orgchart .lines div {
   display: inline-block;
   flex-grow: 1;
-  height: 20px;
+  height: 15px;
   transition: 0.2s;
 }
 
@@ -186,6 +186,25 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+div::-webkit-scrollbar {
+  width: 20px;
+}
+
+div::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: rgba(11, 86, 135, 0.8);
+  border-radius: 5px;
+}
+
 
 /* export button */
 .oc-export-btn {
