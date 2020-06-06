@@ -83,7 +83,6 @@ slides:
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
           <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -108,6 +107,8 @@ slides:
               </div>
             </div>
           </div>
+          <div class="overlay"></div>
+          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
         </li>
       {% endfor %}
     </ul>
@@ -118,6 +119,6 @@ slides:
   {% include section-header.html title="UPE - Nu Chapter" %}
   <div class="spacing"></div>
   <p>
-    We are the Nu Chapter of Upsilon Pi Epsilon, the international honor society for the Computing Sciences backed by both IEEE and ACM. Since its founding in 1967, UPE has sought to recognize academic excellence in the Computing and Information Disciplines. Our chapter, at UC Berkeley, seeks to provide each of our inductees with the resources and network to maximize their individual potential. Beyond the recognition and support of our members, we additionally provide academic and professional development support to the entire Berkeley computer science community. Our chapter has been recognized as an "Outstanding Chapter" by the UPE National Council.
+    We are the Nu Chapter of Upsilon Pi Epsilon, the international honor society for the Computing Sciences backed by both IEEE and ACM. Since its founding in 1967, UPE has sought to recognize academic excellence in the Computing and Information Disciplines. Our chapter, at UC Berkeley, prides itself on providing each of our inductees with the resources and network to maximize their individual potential. Beyond the recognition and support of our members, we additionally provide academic and professional development support to the entire Berkeley computer science community. Our chapter has been recognized as an "Outstanding Chapter" by the UPE National Council.
   </p>
 </div>
