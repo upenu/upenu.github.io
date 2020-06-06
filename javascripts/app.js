@@ -176,18 +176,8 @@ jQuery(document).foundation();
             $('.top-bar-section a[href=#'+currentAnchorId+']', ctx).closest('li').addClass('active');
           }
         }
-
       });
-
-
     }
-
-    // Family Tree
-    $.getJSON("famtree.json", function(data) {
-      var options = { 'data': data }
-      $('#chartContainer').orgchart(options);
-    });
-
   });
 })(jQuery);
 (function($) {
