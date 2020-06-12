@@ -803,6 +803,11 @@ ul.shortcode-list i {
   z-index: 100;
 }
 .top-bar .title-area .name h1 a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
   font-size: 2.57143rem;
   color: #333;
 }
@@ -3837,8 +3842,8 @@ body {
 
 
 .small-title {
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 0px 0px 15px black;
 }
 
 .title {
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 0px 0px 15px black;

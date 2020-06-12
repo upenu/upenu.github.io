@@ -1,0 +1,33 @@
+.modDefaultSlider .sequence .bg {
+  background-attachment: fixed;
+  z-index: -2;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.2);
+  top: 0;
+  z-index: -1;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  max-width: 80rem;
+  margin: 10vh auto 10vh auto;
+  padding: 0 5vh 0 5vh;
+}
+
+.section .modSectionHeader h2::after {
+  width: 100%;
+}
+
+.section p {
+  font-size: 1.4rem;
+}

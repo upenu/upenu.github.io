@@ -2,6 +2,9 @@
 layout: default
 title: Industrial Relations
 section_id: indrel
+
+custom_css: indrel.css
+
 faq:
   - title: When and where are infosessions and other events held?
     answer: Events hosted in partnership with the EECS Corporate Access Program are usually held in the Wozniak Lounge, HP Auditorium, or Sibley Auditorium from 6-8PM, although times are adjustable by request. For private events not affiliated with the department, we will select and reserve space based on the type of event and expected turnout.
@@ -17,48 +20,46 @@ faq:
     answer: We have, and the response has been positive! We have found that employees startups bring to give a presentation are usually better equipped to talk about the company as a whole, so it often results in a fun learning experience for all attendees.
   - title: How do I have an event with UPE?
     answer: Please email us at <i>ir (at) upe.berkeley.edu</i> as soon as possible if you would like us to help host an event for you at Cal. Ideally, you should contact us 4+ weeks prior to the date on which you want to have the event. This ensures that we have enough time and flexibility to find a space for the event and maximize publicity.
-
 ---
 
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Industrial Relations" tagline="Connecting Students to Industry" color="#000" class="big" %}
-    </div>
+
+<div class="title-section">
+  {% include section-header.html title="Industrial Relations" tagline="Connecting Students to Industry" color="#000" class="big" %}
+</div>
+
+<div class="section fadein">
+  {% include section-header.html title="Our Partners" %}
+  <div class='mod modClients' data-slides_to_show='4'>
+	<div class='clients'>
+	  {% for client in site.data.clients %}
+		<div class='client-image'>
+		  <a href="{{client.link_to}}" target="_blank">
+			<img alt="" src="{{client.image}}" />
+		  </a>
+		</div>
+	  {% endfor %}
+	</div>
   </div>
 </div>
 
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Resume Book" %}
-      <p>The Berkeley UPE Resume Book contains resumes of our members, who are in the top third of the declared computer science student community at UC Berkeley. Our resume book is updated every semester and includes resumes from our alumni, graduate students, and undergraduate students (mostly seniors and juniors). The resumes in the book are grouped by students’ graduation years and ordered alphabetically. Our resume book costs $200, and it comes in the form of a downloadable PDF.</p>
-      <p>If you have any questions or would like to purchase the resume book, please email <i>ir (at) upe.berkeley.edu</i> with "UPE Resume Book Purchase" as the subject line.</p>
-    </div>
-  </div>
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
-        {% include section-header.html title="Sponsorship" %}
-        <p>Ask us about sponsorship opportunities! In addition to providing recruiting opportunities, we keep our members updated with your company's events and technologies via our biweekly newsletters and social media groups.</p>
-      </div>
-    </div>
-  </div>
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Recruitment Events" %}
-      <p>We help host events at UC Berkeley for both companies in the <a href = "https://eecs.berkeley.edu/industry/recruit-students" target = "_blank">EECS Corporate Access Program (CAP)</a> and those that are not.</p>
-      {% for question in page.faq %}
-        <div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
-          <h3>{{question.title}}</h3>
-          <p>{{question.answer}}</p>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
+<div class="section fadein">
+  {% include section-header.html title="Resume Book" %}
+  <p>The Berkeley UPE Resume Book contains resumes of our members, who are in the top third of the declared computer science student community at UC Berkeley. Our resume book is updated every semester and includes resumes from our alumni, graduate students, and undergraduate students (mostly seniors and juniors). The resumes in the book are grouped by students’ graduation years and ordered alphabetically. Our resume book costs $200, and it comes in the form of a downloadable PDF.</p>
+  <p>If you have any questions or would like to purchase the resume book, please email <i>ir (at) upe.berkeley.edu</i> with "UPE Resume Book Purchase" as the subject line.</p>
 </div>
 
-{% include our-customers.html %}
+<div class="section fadein">
+	{% include section-header.html title="Sponsorship" %}
+	<p>Ask us about sponsorship opportunities! In addition to providing recruiting opportunities, we keep our members updated with your company's events and technologies via our biweekly newsletters and social media groups.</p>
+</div>
+
+<div class="section fadein">
+  {% include section-header.html title="Recruitment Events" %}
+  <p>We help host events at UC Berkeley for both companies in the <a href = "https://eecs.berkeley.edu/industry/recruit-students" target = "_blank">EECS Corporate Access Program (CAP)</a> and those that are not.</p>
+  {% for question in page.faq %}
+	<div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
+	  <h3>{{question.title}}</h3>
+	  <p>{{question.answer}}</p>
+	</div>
+  {% endfor %}
+</div>

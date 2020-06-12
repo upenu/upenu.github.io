@@ -1,5 +1,4 @@
-# convert variable to liquid include tag
-# use with coderunner
+# generate "include" tag
 def render_module(name, locals)
   locals = locals[:locals]
 

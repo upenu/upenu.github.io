@@ -1,0 +1,40 @@
+.title-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 80rem;
+  margin: 10vh auto 10vh auto;
+  padding: 0 5vh 0 5vh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  max-width: 80rem;
+  margin: 3vh auto 3vh auto;
+  padding: 0 5vh 0 5vh;
+}
+
+.section:last-child {
+  margin-bottom: 9vh;
+}
+
+.section .modSectionHeader h2::after {
+  width: 100%;
+}
+
+.section > .modClients {
+  width: 100%
+}
+
+
+.client-image {
+  padding: 15px;
+}

@@ -176,13 +176,8 @@ jQuery(document).foundation();
             $('.top-bar-section a[href=#'+currentAnchorId+']', ctx).closest('li').addClass('active');
           }
         }
-
       });
-
-
     }
-
-
   });
 })(jQuery);
 (function($) {
@@ -745,10 +740,10 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 (function($) {
-  Tc.Module.SectionHeader = Tc.Module.extend({    
+  Tc.Module.SectionHeader = Tc.Module.extend({
     init: function($ctx, sandbox, modId) {
       this._super($ctx, sandbox, modId);
-    },    
+    },
     dependencies: function() {
     },
     onBinding: function() {
@@ -797,5 +792,4 @@ jQuery(document).foundation();
     }
   })
 })(Tc.$);
-
 
