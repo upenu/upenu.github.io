@@ -42,7 +42,7 @@ def connect(big_string, little_string):
     big["children"].append(little)
     parent_dict[little_string] = big
 
-with open("famtree/famtree.txt", "r") as data:
+with open("famtree.txt", "r") as data:
     for line in data:
         if not line.strip() or line.strip()[0] == '#':
             continue
@@ -52,5 +52,5 @@ with open("famtree/famtree.txt", "r") as data:
         for little in littles:
             connect(big, little)
 
-with open("famtree/famtree.json", "w") as output:
+with open("famtree.json", "w") as output:
     json.dump(tree, output)
