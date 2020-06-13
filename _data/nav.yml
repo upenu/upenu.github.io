@@ -4,21 +4,21 @@
 - name: About
   section_id: about
   children: 
-    - name: Officers
-      path: /officers
-    - name: Office Hour Holders
-      path: /officeholder
     - name: UPE
-      path: /upe
+      path: /about/upe
+    - name: Officers
+      path: /about/officers
+    - name: Office Hour Holders
+      path: /about/oh-holders
 # - name: Events #Put the link back if y'all update it :) !
 #   path: /events
 - name: Student Services
   section_id: student-services
   children:
     - name: Office Hours
-      path: /schedule
+      path: /profdev/office-hours
     - name: Feedback
-      path: /oh-feedback
+      path: /profdev/oh-feedback
 - name: Industrial Relations
   path: /indrel
   section_id: indrel

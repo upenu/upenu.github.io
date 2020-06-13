@@ -8,11 +8,13 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
-  <link rel="stylesheet" href="{{ "/css/foundation.css" }}">
-  <link rel="stylesheet" href="{{ "/css/style.css" }}">
-  <link rel="stylesheet" href="{{ "/css/fontello.css" }}">
-  <link rel="stylesheet" href="{{ "/css/font-awesome.css" }}">
+  <link rel="stylesheet" href="{{ "/css/shared/normalize.css" }}">
+  <link rel="stylesheet" href="{{ "/css/shared/foundation.css" }}">
+  <link rel="stylesheet" href="{{ "/css/shared/style.css" }}">
+  <link rel="stylesheet" href="{{ "/css/shared/fontello.css" }}">
+  <link rel="stylesheet" href="{{ "/css/shared/font-awesome.css" }}">
   <script src="{{ "/javascripts/libs.js" }}" type="text/javascript"></script>
   <script>
     // terrificjs bootstrap
@@ -46,5 +48,4 @@
 	<script src='/javascripts/{{ js_file }}' type="text/javascript"></script>
 	{% endfor %}
   {% endif %}
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 </head>
