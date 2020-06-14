@@ -10,6 +10,8 @@
       path: /about/officers
     - name: Office Hour Holders
       path: /about/oh-holders
+    - name: The Family
+      path: /about/family
 # - name: Events #Put the link back if y'all update it :) !
 #   path: /events
 - name: Student Services
