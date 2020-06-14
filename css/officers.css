@@ -42,8 +42,18 @@
   overflow: hidden;
 }
 
+.officer-img {
+  width: 100%;
+}
+
 .officer img {
   min-width: 10rem;
+}
+
+.officer img:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .officer img.fun {

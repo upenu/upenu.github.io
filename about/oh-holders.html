@@ -1,51 +1,7 @@
 ---
-layout: default
+layout: oh-holders
 title: OH Holders
 section_id: about
+
+custom_css: officers.css
 ---
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Office Hour Holders" tagline="We Are Here To Help! " color="#000" class="big" %}
-    </div>
-  </div>
-  <div class='two spacing'></div>
-</div>
-
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-    <p> Welcome to our office hour bio page! Feel free to sift through our office hour holders for information on how their professional interests can best benefit you! </p> 
-
-     <p>  <b> Note: </b> All Office Hour Holders have taken CS 61A, CS 61B, CS 61C, and CS 70 and are able to give generic CS coding interviews. </p>
-    </div>
-  </div>
-</div>
-
-
-<div class='full'>
-  <div class='row'>
-    {% for member in site.data.officeholders %}
-      <div class='small-6 medium-6 large-6 columns'>
-        <div class='mod modTeamMember'>
-          <div class='member'>
-              <img alt="" src="{{member.avatar}}" onerror=this.src="images/whale-green.png"/>
-          </div>
-          <div class = "officer-desc">
-            <div class='intro'>
-                <h3 class='intro-text'>{{member.name}}</h3>
-                <p class='intro-text'> <b> {{member.hours}} </b>
-                <p class='intro-text'> <b> Upper Division Classes Taken: </b> {{member.classes}}</p>
-                <p class='intro-text'> <b> Professional Interests: </b> {{member.interests}} </p>
-                <p class='intro-text'> <b> Hangouts Link for OH (Appointment Only): </b> {{member.link}} </p>
-
-              </div>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>

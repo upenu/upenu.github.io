@@ -1,5 +1,5 @@
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Clark Wang
   hours: Monday,11 AM - 12 PM
   classes: CS170, EECS126 (IP), EECS127 (IP)
@@ -21,7 +21,7 @@
   link: meet.google.com/ydn-gszi-rmj
 
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Manu Chopra
   hours: Monday, 12 PM - 1 PM
   classes: CS 170, Data 100
@@ -44,7 +44,7 @@
   interests: Fintech, Full Stack, General
   link: meet.google.com/tuo-uzxu-nop
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Haiming Xu
   hours: Monday, 2PM - 3PM
   classes: CS 170
@@ -65,7 +65,7 @@
   interests: Backend, Security, Distributed Systems
   link: meet.google.com/hdu-gtix-vhd
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Joy Ma
   hours: Monday, 3 PM - 4 PM
   classes: CS 170, CS 188, CS 186
@@ -143,7 +143,7 @@
   interests: Backend, Full-Stack, Data Science
   link: meet.google.com/efy-utxn-hgn
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Ayush Kamat
   hours: Tuesday, 3PM - 4PM
   classes: CS 188, CS 170, EECS 127
@@ -171,7 +171,7 @@
   interests: ML/AI, VR, Backend
   link: meet.google.com/nir-jqhx-gac
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Stella Wan
   hours: Wednesday, 12PM - 1PM
   classes: CS 170 
@@ -213,7 +213,7 @@
   interests: Full-Stack Web Development
   link: meet.google.com/okt-mmev-cap
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Dee Guo
   hours: Wednesday, 3PM - 4PM
   classes: CS 188, CS 170, CS 161, CS 189, CS 162, CS 186
@@ -276,28 +276,28 @@
   interests: Fullstack, Frontend, Backend
   link: meet.google.com/kgd-ecvi-qhg
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Samuel Chen
   hours: Thursday, 1PM - 2PM
   classes: CS 170
   interests: Backend, ML/AI
   link: meet.google.com/gbo-cnjh-afq
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Rick Surya
   hours: Thursday, 2PM - 3PM
   classes: CS 170
   interests: Backend
   link: meet.google.com/ntd-fmgr-yat
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Dustin Luong
   hours: Thursday, 2PM - 3PM
   classes: CS 170
   interests: ML/Ai, VR/AR
   link: meet.google.com/shz-uvka-wgp
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Abinav Routhu
   hours: Thursday, 3PM - 4PM
   classes: CS 170, EECS 127
@@ -346,7 +346,7 @@
   interests: Backend
   link: meet.google.com/frc-gzko-kes
 - 
-  avatar: /images/whale-green.png
+  avatar: /images/whale-green-square.png
   name: Yin Deng
   hours: Friday, 1PM - 2PM
   classes: CS 170, Data 100
