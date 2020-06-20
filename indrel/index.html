@@ -3,7 +3,9 @@ layout: default
 title: Industrial Relations
 section_id: indrel
 
-custom_css: indrel.css
+custom_css:
+  - indrel.css
+  - shared.css
 
 faq:
   - title: When and where are infosessions and other events held?
@@ -30,15 +32,15 @@ faq:
 <div class="section fadein">
   {% include section-header.html title="Our Partners" %}
   <div class='mod modClients' data-slides_to_show='4'>
-	<div class='clients'>
-	  {% for client in site.data.clients %}
-		<div class='client-image'>
-		  <a href="{{client.link_to}}" target="_blank">
-			<img alt="" src="{{client.image}}" />
-		  </a>
-		</div>
-	  {% endfor %}
-	</div>
+    <div class='clients'>
+      {% for client in site.data.clients %}
+        <div class='client-image'>
+          <a href="{{client.link_to}}" target="_blank">
+            <img alt="" src="{{client.image}}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -49,17 +51,17 @@ faq:
 </div>
 
 <div class="section fadein">
-	{% include section-header.html title="Sponsorship" %}
-	<p>Ask us about sponsorship opportunities! In addition to providing recruiting opportunities, we keep our members updated with your company's events and technologies via our biweekly newsletters and social media groups.</p>
+    {% include section-header.html title="Sponsorship" %}
+    <p>Ask us about sponsorship opportunities! In addition to providing recruiting opportunities, we keep our members updated with your company's events and technologies via our biweekly newsletters and social media groups.</p>
 </div>
 
 <div class="section fadein">
   {% include section-header.html title="Recruitment Events" %}
   <p>We help host events at UC Berkeley for both companies in the <a href = "https://eecs.berkeley.edu/industry/recruit-students" target = "_blank">EECS Corporate Access Program (CAP)</a> and those that are not.</p>
   {% for question in page.faq %}
-	<div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
-	  <h3>{{question.title}}</h3>
-	  <p>{{question.answer}}</p>
-	</div>
+    <div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
+      <h3>{{question.title}}</h3>
+      <p>{{question.answer}}</p>
+    </div>
   {% endfor %}
 </div>

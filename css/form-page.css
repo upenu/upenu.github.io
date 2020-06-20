@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  max-width: 80rem;
+  margin: 3vh auto 3vh auto;
+  padding: 0 5vh 0 5vh;
+}

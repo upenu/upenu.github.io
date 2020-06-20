@@ -1,4 +1,5 @@
 import json
+import random
 
 tree = { "name": "Nu Chapter", "year": "Founded in 1995", "children": [] }
 ppl = { "Nu Chapter, Founded in 1995": tree}
@@ -43,7 +44,9 @@ def connect(big_string, little_string):
     parent_dict[little_string] = big
 
 with open("famtree.txt", "r") as data:
-    for line in data:
+    shuffled_data = list(data)
+    random.shuffle(shuffled_data)
+    for line in shuffled_data:
         if not line.strip() or line.strip()[0] == '#':
             continue
         fam = [s.strip() for s in line.split(";")]

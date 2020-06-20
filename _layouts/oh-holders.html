@@ -6,15 +6,12 @@
 
     <div id="main" role="main">
 
-      <div class='cover'>
+      <div class="title-section">
         {% include section-header.html title="Office Hour Holders" tagline="We Are Here To Help! " color="#000" class="big" %}
       </div>
-
-      <div class='row'>
-        <div class='large-12 columns'>
-          <p> Welcome to our office hour bio page! Feel free to sift through our office hour holders for information on how their professional interests can best benefit you! </p> 
-          <p><b>Note:</b> All Office Hour Holders have taken CS 61A, CS 61B, CS 61C, and CS 70 and are able to give generic CS coding interviews. </p>
-        </div>
+      <div class="section">
+        <p> Welcome to our office hour bio page! Feel free to sift through our office hour holders for information on how their professional interests can best benefit you! </p> 
+        <p><b>Note:</b> All Office Hour Holders have taken CS 61A, CS 61B, CS 61C, and CS 70 and are able to give generic CS coding interviews. </p>
       </div>
 
       <div class="officers">
@@ -25,7 +22,7 @@
               <img alt="" src="{{member.avatar}}"/>
               <img alt="" class="fun" src="{{member.hoveravatar}}"/>
             </div>
-            <div class = "officer-desc">
+            <div class="officer-desc">
               <div class='intro'>
                 <h3 class='intro-text'>{{member.name}}</h3>
                 <p class='intro-text'> <b> {{member.hours}} </b>

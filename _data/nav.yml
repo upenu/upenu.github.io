@@ -17,8 +17,10 @@
 - name: Student Services
   section_id: student-services
   children:
-    - name: Office Hours
-      path: /profdev/office-hours
+    - name: What We Offer
+      path: /profdev/services
+    - name: Sign Up
+      path: /profdev/oh-signup
     - name: Feedback
       path: /profdev/oh-feedback
 - name: Industrial Relations
