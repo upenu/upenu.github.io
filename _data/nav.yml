@@ -24,7 +24,7 @@
     - name: Feedback
       path: /profdev/oh-feedback
     - name: Interview Advice (beta)
-      path: https://upe-profdev.gitlab.io/advice/#
+      path: /profdev/int-advice
 - name: Industrial Relations
   section_id: indrel
   path: /indrel
