@@ -4,8 +4,8 @@
 - name: About
   section_id: about
   children: 
-    - name: UPE
-      path: /about/upe
+    - name: Our History
+      path: /about/history
     - name: Officers
       path: /about/officers
     - name: Office Hour Holders
@@ -14,8 +14,8 @@
       path: /about/family
 # - name: Events #Put the link back if y'all update it :) !
 #   path: /events
-- name: Student Services
-  section_id: student-services
+- name: Career Services
+  section_id: career-services
   children:
     - name: What We Offer
       path: /profdev/services
@@ -23,9 +23,8 @@
       path: /profdev/oh-signup
     - name: Feedback
       path: /profdev/oh-feedback
+    - name: Interview Advice (beta)
+      path: https://upe-profdev.gitlab.io/advice/#
 - name: Industrial Relations
   section_id: indrel
   path: /indrel
-- name: Interview Advice
-  section_id: Interview Advice
-  path: https://upe-profdev.gitlab.io/advice/#

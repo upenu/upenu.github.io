@@ -3,70 +3,6 @@ layout: default
 section_id: home
 
 custom_css: home.css
-
-slides:
-  - bg: /images/group/blm.jpg
-    small_title:
-      klass: bottom-to-top
-      text: The UC Berkeley Chapter of 
-    title:
-      klass: bottom-to-top
-      text: UPE Stands With BlackLivesMatter
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Read Our Statement
-          link_to: /docs/blm.pdf
-  - bg: /images/group/retreatsp19-copy.jpg
-    small_title:
-      klass: bottom-to-top
-      text: UC Berkeley's
-    title:
-      klass: bottom-to-top
-      text: Computer Science Honor Society
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: About Us
-          link_to: /about/upe
-  - bg: /images/group/alumnifa18.jpg
-    small_title:
-      klass: bottom-to-top
-      text: Hosting events that bring together the
-    title:
-      klass: bottom-to-top
-      text: Berkeley CS Community
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Future Events
-          link_to: /events
-  - bg: /images/group/jack-office.jpg
-    small_title:
-      klass: bottom-to-top
-      text: Office Hours, Mock Interviews, Resume Critique
-    title:
-      klass: bottom-to-top
-      text: Professional Development Services
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Student Services
-          link_to: /profdev/services
-  - bg: /images/group/trivia-1.jpg
-    small_title:
-      klass: bottom-to-top
-      text: Bridging the gap between
-    title:
-      klass: bottom-to-top
-      text: Recruiters and Students
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: About Our Infosessions
-          link_to: /indrel
-
-
 ---
 
 
@@ -79,7 +15,7 @@ slides:
       <span></span>
     </a>
     <ul class='sequence-pagination'>
-      {% for slide in page.slides %}
+      {% for slide in site.data.home.slides %}
         {% if forloop.first %}
           {% assign class = 'current' %}
         {% else %}
@@ -89,7 +25,7 @@ slides:
       {% endfor %}
     </ul>
     <ul class='sequence-canvas'>
-      {% for slide in page.slides %}
+      {% for slide in site.data.home.slides %}
         {% if forloop.first %}
           {% assign style = 'static' %}
         {% else %}
@@ -130,9 +66,15 @@ slides:
 </div>
 
 <div class="section">
-  {% include section-header.html title="UPE - Nu Chapter" %}
-  <div class="spacing"></div>
-  <p>
-    We are the Nu Chapter of Upsilon Pi Epsilon, the international honor society for the Computing Sciences backed by both IEEE and ACM. Since its founding in 1967, UPE has sought to recognize academic excellence in the Computing and Information Disciplines. Our chapter, at UC Berkeley, prides itself on providing each of our inductees with the resources and network to maximize their individual potential. Beyond the recognition and support of our members, we additionally provide academic and professional development support to the entire Berkeley computer science community. Our chapter has been recognized as an "Outstanding Chapter" by the UPE National Council.
-  </p>
+  {% include section-header.html title="UPE Nu Chapter" %}
+  <p>We are the Nu Chapter of Upsilon Pi Epsilon, the international honor society for the Computing Sciences backed by both IEEE and ACM. Since our founding in 1967, UPE has sought to recognize academic excellence in the Computing and Information Disciplines. Our chapter, at UC Berkeley, prides itself on providing each of our inductees with the resources and network to maximize their individual potential. Beyond the recognition and support of our members, we additionally provide academic and professional development support to the entire Berkeley computer science community. Our chapter has been recognized as an "Outstanding Chapter" by the UPE National Council.</p>
+</div>
+<div class="cards">
+  {% for card in site.data.home.cards %}
+    <div class="card">
+      <i class="fas fa-{{ card.icon }} fa-7x"></i>
+      <h2>{{ card.title }}</h2>
+      <p>{{ card.content }}</p>
+    </div>
+  {% endfor %}
 </div>
