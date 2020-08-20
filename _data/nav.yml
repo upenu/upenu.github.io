@@ -8,8 +8,6 @@
       path: /about/history
     - name: Officers
       path: /about/officers
-    - name: Office Hour Holders
-      path: /about/oh-holders
     - name: The Family
       path: /about/family
 # - name: Events #Put the link back if y'all update it :) !
@@ -21,10 +19,12 @@
       path: /profdev/services
     - name: Sign Up
       path: /profdev/oh-signup
+    - name: Our Office Hour Holders
+      path: /profdev/oh-holders
     - name: Feedback
       path: /profdev/oh-feedback
     - name: Interview Advice (beta)
-      path: https://upe-profdev.gitlab.io/advice/#
+      path: /profdev/int-advice
 - name: Industrial Relations
   section_id: indrel
   path: /indrel
