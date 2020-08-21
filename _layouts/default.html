@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
+{% include head.html %}
 
-  {% include head.html %}
-
-  <body>
-
-  	{% include messenger.html %}
-
-    {% include header.html %}
-
-    <div id='main' role='main'>
-      {{ content }}
-    </div>
-
-    {% include footer.html %}
-
-  </body>
+<body>
+  {% include messenger.html %}
+  {% include header.html %}
+  <div id="main" role="main">
+    {{ content }}
+  </div>
+  {% include footer.html %}
+</body>
 
 </html>

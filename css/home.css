@@ -31,3 +31,42 @@
 .section p {
   font-size: 1.4rem;
 }
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 0 5vw 0 5vw;
+  height: fit-content;
+  background-color: #f9f9f9;
+}
+
+.card {
+  flex: 25rem;
+
+  display: inline-flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 35rem;
+  padding: 2.5rem;
+  margin: 1.5rem;
+  background-color: #ffffff;
+}
+
+.card > p {
+  max-width: 30rem;
+  text-align: center;
+}
+
+.card > .fas {
+  margin: 3rem 0 1rem 0;
+}
+
+.center {
+  width: 50%;
+  margin: 0 auto;
+}
