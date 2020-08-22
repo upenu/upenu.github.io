@@ -6,6 +6,28 @@ section_id: indrel
 custom_css:
   - indrel.css
   - shared.css
+
+CAP_faq:
+  - title: When and where?
+    answer: Events are usually held in the <b>Wozniak Lounge, HP Auditorium, or Sibley Auditorium from 6-8PM</b>, although times are adjustable by request.
+  - title: How is the event publicized?
+    answer: We use all channels of communication available to us, including our <b>UPE Slack channel, Facebook page, member newsletter, and more</b>.
+  - title: What is the student turnout for the event?
+    answer: This depends on <b>the company, the speaker, and time of year</b>. It ranges from <b>30 to 150 students</b>. With more information about your event, we can provide a more precise estimate.
+  - title: How much does it cost?
+    answer: As a CAP member, you are allowed to host <b>one recruiting event per semester</b> with the EECS department at <b>no charge</b>. Additional events will cost <b>$1,500</b> each.
+
+UPE_faq:
+  - title: When and where?
+    answer: For Non-CAP events, we are not allowed to use EECS department facilities, but we will select and reserve space on campus <b>based on the type of event and expected turnout</b>.
+  - title: How is the event publicized?
+    answer: We use all channels of communication available to us, including our <b>UPE Slack channel, Facebook page, member newsletter, and more</b>.
+  - title: What is the student turnout for the event?
+    answer: This depends on <b>the company, the speaker, and time of year</b>. It ranges from <b>30 to 150 students</b>. With more information about your event, we can provide a more precise estimate.
+  - title: How much does it cost?
+    answer: We currently offer two price plans - Gold Level at $1,000 and Silicon Level at $1,500.
+  - title: Have you worked with startups before?
+    answer: We have, and the response has been very positive! We have found that employees of startups are usually better equipped to talk about the company as a whole, so it often results in a fun learning experience for all attendees.
 ---
 
 <div class="title-section">
@@ -28,26 +50,101 @@ custom_css:
 </div>
 
 <div class="section fadein">
-  {% include section-header.html title="Resume Book" %}
-  <p>The Berkeley UPE Resume Book contains resumes of our members, who are in the top third of the declared computer science student community at UC Berkeley. Our resume book is updated every semester and includes resumes from our alumni, graduate students, and undergraduate students (mostly seniors and juniors). Currently, we offer it in the form of a downloadable PDF at the cost of $200.</p>
-  <p>If you have any questions or would like to purchase the resume book, please email <i>ir (at) upe.berkeley.edu</i> with "UPE Resume Book Purchase" as the subject line.</p>
+  {% include section-header.html title="Why UPE?" %}
+  <p>Upsilon Pi Epsilon (UPE) is the <b>Computer Science Honor Society</b> at UC Berkeley, and we are endorsed by ACM and IEEE. UPE aims to recognize academic excellence and promote academic and professional growth of its members.  Each semester, we extend membership to the <b>top third of declared CS majors</b> as provided by the CS department.
+    Our vision is to <b>connect brilliant students in UC Berkeley to great companies like yours</b>. In the past, we have held <b>10+ events per semester</b> of all types, ranging from info-sessions, tech talks, coffee chats, competitions and the EECS career fair.</p>
 </div>
 
 <div class="section fadein">
-  {% include section-header.html title="Sponsorship" %}
-  <p>Ask us about sponsorship opportunities! In addition to providing recruiting opportunities, we keep our members updated with your company's events and technologies via our biweekly newsletters and social media groups.</p>
-</div>
-
-<div class="section fadein">
-  {% include section-header.html title="Recruitment Events" %}
-  <p>We help host events at UC Berkeley for both companies in the
-    <a href="https://eecs.berkeley.edu/industry/recruit-students" target="_blank">EECS Corporate Access Program
-      (CAP)</a>
-    and those that are not.</p>
-  {% for question in site.data.indrel.faq %}
-    <div class="fadein mod modIconText" data-delay='{{ 100 | times:forloop.index0 }}'>
+  {% include section-header.html title="Hosting CAP Events" %}
+  <p>We help host events at UC Berkeley for companies in the <a href="https://eecs.berkeley.edu/industry/recruit-students">EECS Corporate Access Program (CAP)</a>. </p>
+  {% for question in page.CAP_faq %}
+    <div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
       <h3>{{question.title}}</h3>
       <p>{{question.answer}}</p>
     </div>
   {% endfor %}
 </div>
+
+<div class="section fadein">
+  {% include section-header.html title="Hosting UPE Events" %}
+  {% for question in page.UPE_faq %}
+    <div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
+      <h3>{{question.title}}</h3>
+      <p>{{question.answer}}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="section fadein">
+  {% include section-header.html title="CAP vs UPE" %}
+  <table style="width:100%">
+    <tr>
+      <th></th>
+      <th>CAP</th>
+      <th>UPE</th>
+    </tr>
+    <tr>
+      <td>Cost</td>
+      <td>1 free recruiting event per semester with the EECS department, additional event for $1500 each</td>
+      <td>See price table in the UPE Events section below</td>
+    </tr>
+    <tr>
+      <td>Facility</td>
+      <td>Wozniak Lounge, HP Auditorium, or Sibley Auditorium from 6-8PM (time adjustable by request)</td>
+      <td>Non-EECS facilities chosen based on the type of event and expected turnout</td>
+    </tr>
+    <tr>
+      <td>Publicity</td>
+      <td colspan="2">UPE private Slack channel, Facebook Event page, member newsletter</td>
+    </tr>
+  </table>
+</div>
+
+<div class="section fadein">
+  {% include section-header.html title="Resume Book" %}
+  <p>The Berkeley UPE Resume Book contains resumes of our members, who are in the <b>top third of the declared Computer Science students</b> at UC Berkeley. <br>
+    Our resume book is <b>updated every semester</b> and includes resumes from our alumni, graduate students, and undergraduate students (mostly seniors and juniors). <br>
+    The resumes in the book are grouped by students’ graduation years and ordered alphabetically. Our resume book costs <b>$200</b>, and it comes in the form of a <b>downloadable PDF</b>.</p>
+</div>
+
+<div class="section fadein">
+  {% include section-header.html title="UPE Event Pricing" %}
+  <table style="width:100%">
+    <tr>
+      <th>Gold Level - $1000</th>
+      <th>Silicon Level - $1500</th>
+    </tr>
+    <tr>
+      <td>1 Campus-wide Tech Talk/Info-session</td>
+      <td>1 Campus-wide Tech Talk/Info-session</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>1 UPE-only Tech Talk/Lunch Meet and greet</td>
+    </tr>
+    
+    <tr>
+      <td>1 semester engagement period</td>
+      <td>2 semester engagement period</td>
+    </tr>
+    <tr>
+      <td colspan="2">Publicity of event to respective audience</td>
+    </tr>
+    <tr>
+      <td colspan="2">Display on website, publicity of your openings/outside events to UPE members</td>
+    </tr>
+    <tr>
+      <td colspan="2">Resume Book</td>
+    </tr>
+  </table>
+  <p>We also offer one time purchases of events - one public/UPE-only event of any time at $900.</p>
+</div>
+
+<div class="section fadein">
+  {% include section-header.html title="Interested in partnering with us?" %}
+  <p>If you are interested in partnering with us or have any questions about holding events, feel free to contact us at <a href="mailto:ir@upe.berkeley.edu">ir@upe.berkeley.edu</a>! <br>
+    It would be great if the first contact could be made 4+ weeks prior to the date of your event. This ensures that we have enough time and flexibility to find a space for the event and maximize publicity.
+    </p>
+</div>
+
