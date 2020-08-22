@@ -63,7 +63,7 @@ slides:
     small_title:
       klass: bottom-to-top
       text: Remember to communicatate ALL your toughts during an interview.
- - bg: /images/advice/mail.jpg
+  - bg: /images/advice/mail.jpg
     title:
       klass: bottom-to-top
       text: Send a Thank You Email
