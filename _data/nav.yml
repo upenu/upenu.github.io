@@ -10,8 +10,8 @@
       path: /about/officers
     - name: The Family
       path: /about/family
-# - name: Events #Put the link back if y'all update it :) !
-#   path: /events
+- name: Events
+  path: /events
 - name: Career Services
   section_id: career-services
   children:
