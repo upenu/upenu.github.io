@@ -4,7 +4,6 @@ title: Events
 section_id: career-services
 ---
 
-
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -13,55 +12,10 @@ section_id: career-services
   </div>
   <div class='two spacing'></div>
 </div>
-
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Upcoming Events" %}
-      <div class='two spacing'></div>
-    </div>
-  </div>
-
-  <div class='row'>
-    {% for post in site.data.upcomingevents %}
-      {% if forloop.index > 8 %}
-        {% break %}
-      {% endif %}
-      <div class='small-4 medium-3 large-3 columns'>
-        <div class='mod modBlogPost'>
-          <a href="{{post.link}}" target="_blank"><img alt="" src="{{post.coverphoto}}" /></a>
-          <div class='content'>
-            <p class='date'>{{post.date}}</p>
-            <h4><a href="https://www.facebook.com/events/{{post.link}}/" target="_blank">{{post.name}}</a></h4>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Past Events" %}
-      <div class='two spacing'></div>
-    </div>
-  </div>
-
-  <div class='row'>
-    {% for post in site.data.pastevents %}
-      {% if forloop.index > 8 %}
-        {% break %}
-      {% endif %}
-      <div class='small-4 medium-3 large-3 columns'>
-        <div class='mod modBlogPost'>
-          <a href="{{post.link}}" target="_blank"><img alt="" src="{{post.coverphoto}}" /></a>
-          <div class='content'>
-            <p class='date'>{{post.date}}</p>
-            <h4><a href="https://www.facebook.com/events/{{post.link}}/" target="_blank">{{post.name}}</a></h4>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+<br>
+<br>
+<div style="text-align:center; width:100%;">
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fucbupe&tabs=events&width=340&height=496&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=115993348440972" width="340" height="496" style=" border:none; overflow:hidden; margin-left: auto; margin-right: auto;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 <div class='two spacing'></div>
