@@ -21,10 +21,12 @@
       path: /profdev/oh-signup
     - name: Our Office Hour Holders
       path: /profdev/oh-holders
-    - name: Feedback
-      path: /profdev/oh-feedback
     - name: Interview Advice (beta)
       path: /profdev/int-advice
+    - name: Feedback
+      path: /profdev/oh-feedback
+    - name: Professional Service Reviews
+      path: /profdev/oh-reviews
 - name: Industrial Relations
   section_id: indrel
   path: /indrel
