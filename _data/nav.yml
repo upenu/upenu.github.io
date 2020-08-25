@@ -10,14 +10,16 @@
       path: /about/officers
     - name: The Family
       path: /about/family
+    - name: Professional Mentors
+      path: /profdev/oh-holders
 # - name: Events #Put the link back if y'all update it :) !
 #   path: /events
-- name: Career Services
+- name: Professional Services
   section_id: career-services
   path: /profdev/services
-- name: Interview Advice (beta)
-  section_id: int-advice
-  path: /profdev/int-advice
 - name: Industrial Relations
   section_id: indrel
   path: /indrel
+- name: Interview Advice (beta)
+  section_id: int-advice
+  path: /profdev/int-advice
