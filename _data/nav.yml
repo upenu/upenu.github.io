@@ -12,11 +12,12 @@
       path: /about/family
     - name: Professional Mentors
       path: /profdev/oh-holders
-# - name: Events #Put the link back if y'all update it :) !
-#   path: /events
 - name: Professional Services
   section_id: career-services
   path: /profdev/services
+  # I recognize this removes oh-reviews. I will integrate this with the main OH page. 
+- name: Events
+  path: /events
 - name: Industrial Relations
   section_id: indrel
   path: /indrel

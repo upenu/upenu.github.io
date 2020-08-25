@@ -49,6 +49,8 @@ slides:
           link_to: /profdev/services
         - text: Visit our Interview Bank
           link_to: https://upe-profdev.gitlab.io/
+        - text: Try out Leetcode Prep 
+          link_to: https://leetcode.com/
   - bg: /images/advice/language.jpg
     title:
       klass: bottom-to-top

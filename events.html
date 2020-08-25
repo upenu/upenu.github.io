@@ -4,7 +4,6 @@ title: Events
 section_id: career-services
 ---
 
-
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -13,56 +12,13 @@ section_id: career-services
   </div>
   <div class='two spacing'></div>
 </div>
+<br>
+<br>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=115993348440972&autoLogAppEvents=1" nonce="FZhEwWZL"></script>
+<div style="text-align:center; width:100%;">
 
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Upcoming Events" %}
-      <div class='two spacing'></div>
-    </div>
-  </div>
-
-  <div class='row'>
-    {% for post in site.data.upcomingevents %}
-      {% if forloop.index > 8 %}
-        {% break %}
-      {% endif %}
-      <div class='small-4 medium-3 large-3 columns'>
-        <div class='mod modBlogPost'>
-          <a href="{{post.link}}" target="_blank"><img alt="" src="{{post.coverphoto}}" /></a>
-          <div class='content'>
-            <p class='date'>{{post.date}}</p>
-            <h4><a href="https://www.facebook.com/events/{{post.link}}/" target="_blank">{{post.name}}</a></h4>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Past Events" %}
-      <div class='two spacing'></div>
-    </div>
-  </div>
-
-  <div class='row'>
-    {% for post in site.data.pastevents %}
-      {% if forloop.index > 8 %}
-        {% break %}
-      {% endif %}
-      <div class='small-4 medium-3 large-3 columns'>
-        <div class='mod modBlogPost'>
-          <a href="{{post.link}}" target="_blank"><img alt="" src="{{post.coverphoto}}" /></a>
-          <div class='content'>
-            <p class='date'>{{post.date}}</p>
-            <h4><a href="https://www.facebook.com/events/{{post.link}}/" target="_blank">{{post.name}}</a></h4>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
+<div class="fb-page" data-href="https://www.facebook.com/ucbupe" data-tabs="events" data-width="500" data-height="2200" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ucbupe" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ucbupe">UC Berkeley UPE</a></blockquote></div>
 
 <div class='two spacing'></div>
 <div class='row'>
@@ -71,5 +27,6 @@ section_id: career-services
       <a class='button' target="_blank" href='https://www.facebook.com/ucbupe/events/'>See more events</a>
     </p>
   </div>
+</div>
 </div>
 <div class='two spacing'></div>
