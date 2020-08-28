@@ -10,23 +10,17 @@
       path: /about/officers
     - name: The Family
       path: /about/family
+    - name: Professional Mentors
+      path: /profdev/oh-holders
+- name: Professional Services
+  section_id: career-services
+  path: /profdev/services
+  # I recognize this removes oh-reviews. I will integrate this with the main OH page. 
 - name: Events
   path: /events
-- name: Career Services
-  section_id: career-services
-  children:
-    - name: What We Offer
-      path: /profdev/services
-    - name: Sign Up
-      path: /profdev/oh-signup
-    - name: Our Office Hour Holders
-      path: /profdev/oh-holders
-    - name: Interview Advice (beta)
-      path: /profdev/int-advice
-    - name: Feedback
-      path: /profdev/oh-feedback
-    - name: Professional Service Reviews
-      path: /profdev/oh-reviews
 - name: Industrial Relations
   section_id: indrel
   path: /indrel
+- name: Interview Advice (beta)
+  section_id: int-advice
+  path: /profdev/int-advice

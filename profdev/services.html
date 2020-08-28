@@ -9,41 +9,45 @@ custom_css: shared.css
 
 <a id="Top"></a>
 <div class="cover" style="background-image: url({{page.cover-pic}})">
-  {% include section-header.html title=page.title tagline="Professional Development Services" color="#fff" class="big" %}
-  <a class="button bottom-top-top" href="/profdev/oh-signup">Sign Up Now</a>
+	{% include section-header.html title="Professional Services" tagline="Résumé Reviews, Mock Interviews, Career Mentorship, Academic Advising" color="#fff" class="big" %}
+	<a class='button bottom-top-top' onClick="document.getElementById('calendar').scrollIntoView();">Sign Up Now</a>
 </div>
 <div>
-  <div class="section">
-    {% include section-header.html title="We Want To Help" %}
-    <p><b>😷 PLEASE NOTE: Due to the COVID-19 situation, office hours have been moved online. Please click the hangouts link on the calendar invite when you wish to attend your office hours. Phone Interviews, Peer Advising, and Resume Critiques will still be conducted.</b></p>
-    <p>Navigating your career as a CS student can be tough, but having a friend who's been through it all can help tremendously. UPE offers all of the following as free services to the Berkeley student community. Please use our <a href="/profdev/oh-signup">sign-up page</a> to book a time slot.</p>
-  </div>
-  <div class="section">
-    {% include section-header.html title="Resume Reviews" %}
-    <p>Each resume review <b>lasts 30 minutes at the UPE Office at 346 Soda Hall</b> and is hosted by one of our Professional Development committee members. We will accommodate both in-person and virtual appointments.</p>
-  </div>
-  <div class="section">
-    {% include section-header.html title="Mock Interviews" %}
-    <p>We offer mock technical interviews in two formats: whiteboard interviews and phone interviews. Whiteboard interviews <b>last one hour at the UPE Office at 346 Soda Hall.</b> Phone interviews <b>last one hour and are conducted remotely.</b></p>
-    <p>When you sign up for a phone interview, you will receive a Google Hangouts link, Zoom link, or a phone number through a confirmation email. After this, the interviewer will send over a code-collab link or Google Doc link for codesharing during the interview.</p>
-    <p>The breakdown for the interview time will be as follows:
-      <ol>
-        <li>A ten-minute Berkeley time buffer.</li>
-        <li>The first five minutes will be an overview of your academic/professional background so our interviewer can better understand your needs.</li>
-        <li>The next five minutes will be focused on talking about your experience. It will be a typical "tell me about yourself" question.</li>
-        <li>The next thirty-five minutes will involve solving one or more technical interview questions.</li>
-        <li>The last five minutes will be dedicated to questions and interview feedback for the interviewee.</li>
-      </ol>
-    </p>
-  </div>
-  <div class="section">
-    {% include section-header.html title="Career Mentorship" %}
-    <p>Members of UPE tend to have an abundance of experiences in teaching, research, internships, and academics. Our peer advising appointments are a great way for students outside of UPE, from freshman to seniors, to learn more about how to navigate their own paths through the Berkeley computer science community and beyond.</p>
+  <div class = "section">
+  <p><b>😷 PLEASE NOTE: Due to COVID-19, Professional Services have been moved online. Please use the Zoom link in the calendar invite to attend.</b></p>
   </div>
 
   <div class="section">
-    {% include section-header.html title="Calendar" %}
-    <p>Below is a read-only version of our upcoming office hour availabilities. To book an appointment for one of our services, please use our <a href="/profdev/oh-signup">sign-up page</a>. To inquire about alternate or emergency appointments, please email us at info (at) upe.berkeley.edu or shoot a message to our Facebook page.</p>
+    {% include section-header.html title="About" %} 
+    
+    <p>Navigating your career as a CS student can be tough. Having a friend who's been through it all can help tremendously. UPE offers all of the following as free services to the Berkeley student community. </p>
+
+    <p>All Professional Services appointments are at most 50 minutes and start on Berkeley Time. </p>
+
+    <p>Our Professional Development committee members provide advising in a number of areas. Read about your Professional Mentor <a href="/profdev/oh-holders/">here</a>.</p>
+  </div>
+
+  <div class= "section">
+  	{% include section-header.html title="Feedback" %}
+  	<p>After your appointment, please fill out our feedback form <a href="/profdev/oh-feedback">here</a></p>
+  </div>
+
+  <div class="section">
+    {% include section-header.html title="Appointment Types" %}
+    <ol>
+      <li>Résumé Reviews - A personalized critique of your résumé.</li>
+      <li>Mock Interviews - Technical questions and coding problems followed by feedback.</li>
+      <li>Career Mentorship - Ask questions and learn from our experience in teaching, research, and internships.</li>
+      <li>Academic Advising - Ask course-content related questions and create a plan for Berkeley CS.</li>
+    </ol>
+  </div>
+
+  <div class="section" id="calendar">
+    {% include section-header.html title="Sign Up" %}
+
+    <p>Choose an appointment slot on the calendar below. <b>Please fill in your preferred name and appointment type.</b></p>
+
+    <p>If you cannot see the calendar below, click <a href="https://calendar.google.com/calendar/selfsched?sstoken=UUtsZFZFbG5tVGgwfGRlZmF1bHR8YmU3OTljODZhZWUzMGQxNTU5NjQ2NDhhOWE0N2ZhNDk">here</a> to access.</p> 
     <!-- Please add back this section when corona virus sadness ends ~ -->
     <!-- <p><b>Alternatively, we have drop-in office hours Monday through Friday, from 1 pm to 2 pm. You do not need to book an appointment for these drop-in slots.</b></p> -->
     <iframe height="800" scrolling="no" src="https://calendar.google.com/calendar/selfsched?sstoken=UUtsZFZFbG5tVGgwfGRlZmF1bHR8YmU3OTljODZhZWUzMGQxNTU5NjQ2NDhhOWE0N2ZhNDk" style="border-width:0" width="100%"></iframe>
@@ -51,4 +55,6 @@ custom_css: shared.css
 
    
   </div>
+
+
 </div>
