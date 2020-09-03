@@ -1,7 +1,7 @@
 fa20-officers:
   name: Fall 2020
   path: /about/officers
-  cover-pic: /images/officer-board/fa20_temp.jpg
+  cover-pic: /images/officer-board/fa20.jpg
   members:
     - avatar: /images/officers/Ankit_Agarwal.jpg
       hoveravatar: /images/officers/Ankit_Agarwal_Fun.jpg
