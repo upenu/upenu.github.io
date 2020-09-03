@@ -1,7 +1,7 @@
 fa20-officers:
   name: Fall 2020
   path: /about/officers
-  cover-pic: /images/officer-board/fa20-temp.jpg
+  cover-pic: /images/officer-board/fa20_temp.jpg
   members:
     - avatar: /images/officers/Ankit_Agarwal.jpg
       hoveravatar: /images/officers/Ankit_Agarwal_Fun.jpg
@@ -39,8 +39,8 @@ fa20-officers:
       name: Stella Wan
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
-    - avatar: /images/officers/Beom_Jin.jpg
-      hoveravatar: /images/officers/Beom_Jin_Fun.jpg
+    - avatar: /images/officers/Beom_Jin_Lee.jpg
+      hoveravatar: /images/officers/Beom_Jin_Lee_Fun.jpg
       name: Beom Jin Lee
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
@@ -135,7 +135,7 @@ fa20-officers:
 
 sp20-officers:
   name: Spring 2020
-  path: /about/officers/sp20.html
+  path: /about/officers/sp20
   cover-pic: /images/officer-board/sp20.jpg
   members:
     - avatar: /images/past-officers/Leon_Ming.jpg
