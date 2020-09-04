@@ -1,45 +1,7 @@
 clients:
-  - image: /images/logos/Affirm.png
-    link_to: https://www.affirm.com
   - image: /images/logos/Arista.png
     link_to: https://www.arista.com
   - image: /images/logos/Bloomberg.jpg
     link_to: https://www.bloomberg.com
-  - image: /images/logos/Datavisor.png
-    link_to: https://www.datavisor.com
-  - image: /images/logos/Google.png
-    link_to: https://www.google.com
-  - image: /images/logos/IXL.png
-    link_to: https://www.ixl.com
   - image: /images/logos/JaneStreet.png
     link_to: https://www.janestreet.com
-  - image: /images/logos/Nutanix.png
-    link_to: https://www.nutanix.com
-  - image: /images/logos/Opentable.png
-    link_to: https://www.opentable.com
-  - image: /images/logos/Oracle.png
-    link_to: https://www.oracle.com
-  - image: /images/logos/Splunk.png
-    link_to: https://www.splunk.com
-  - image: /images/logos/Twitter.png
-    link_to: https://www.twitter.com
-  - image: /images/logos/Uber.png
-    link_to: https://www.uber.com
-  - image: /images/logos/Workday.png
-    link_to: https://www.workday.com
-    
-faq:
-  - title: When and where are infosessions and other events held?
-    answer: Events hosted in partnership with the EECS Corporate Access Program are usually held in the Wozniak Lounge, HP Auditorium, or Sibley Auditorium from 6-8PM, although times are adjustable by request. For private events not affiliated with the department, we will select and reserve space based on the type of event and expected turnout.
-  - title: How is the event publicized?
-    answer: We use all channels of communication available to us, including our private member Slack, Facebook page, member newsletter, and more.
-  - title: What is the student turnout for the event?
-    answer: This really is dependent on the company, the speaker, and time of year, and it ranges from 30 to 150. With more information about your event, we can provide a more precise estimate.
-  - title: How are events for EECS Corporate Access Program (CAP) and non-CAP companies different?
-    answer: Without the EECS CAP membership, you may not use EECS department spaces (Soda Hall, Cory Hall, etc), but we can work with you to find a solution elsewhere on campus.
-  - title: How much does it cost?
-    answer: If you are a CAP member, you are allowed to host one recruiting event per semester with the EECS department at no additional charge. For additional events unaffiliated with the EECS department, we would be happy to work with you to handle logistics and publicity at the price of $1000 per event.
-  - title: Have you worked with startups before?
-    answer: We have, and the response has been positive! We have found that employees startups bring to give a presentation are usually better equipped to talk about the company as a whole, so it often results in a fun learning experience for all attendees.
-  - title: How do I have an event with UPE?
-    answer: Please email us at <i>ir (at) upe.berkeley.edu</i> as soon as possible if you would like us to help host an event for you at Cal. Ideally, you should contact us 4+ weeks prior to the date on which you want to have the event. This ensures that we have enough time and flexibility to find a space for the event and maximize publicity.
