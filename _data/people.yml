@@ -499,303 +499,159 @@ past:
   path: https://www.linkedin.com/company/upsilon-pi-epsilon-nu-chapter
 
 oh-holders:
+  - avatar: /images/office-holders/fa20/Prakash_Srivastava.jpg
+    name: Prakash Srivastava
+    hours: Monday, 12 AM - 1 AM
+    classes: CS 170, CS 188, EE 127, CS 161, Data 100
+    interests: Security, Data Science, ML
+    link: https://berkeley.zoom.us/j/98355776840
   - avatar: /images/whale-green-square.png
-    name: Clark Wang
-    hours: Monday,11 AM - 12 PM
-    classes: CS170, EECS126 (IP), EECS127 (IP)
-    interests: Full Stack, CS Theory, Algorithms
-    link: meet.google.com/hth-azmt-dqc
-  - avatar: /images/office-holders/sp20/Eric_Fu.jpg
-    name: Eric Fu
+    name: Eric Xu
     hours: Monday, 11 AM - 12 PM
-    classes: CS 189, CS170, CS162, CS186, Data 100
-    interests: Network Infrastructure
-    link: meet.google.com/epc-cyza-kac
-  - avatar: /images/office-holders/sp20/Ankit_Agarwal.jpg
-    name: Ankit Agarwal
+    classes: 170, 186, 131, 126, 161, 169, 110
+    interests: Backend
+    link: https://berkeley.zoom.us/j/92579543669?pwd=VkV1YUVvUENtalRmbW5jdlJMTzVqZz09
+  - avatar: /images/office-holders/fa20/Brandon_Shin.jpg
+    name: Brandon Shin
     hours: Monday, 12 PM - 1 PM
-    classes: CS 170, EECS 126, CS 162, EECS 127, CS 189, CS 161
-    interests: Full Stack Web-Development, Math, ML / AI
-    link: meet.google.com/ydn-gszi-rmj
-  - avatar: /images/whale-green-square.png
-    name: Manu Chopra
-    hours: Monday, 12 PM - 1 PM
-    classes: CS 170, Data 100
-    interests: Backend, Fullstack, ML
-    link: meet.google.com/cmh-npbw-irb
-  - avatar: /images/office-holders/sp20/Will_Wu.jpg
-    name: Will Wu
-    hours: Monday, 1 PM - 2 PM
-    classes: CS 170, CS 188, CS 189, Stat 133, Stat 134, Stat 135, Stat 150, Stat 210A
-    interests: Data Science, ML / AI
-    link: meet.google.com/bqa-egzn-bqv
-  - avatar: /images/office-holders/sp20/Michelle_DSouza.jpg
-    name: Michelle D'Souza
-    hours: Monday, 2PM - 3PM
-    classes: CS 170, CS 162, CS 161
-    interests: Fintech, Full Stack, General
-    link: meet.google.com/tuo-uzxu-nop
-  - avatar: /images/whale-green-square.png
-    name: Haiming Xu
-    hours: Monday, 2PM - 3PM
-    classes: CS 170
-    interests: Backend, Full-Stack Web Development
-    link: meet.google.com/zta-easi-nrw
-  - avatar: /images/office-holders/sp20/Won_Ryu.jpg
-    name: Won Ryu
-    hours: Monday, 3PM - 4PM
-    classes: CS 170, CS 188, CS 186, CS 162
-    interests: Backend, Embedded Systems
-    link: meet.google.com/aus-twmq-cjn
-  - avatar: /images/office-holders/sp20/Addison_Chan.jpg
-    name: Addison Chan
-    hours: Monday, 3 PM - 4 PM
-    classes: CS 170, CS 162
-    interests: Backend, Security, Distributed Systems
-    link: meet.google.com/hdu-gtix-vhd
-  - avatar: /images/whale-green-square.png
-    name: Joy Ma
-    hours: Monday, 3 PM - 4 PM
-    classes: CS 170, CS 188, CS 186
-    interests: Backend, Firmware
-    link: meet.google.com/drh-umvu-tbo
-  - avatar: /images/office-holders/sp20/Dylan_Tran.jpg
-    name: Dylan Tran
-    hours: Tuesday, 11AM - 12PM
-    classes: CS 170, CS 188
-    interests: Backend, ML/AI, Mobile Development
-    link: meet.google.com/tas-wovi-dmp
-  - avatar: /images/office-holders/sp20/Mantej_Panesar.png
-    name: Mantej Panesar
-    hours: Tuesday, 11AM - 12PM
-    classes: CS 170
-    interests: Backend, Data Science, ML/AI, General SWE
-    link: meet.google.com/ycf-tjwo-nbr
-  - avatar: /images/office-holders/sp20/Leon_Ming.jpg
-    name: Leon Ming
-    hours: Tuesday, 12PM - 1PM
-    classes: CS 170, CS 188, CS 160, CS 189
-    interests: Backend, Full Stack
-    link: meet.google.com/mzx-gxxy-sef
-  - avatar: /images/office-holders/sp20/Linda_Deng.jpg
-    name: Linda Deng
-    hours: Tuesday, 12PM - 1PM
-    classes: CS170, CS186
-    interests: Full-Stack, Backend, Frontend, Web-Development
-    link: meet.google.com/bqt-gkdc-iav
-  - avatar: /images/office-holders/sp20/Andrew_Lee.png
-    name: Andrew Lee
-    hours: Tuesday, 1PM - 2PM
-    classes: CS 170, Math 110, EECS 126, EECS 127, CS 189, EE 120, CS 162, CS 186, EE 221A, Stat 135
-    interests: Applied Machine learning, Computer Vision, Robotics
-    link: meet.google.com/eep-tgbh-cet
-  - avatar: /images/office-holders/sp20/Sarah_Young.jpg
-    name: Sarah Young
-    hours: Tuesday, 1PM - 2PM
-    classes: CS 170, CS 188, CS 161, CS 162, CS 189, CS 168, CS 186
-    interests: Backend, ML/AI
-    link: meet.google.com/eep-tgbh-cet
-  - avatar: /images/office-holders/sp20/Lauren_Go.jpg
-    name: Lauren Go
-    hours: Tuesday, 1PM - 2PM
-    classes: CS 170
+    classes: CS 170, CS 186
     interests: Backend
-    link: meet.google.com/hqu-rkva-isr
-  - avatar: /images/office-holders/sp20/Druv_Pai.jpg
-    name: Druv Pai
-    hours: Tuesday, 2PM - 3PM
-    classes: EECS 126, CS 170
-    interests: Data Science/Statistics, ML/AI, Algorithms, Optimization, Math
-    link: meet.google.com/uxe-xaqy-uvz
-  - avatar: /images/office-holders/sp20/Jonathan_Wang.jpg
-    name: Jonathan Wang
-    hours: Tuesday, 2PM - 3PM
-    classes: CS 188
-    interests: Natural Language Processing, Blockchain, Full-Stack
-    link: meet.google.com/oot-riwd-rzz
-  - avatar: /images/office-holders/sp20/Jacqueline_Yeung.jpg
-    name: Jacqueline Yeung
-    hours: Tuesday, 3PM - 4PM
-    classes: CS 170, CS 188
-    interests: Backend, Full-Stack, Data Science
-    link: meet.google.com/efy-utxn-hgn
-  - avatar: /images/whale-green-square.png
-    name: Ayush Kamat
-    hours: Tuesday, 3PM - 4PM
-    classes: CS 188, CS 170, EECS 127
-    interests: Data Science, ML/AI
-    link: meet.google.com/seb-uceq-ata
-  - avatar: /images/office-holders/sp20/Bell_Wu.jpg
-    name: Bell Wu
-    hours: Wednesday, 11AM - 12PM
-    classes: CS 160, CS 161, CS 170, CS 188, Data 100
-    interests: Full Stack, ML/AI, UI/UX
-    link: meet.google.com/zng-gbop-qum
-  - avatar: /images/office-holders/sp20/Tom_Bousso.jpg
-    name: Tom Bousso
-    hours: Wednesday, 11AM - 12PM
-    classes: CS 164, CS 170, EECS 126, EECS 127, CS 189, CS 162, CS 186, CS 194 (Cryptography)
-    interests: Backend
-    link: meet.google.com/mzf-gphc-wpj
-  - avatar: /images/office-holders/sp20/Xinyun_Cao.jpg
-    name: Xinyun Cao
-    hours: Wednesday, 12PM - 1PM
-    classes: CS 170, CS 188
-    interests: ML/AI, VR, Backend
-    link: meet.google.com/nir-jqhx-gac
-  - avatar: /images/whale-green-square.png
-    name: Stella Wan
-    hours: Wednesday, 12PM - 1PM
-    classes: CS 170 
-    interests: ML/AI
-    link: meet.google.com/oaf-dtyy-vou
-  - avatar: /images/office-holders/sp20/Vanessa_Lin.jpg
-    name: Vanessa Lin
-    hours: Wednesday, 1PM - 2PM
-    classes: CS 170, CS 162, CS 188, CS 186 
-    interests: Backend, ML/AI
-    link: meet.google.com/jdi-kqwr-ugg
-  - avatar: /images/office-holders/sp20/Taejin_Hwang.jpg
-    name: Taejin Hwang
-    hours: Wednesday, 1 PM - 2 PM
-    classes: Data 100, CS 162, CS 170, CS 186, EECS 126, EECS 127, EE 120
-    interests: Mathematics within CS, EE, ML
-    link: meet.google.com/uhb-rqjv-hnz
-  - avatar: /images/office-holders/sp20/Lakshya_Jain.jpg
-    name: Lakshya Jain
-    hours: Wednesday, 1PM - 2PM
-    classes: CS170, CS 188, CS 186, EECS 126, Math 110, CS 189, CS 282A, CS 194-26, EE290S, EECS 219C, CS 285
-    interests: Data Science, ML/AI, Databases
-    link: meet.google.com/asc-rbac-rtn
-  - avatar: /images/office-holders/sp20/Debbie_Liang.jpg
-    name: Debbie Liang
-    hours: Wednesday, 2PM - 3PM
-    classes: CS 170, CS 188, CS 162, CS 161, Stat 140, Data 100
-    interests: ML/AI, Systems Engineering
-    link: meet.google.com/xko-xtrq-znq
-  - avatar: /images/office-holders/sp20/Valerie_Yip.jpg
-    name: Valerie Yip
-    hours: Wednesday, 2PM - 3PM
-    classes: CS 170
-    interests: Full-Stack Web Development
-    link: meet.google.com/okt-mmev-cap
-  - avatar: /images/whale-green-square.png
-    name: Dee Guo
-    hours: Wednesday, 3PM - 4PM
-    classes: CS 188, CS 170, CS 161, CS 189, CS 162, CS 186
-    interests: Backend
-    link: meet.google.com/nme-hiox-riz
-  - avatar: /images/office-holders/sp20/Cindy_Zhang.jpg
-    name: Cindy Zhang
-    hours: Wednesday, 3PM - 4PM
-    classes: CS 170
-    interests: Fullstack, Frontend
-    link: meet.google.com/obt-qhue-syz
-  - avatar: /images/office-holders/sp20/Evan_McNeil.jpg
-    name: Evan McNeil
-    hours: Wednesday, 3PM - 4PM
-    classes: CS 151, CS 161, CS 162, CS 164, CS 170, CS 186, CS 188, CS 189, EECS 127, EE 120
-    interests: Robotics, ML/AI
-    link: meet.google.com/era-ijoe-tbt
-  - avatar: /images/office-holders/sp20/Chenyu_Shi.jpg
-    name: Chenyu Shi
-    hours: Thursday, 11AM - 12PM
-    classes: CS 170, CS 189, EECS 126, CS 161, CS 194 (Cryptography)
-    interests: Security, Cryptography
-    link: meet.google.com/ffm-hbor-svh
-  - avatar: /images/office-holders/sp20/Alan_Pham.jpg
-    name: Alan Pham
-    hours: Thursday, 12PM - 1PM
-    classes: CS170, CS188
-    interests: Data Science
-    link: meet.google.com/onm-qowv-qjn
-  - avatar: /images/office-holders/sp20/Daniel_Zhang.jpg
-    name: Daniel Zhang
-    hours: Thursday, 12PM - 1PM
-    classes: Data 100, EE 127, CS 161, CS 162, CS 186, CS 188, Info 159
-    interests: Backend
-    link: meet.google.com/wyw-fmgn-avy
-  - avatar: /images/office-holders/sp20/Peter_Wang.jpg
-    name: Peter Wang
-    hours: Thursday, 12PM - 1PM
-    classes: CS 100, CS 170, CS 188, CS 189, CS 162, CS 186
-    interests: Business, General Backend
-    link: meet.google.com/qcd-zezt-tto
-  - avatar: /images/office-holders/sp20/Tim_Lee.jpg
+    link: https://berkeley.zoom.us/j/96324079722?pwd=NVV2TVB0VWllczNvVkErMVJCV0x4UT09
+  - avatar: /images/office-holders/fa20/Timothy_Lee.jpg
     name: Tim Lee
-    hours: Thursday, 1PM - 2PM
-    classes: CS 162, CS 170, CS 186, CS 188
+    hours: Monday 1 PM - 2 PM
+    classes: CS 152, CS 161, CS 162, CS 170, CS 186, CS 188
     interests: Backend
-    link: meet.google.com/cdx-bhaw-evj
-  - avatar: /images/office-holders/sp20/Celena_Chang.jpg
-    name: Celena Chang
-    hours: Thursday, 1PM - 2PM
-    classes: CS 161, CS 162, CS 168, CS 170, CS 186, CS 188
-    interests: Fullstack, Frontend, Backend
-    link: meet.google.com/kgd-ecvi-qhg
-  - avatar: /images/whale-green-square.png
-    name: Samuel Chen
-    hours: Thursday, 1PM - 2PM
+    link:  https://berkeley.zoom.us/j/95326562105?pwd=MHBRMW1KYmNuazNPdWp0K1NLd1kvZz09
+  - avatar: /images/office-holders/fa20/Debbie_Liang.jpg
+    name: Debbie Liang
+    hours: Monday/Wednesday, 2 PM - 3 PM
+    classes: CS 170, CS 189, Data 100, CS 162, CS 161, CS 184, CS 188
+    interests: Backend, ML, Infrastructure
+    link: https://berkeley.zoom.us/j/7043525305
+  - avatar: /images/office-holders/fa20/Valerie_Yip.jpg
+    name: Valerie Yip
+    hours: Monday, 3 PM - 5 PM
     classes: CS 170
-    interests: Backend, ML/AI
-    link: meet.google.com/gbo-cnjh-afq
-  - avatar: /images/whale-green-square.png
-    name: Rick Surya
-    hours: Thursday, 2PM - 3PM
+    interests: Full Stack, SWE
+    link:  https://berkeley.zoom.us/j/96761230542?pwd=eGdvd1VsRERDRGhRSVNCaCtVaEN1Zz09
+  - avatar: /images/office-holders/fa20/Ankit_Agarwal.jpg
+    name: Ankit Agarwal
+    hours: Monday/Wednesday, 4 PM - 5 PM
+    classes: CS 170, CS 162, EECS 126, EECS 127, CS 161, CS 189
+    interests: Full Stack, Infrastructure, ML/AI
+    link: https://berkeley.zoom.us/j/94714097921?pwd=TVlPNkJaRFdjQ0lTdVp3cC9SYnd3Zz09
+  - avatar: /images/office-holders/fa20/Leon_Ming.jpg
+    name: Leon Ming
+    hours: Monday/Wednesday, 4 PM - 5 PM
+    classes: CS 170, CS 188, CS 162, CS 189
+    interests: Backend, Full Stack
+    link: https://berkeley.zoom.us/j/93074665004
+  - avatar: /images/office-holders/fa20/Mantej_Panesar.jpg
+    name: Mantej Panesar
+    hours: Monday/Thursday, 9 PM - 10 PM
+    classes: CS 170, CS 162, CS 186
+    interests: Backend, Data Science, ML/AI
+    link:  https://berkeley.zoom.us/j/96418105763?pwd=NmsvQU0raTNCT1ZOR0lCS3NzUVF6UT09
+  - avatar: /images/office-holders/fa20/Michelle_DSouza.jpg
+    name: Michelle D'Souza
+    hours: Tuesday, 8 AM - 9 AM
+    classes: CS 170, CS 161, CS 162, CS 186, EE 127
+    interests: SWE, Android Engineering, Fulltack 
+    link:  https://berkeley.zoom.us/j/94884203955?pwd=NzR5Zkl5Q0tIZ1VieHFNWDhlWDdodz09
+  - avatar: /images/office-holders/fa20/Elicia_Ye.jpg
+    name: Elicia Ye
+    hours: Tuesday, 11 AM - 12 PM
+    classes: CS 170, EE 126, CS 161, Math 110, Ling 100
+    interests: Backend, Theory
+    link: https://berkeley.zoom.us/j/97249390360?pwd=S2hxdDhsMk5sVzlNOTF5S0hmVEJKQT09
+  - avatar: /images/office-holders/fa20/Xinyun_Cao.jpg
+    name: Xinyun Cao
+    hours: Tuesday/Thursday, 11 AM - 12 PM
+    classes: CS 170, CS 188
+    interests: HCI, VR/AR
+    link: https://berkeley.zoom.us/j/91331479533?pwd=RDZuamp1SG4xSjZVZWVmNHdaOWZ4dz09
+  - avatar: /images/office-holders/fa20/Won_Ryu.jpg
+    name: Won Ryu
+    hours: Tuesday, 12 PM - 1 PM
+    classes: CS 170, CS 188, CS 189, CS 162, CS 186
+    interests: Backend, Databases
+    link: https://berkeley.zoom.us/j/96708447209?pwd=NzMrQVAyZzBQMmRMby9xbHhHTzF4QT09
+  - avatar: /images/office-holders/fa20/Chirasree_Mandal.jpg
+    name: Chirasree Mandal
+    hours: Tuesday, 2 PM - 3 PM
     classes: CS 170
-    interests: Backend
-    link: meet.google.com/ntd-fmgr-yat
-  - avatar: /images/whale-green-square.png
-    name: Dustin Luong
-    hours: Thursday, 2PM - 3PM
+    interests: Backend, UI/UX Design (not frontend), Comp Bio, Data Science
+    link:  https://berkeley.zoom.us/j/97276283447?pwd=aDJtR0VwVVJwUmJFUGFVR0RSNTE2QT09
+  - avatar: /images/office-holders/fa20/Chase_Norman.jpg
+    name: Chase Norman
+    hours: Tuesday/Wednesday, 5 PM - 6 PM
     classes: CS 170
-    interests: ML/Ai, VR/AR
-    link: meet.google.com/shz-uvka-wgp
-  - avatar: /images/whale-green-square.png
-    name: Abinav Routhu
-    hours: Thursday, 3PM - 4PM
-    classes: CS 170, EECS 127
-    interests: Fullstack, NLP
-    link: meet.google.com/xdz-pazr-pve
-  - avatar: /images/office-holders/sp20/Sajal_Sharma.jpg
-    name: Sajal Sharma
-    hours: Thursday, 3PM - 4PM
-    classes: CS 170, Data 100, Stat 140, CS 188
-    interests: Backend, Fullstack, Data Science, ML/AI
-    link: meet.google.com/eyr-zmeo-asb
-  - avatar: /images/office-holders/sp20/Prashant_Malyala.png
-    name: Prashant Malyala
-    hours: Friday, 11AM - 12PM
-    classes: CS 170, Data 100 (IP)
-    interests: Probability/Statistics, Discrete Math, Data Science
-    link: meet.google.com/eew-mhqe-mnc
-  - avatar: /images/office-holders/sp20/George_Wang.jpg
-    name: George Wang
-    hours: Friday, 11AM - 12PM
-    classes: CS 162, CS 161, CS 170, EE 106a, CS 188 
-    interests: Fullstack
-    link: meet.google.com/wfo-fgmc-fxj
-  - avatar: /images/office-holders/sp20/Jason_Wang.jpg
-    name: Jason Wang
-    hours: Friday, 12PM - 1PM
-    classes: CS 161, CS 170, CS 186, CS 188, EE 120, EECS 126
-    interests: Mobile, Full Stack
-    link: meet.google.com/ssi-jqxi-qoa
-  - avatar: /images/office-holders/sp20/Brian_Lee.jpg
+    interests: Theoretical Computer Science, Full Stack
+    link:   https://berkeley.zoom.us/j/97913061139?pwd=clQzSEhWRHpnS2xYVGRQU3hHbU5Odz09
+  - avatar: /images/office-holders/fa20/Brian_Lee.jpg
     name: Brian Lee
-    hours: Friday, 12PM - 1PM
-    classes: CS 170, CS 188, CS 189, EE 126, Stat 135, CS 270, Stat 210A, EE 229A, CS 285 
-    interests: ML/AI, Backend, Infrastructure
-    link: meet.google.com/kee-zuuh-kgr
-  - avatar: /images/office-holders/sp20/Lindsay_Yang.jpg
-    name: Lindsay Yang
-    hours: Friday, 1PM - 2PM
-    classes: CS 161, CS 162, CS 170, CS 188, CS 189, EECS 126, CS 186
+    hours: Wednesday, 1 AM - 2 AM
+    classes: CS 170, CS 182, CS 188, CS 189, CS 194-26, CS 270, CS 285, CS 294s, EECS 126, EE 229A, Stat 135, Stat 210A
+    interests: ML/AI, Data Science, Theory, Financial Engineering, Backend
+    link:  https://berkeley.zoom.us/j/91600426653?pwd=NkxPdWdDeEQxVzE3VFcvYXA0VUN0UT09
+  - avatar: /images/office-holders/fa20/Wallace_Lim.jpg
+    name: Wallace Lim
+    hours: Wednesday, 4 PM - 5 PM
+    classes: STAT 140, CS 170, CS 161, CS 188, DATA 100
+    interests: ML/AI, Backend, Data Science
+    link: https://berkeley.zoom.us/j/95697787252?pwd=U2xacnlOK1k2TDkxaVUxMWY3cEhuUT09
+  - avatar: /images/office-holders/fa20/Chi_Tsai.jpg
+    name: Chi Tsai
+    hours: Thursday, 1 PM - 2 PM 
+    classes: CS 170
+    interests: Backend, Frontend, Full Stack
+    link: https://berkeley.zoom.us/j/91227856643
+  - avatar: /images/office-holders/fa20/Jason_Wang.jpg
+    name: Jason Wang
+    hours: Thursday, 3 PM - 4 PM
+    classes: CS 161, CS 162, CS 168, CS 170, CS 186, CS 188, CS 189
+    interests: Frontend, Mobile, ML/AI
+    link: https://berkeley.zoom.us/j/94568045236?pwd=eHRHWkRUMnAyd2VXajRQcjk2T1VKZz09
+  - avatar: /images/office-holders/fa20/Stella_Wan.jpg
+    name: Stella Wan
+    hours: Thursday, 4 PM - 5 PM
+    classes: CS 170 
     interests: Backend
-    link: meet.google.com/frc-gzko-kes
+    link:  https://berkeley.zoom.us/j/93128741069?pwd=VFF3c0syL0k5ZVZkS3dHaEZDMFR2dz09
+  - avatar: /images/office-holders/fa20/Cindy_Zhang.jpg
+    name: Cindy Zhang
+    hours: Friday, 10 AM - 11 AM, 12 PM - 1 PM
+    classes: CS 170, CS 188
+    interests: Backend, Frontend, Full Stack, Theory, ML/AI
+    link: https://berkeley.zoom.us/j/97129613252?pwd=NVJodjdwM2JWV2pGSTltNFJIL3c1UT09
   - avatar: /images/whale-green-square.png
+    name: Kristy Lee
+    hours: Friday, 2 PM - 3 PM
+    classes: CS 170
+    interests: Backend, Full Stack, ML/AI
+    link: https://berkeley.zoom.us/j/94267494709?pwd=cjkwY0NHVnprQ3NPUGRqRzlnTEJ6UT09
+  - avatar: /images/office-holders/fa20/Yin_Deng.jpg
     name: Yin Deng
-    hours: Friday, 1PM - 2PM
-    classes: CS 170, Data 100
-    interests: Data Science, ML/AI
-    link: meet.google.com/ese-qofk-qjy
+    hours: Friday, 4 PM - 5 PM
+    classes: CS170, CS162, Data 100
+    interests: Systems, Machine Learning
+    link:   https://berkeley.zoom.us/j/98132195907?pwd=S2czSG1nRUdwMEw0cHJucnVPTlZWdz09
+  - avatar: /images/office-holders/fa20/Jacqueline_Yeung.jpg
+    name: Jacqueline Yeung
+    hours: Friday, 5 PM - 6 PM
+    classes: CS 170, CS 188, CS 161, CS C100 (DATA 100)
+    interests: Backend, Data Science, Web Development
+    link: https://berkeley.zoom.us/j/91920935034?pwd=TTlZVU0zVGNzK3d6RmJwQ0xpY1gvdz09
+  - avatar: /images/office-holders/fa20/Alan_Pham.jpg
+    name: Alan Pham
+    hours: Saturday, 2 PM - 3 PM 
+    classes: CS 170, CS 188, CS 162, CS 186, STAT C100
+    interests: Backend, ML/AI
+    link: https://berkeley.zoom.us/j/96086776522?pwd=SG1heEtVM0h0VG1iODZiQnJ3RDl4Zz09
+  - avatar: /images/office-holders/fa20/Kathy_Wu.jpg
+    name: Kathy Wu
+    hours: Saturday, 3 PM - 4 PM
+    classes: CS 170, CS 188, Data 100
+    interests: Full Stack
+    link: https://berkeley.zoom.us/j/3236709619
