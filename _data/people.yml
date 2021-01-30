@@ -1,7 +1,7 @@
 sp21-officers:
   name: Spring 2021
   path: /about/officers
-  cover-pic: /images/officer-board/sp21.jpg
+  cover-pic: /images/officer-board/sp21.png
   members:
     - avatar: /images/officers/Michelle_DSouza.jpg
       hoveravatar: /images/officers/Michelle_DSouza_Fun.jpg
@@ -50,7 +50,7 @@ sp21-officers:
       name: Yin Deng
       email: profdev (at) upe.berkeley.edu
       desc: Professional Development Chair
-    - avatar: /images/officers/Mantej_Panesar.jpg
+    - avatar: /images/officers/Mantej_Panesar.png
       hoveravatar: /images/officers/Mantej_Panesar_Fun.jpg
       name: Mantej Panesar
       email: profdev (at) upe.berkeley.edu
@@ -115,9 +115,9 @@ sp21-officers:
       email: memeng (at) upe.berkeley.edu
       desc: Member Engagement Chair
 
-    - avatar: /images/officers/Luke_Liu.jpg
+    - avatar: /images/officers/Luke_Liu.JPG
       hoveravatar: /images/officers/Luke_Liu_Fun.jpg
-      name: Luke_Liu
+      name: Luke Liu
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
     - avatar: /images/officers/Chase_Norman.jpg
