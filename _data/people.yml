@@ -77,7 +77,7 @@ sp21-officers:
       email: publicity (at) upe.berkeley.edu
       desc: Publicity Chair
 
-    - avatar: /images/officers/Grace_Chen.jpg
+    - avatar: /images/officers/Grace_Chen.png
       hoveravatar: /images/officers/Grace_Chen_Fun.jpg
       name: Grace Chen
       email: social (at) upe.berkeley.edu
@@ -85,6 +85,7 @@ sp21-officers:
     - avatar: /images/officers/Lydia_Liu.jpg
       hoveravatar: /images/officers/Lydia_Liu_Fun.jpg
       name: Lydia Liu
+
       email: social (at) upe.berkeley.edu
       desc: Social Chair
     - avatar: /images/officers/Chi_Tsai.jpg
