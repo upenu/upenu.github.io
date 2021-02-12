@@ -1,6 +1,6 @@
 sp21-officers:
   name: Spring 2021
-  path: /about/officers
+  path: /about/officers/sp21
   cover-pic: /images/officer-board/sp21.png
   members:
     - avatar: /images/officers/Michelle_DSouza.jpg
@@ -129,7 +129,7 @@ sp21-officers:
 
 fa20-officers:
   name: Fall 2020
-  path: /about/officers
+  path: /about/officers/fa20
   cover-pic: /images/officer-board/fa20.jpg
   members:
     - avatar: /images/past-officers/Ankit_Agarwal.jpg
