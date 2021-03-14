@@ -1,3 +1,51 @@
+# Spring 2021
+Neel Somani, 2019; Ellen Xiong, 2022; Satvik Sharma, 2023
+Haiming Xu, 2020; Amritansh Saraf, 2023
+Michelle D'Souza, 2021; Rachel Li, 2022; Joshua Levine, 2023
+Luke Liu, 2023; Kan Liu, 2021
+Debbie Liang, 2021; Ryan Sun, 2023
+Jacqueline Yeung, 2021; Luyao He, 2023
+Joshua Yeung, 2021; Andrew Chen, 2023
+Stella Wan, 2022; Victor Jann, 2022; Pengyuan Chen, 2022
+Brian Lee, 2021; Catherine Gai, 2023
+Yin Deng, 2022; Seongmin Choo, 2023
+Jay Monga, 2022; Lukas Chang, 2023
+Aster Chun, 2022; Arnav Gulati, 2022
+Ankit Agarwal, 2021; Ashwin Reddy, 2023
+Enya Xing, 2023; Yuwen Zhang, 2023
+Neel Sen, 2023; Andrew McGuire, 2023
+Xinyun Cao, 2022; Evelyn Pinjen Wu, 2023; Nicholas Jennings, 2023
+Angela Juang, 2011; Catherine Zhang, 2023
+Ryan Chao, 2022; Gaoyue Zhou, 2021
+Eric Wang, 2023; Amit Sant, 2023
+Sagnick Bhattacharya, 2022; Justin Thein, 2023
+
+# Fall 2020
+Haiming Xu, 2020; Luke Liu, 2023
+Jay Monga, 2022; Aster Chun, 2022; Sagnick Bhattacharya, 2022
+Ankit Agarwal, 2021; Amit Bhat, 2023
+Michelle D'Souza, 2021; Samarth Bhutani, 2023; Neel Sen, 2023
+Michael Yang, 2022; Joshua Wong, 2023
+Carol Xie, 2021; Rishi Parikh, 2023
+Prashant Malyala, 2022; Divya Parimi, 2022
+Julia Liu, 2022; Evelyn Liu, 2023
+Debbie Liang, 2021; Nancy Huang, 2022; Jwalin Joshi, 2022
+Tim Lee, 2022; Jiaxun Li, 2023
+Jason Wang, 2021; Advait Marathe, 2023
+Brian Lee, 2021; Michael Chou, 2022
+Xinyun Cao, 2022; Mitchell Ding, 2022; Chelsea Ye, 2022
+Chi Tsai, 2022; Christine Lu, 2022; Nala Chen, 2022
+Won Ryu, 2021; Yasoob Khalid Niazi, 2022
+Leon Ming, 2021; Austin Zuo, 2022; Abhinav Gopal, 2021
+Brandon Shin, 2022; Yueheng Zhang, 2023; Daryl Bui, 2022
+Dustin Luong, 2022; Kevin Zhou, 2022; Adithya Paramasivam, 2023
+Stella Wan, 2022; Oscar Xu, 2023; Kawin, 2021
+Jacqueline Yeung, 2021; Ryan Chao, 2022; Grace Chen, 2023
+Chase Norman, 2023; Charlie Snell, 2022
+Joy Ma, 2022; Enya Xing, 2023
+Danlin Lillemark, 2021; Hansen Lillemark, 2023
+Taejin Hwang, 2020; Eric Wang, 2023
+
 # Spring 2020
 Lindsay Yang, 2020; Leon Ming, 2021; Siddharth Verma, 2021
 Leon Ming, 2021; Chase Norman, 2023; Jay Monga, 2022
@@ -30,7 +78,7 @@ Tim Lee, 2022; Aster Guan, 2022
 Debbie Liang, 2021; Stella Wan, 2022; Robert Lin, 2022
 JC Dy, 2020; Jacky Chen, 2022
 Anita Cu, 2020; Ujjaini Mukhopadhyay, 2022
-Lakshya Jain, 2019; Qasim Iqbal, 2020; Haiming Xu, 2022
+Lakshya Jain, 2019; Qasim Iqbal, 2020; Haiming Xu, 2020
 Celena Chang, 2020; Sabrina Zhao, 2022; Joy Ma, 2022
 Brian Lee, 2021; Sean Sananikone, 2022
 Jason Wang, 2021; Alex Yang, 2022
