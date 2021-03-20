@@ -30,7 +30,7 @@ Carol Xie, 2021; Rishi Parikh, 2023
 Prashant Malyala, 2022; Divya Parimi, 2022
 Julia Liu, 2022; Evelyn Liu, 2023
 Debbie Liang, 2021; Nancy Huang, 2022; Jwalin Joshi, 2022
-Tim Lee, 2022; Jiaxun Li, 2023
+Tim Lee, 2021; Jiaxun Li, 2023
 Jason Wang, 2021; Advait Marathe, 2023
 Brian Lee, 2021; Michael Chou, 2022
 Xinyun Cao, 2022; Mitchell Ding, 2022; Chelsea Ye, 2022
@@ -74,7 +74,7 @@ William Ma, 2020; Owen Gong, 2022
 Won Ryu, 2021; Brandon Shin, 2022
 Richard Liu, 2022; Linda Deng, 2022
 Wallace Lim, 2022; Jaren Mendelsohn, 2022
-Tim Lee, 2022; Aster Guan, 2022
+Tim Lee, 2021; Aster Guan, 2022
 Debbie Liang, 2021; Stella Wan, 2022; Robert Lin, 2022
 JC Dy, 2020; Jacky Chen, 2022
 Anita Cu, 2020; Ujjaini Mukhopadhyay, 2022
@@ -105,7 +105,7 @@ Andrew Lee, 2020; Jacqueline Yeung, 2021; Jason Wang, 2021
 Lindsay Yang, 2020; Carol Wang, 2021
 Peter Wang, 2020; Austin Nguyen, 2021; Jocelyn Chen, 2022
 Lauren Go, 2021; Richard Liu, 2022
-Vanessa Lin, 2021; Tim Lee, 2022
+Vanessa Lin, 2021; Tim Lee, 2021
 Won Ryu, 2021; Wallace Lim, 2022; Addison Chan, 2022
 Will Wu, 2020; Prashant Malyala, 2022
 Christina Zhang, 2021; Frank Liu, 2022; Monica Tang, 2021
