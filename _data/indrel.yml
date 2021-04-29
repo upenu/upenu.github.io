@@ -1,7 +1,0 @@
-clients:
-  - image: /images/logos/Arista.png
-    link_to: https://www.arista.com
-  - image: /images/logos/Bloomberg.jpg
-    link_to: https://www.bloomberg.com
-  - image: /images/logos/JaneStreet.png
-    link_to: https://www.janestreet.com

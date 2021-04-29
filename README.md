@@ -1,4 +1,4 @@
-Official website for UPE @ UC Berkeley.
+Official website for our frat, UPE @ UC Berkeley.
 Website is based of off the Devoll Jekyll template.
 
 You need to have Ruby/Jekyll installed. We are not using bundler, nor do we have a Gemfile.
