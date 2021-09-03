@@ -32,7 +32,9 @@
 }
 
 .officer img {
-  min-width: 10rem;
+  width:250;
+  height:250px;
+  object-fit:cover;
 }
 
 .officer img:after {
@@ -50,6 +52,10 @@
 
   opacity: 0;
   transition: .15s ease;
+
+  width:250;
+  height:250px;
+  object-fit:cover;
 }
 
 .officer img.fun:hover{
