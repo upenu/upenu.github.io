@@ -12,6 +12,11 @@
   font-size: 0.8rem;
 }
 
+.cover {
+  object-fit: cover;
+  object-position: 20% 10%;
+}
+
 .officers {
   display: flex;
   flex-direction: row;
@@ -53,7 +58,7 @@
   opacity: 0;
   transition: .15s ease;
 
-  width:250;
+  width:250x;
   height:250px;
   object-fit:cover;
 }

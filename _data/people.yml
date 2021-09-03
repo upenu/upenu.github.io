@@ -1,7 +1,7 @@
 fa21-officers:
   name: Fall 2021
   path: /about/officers/fa21
-  cover-pic: /images/officer-board/sp21.png
+  cover-pic: /images/officer-board/fa21.jpg
   members:
     - avatar: /images/officers/Debbie_Liang.jpg
       hoveravatar: /images/officers/Debbie_Liang_Fun.jpeg
@@ -23,9 +23,9 @@ fa21-officers:
       name: Prakash Srivastava
       email: finance (at) upe.berkeley.edu
       desc: Finance Vice President
-    - avatar: /images/officers/Enya_Xing.jpg
-      hoveravatar: /images/officers/Enya_Xing.jpg
-      name: Enya Xing
+    - avatar: /images/officers/Chi_Tsai.heic
+      hoveravatar: /images/officers/Chi_Tsai_Fun.jpg
+      name: Chi Tsai
       email: internal (at) upe.berkeley.edu
       desc: Internal Vice President
 
@@ -35,7 +35,7 @@ fa21-officers:
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
     - avatar: /images/officers/Ryan_Sun.jpg
-      hoveravatar: /images/officers/Ryan_Sun.png
+      hoveravatar: /images/officers/Ryan_Sun.jpg
       name: Ryan Sun
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
@@ -78,7 +78,7 @@ fa21-officers:
       desc: Publicity Chair
 
     - avatar: /images/officers/Grace_Chen.jpg
-      hoveravatar: /images/officers/Grace_Chen.jpeg
+      hoveravatar: /images/officers/Grace_Chen.jpg
       name: Grace Chen
       email: social (at) upe.berkeley.edu
       desc: Social Chair
@@ -109,11 +109,6 @@ fa21-officers:
       email: comrel (at) upe.berkeley.edu
       desc: Community Relations Chair
 
-    - avatar: /images/officers/Chi_Tsai.heic
-      hoveravatar: /images/officers/Chi_Tsai_Fun.jpg
-      name: Chi Tsai
-      email: memeng (at) upe.berkeley.edu
-      desc: Member Engagement Chair
     - avatar: /images/officers/Valerie_Yip.jpg
       hoveravatar: /images/officers/Valerie_Yip.jpg
       name: Valerie Yip
