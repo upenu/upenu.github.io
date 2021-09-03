@@ -13,8 +13,7 @@
 }
 
 .cover {
-  object-fit: cover;
-  object-position: 20% 10%;
+  background-size: 150px;
 }
 
 .officers {
