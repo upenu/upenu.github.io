@@ -767,21 +767,21 @@ past:
   path: https://www.linkedin.com/company/upsilon-pi-epsilon-nu-chapter
 
 oh-holders:
-  - avatar: /images/office-holders/sp21/PrakashSrivastava.png
-    name: Prakash Srivastava
-    hours: Monday, 12 AM - 1 AM
-    classes: EECS 126, EECS 127, CS 161, CS 170, CS 188, EE 120, Data 100
+  - avatar: /images/office-holders/fa21/Christian_Chiong.png
+    name: Christian Chiong
+    hours: Tuesday, 12 PM - 1 PM
+    classes: CS170, CS161, Data 100, CS186
     interests: Data Science
-    link: https://berkeley.zoom.us/j/98355776840
-  - avatar: /images/office-holders/sp21/MichelleDSouza.jpg
-    name: Michelle D'Souza
-    hours: Monday, 7 AM - 8 AM
-    classes: CS 161, CS 162, CS 170, EE 127, CS 186
-    interests: Full Stack, Web Development, Mobile Development
-    link:  https://berkeley.zoom.us/j/97965934497
-  - avatar: /images/whale-green-square.png
-    name: Lydia Lu
-    hours: Monday, 10 AM - 11 AM
+    link: https://berkeley.zoom.us/j/97662570858?pwd=RFZJZXFySG1UMVVyY3kwSDlYelI5UT09
+  - avatar: /images/office-holders/fa21/Rahul_Shah.jpeg
+    name: Rahul Shah
+    hours: Friday, 2 PM - 3 PM
+    classes: DATA C100
+    interests: backend, frontend, full stack, data science, AI/ML
+    link:  https://berkeley.zoom.us/my/rsha256?pwd=OWZBSFo0bC9xTzNCMjNLcjJDWUJYQT09
+  - avatar: /images/office-holders/fa21/Clark_Wang.jpeg
+    name: Clark Wang
+    hours: Thursday, 11 AM - 12 PM
     classes: CS170
     interests: Backend, Full Stack
     link: https://berkeley.zoom.us/j/93940912265?pwd=ZS9USnBBRG9Ic05lcTNqb1QxN0FtQT09
