@@ -772,172 +772,214 @@ oh-holders:
     hours: Tuesday, 12 PM - 1 PM
     classes: CS170, CS161, Data 100, CS186
     interests: Data Science
+    interview: Data Structures / Algorithms, Behavioral
+    advising: AI/ML, Getting into research, Non-CS Research
     link: https://berkeley.zoom.us/j/97662570858?pwd=RFZJZXFySG1UMVVyY3kwSDlYelI5UT09
   - avatar: /images/office-holders/fa21/Rahul_Shah.jpeg
     name: Rahul Shah
     hours: Friday, 2 PM - 3 PM
     classes: DATA C100
     interests: backend, frontend, full stack, data science, AI/ML
+    interview: Data Structures / Algorithms, Behavioral, Quant Trading
+    advising: AI/ML, Theory
     link:  https://berkeley.zoom.us/my/rsha256?pwd=OWZBSFo0bC9xTzNCMjNLcjJDWUJYQT09
   - avatar: /images/office-holders/fa21/Clark_Wang.jpeg
     name: Clark Wang
     hours: Thursday, 11 AM - 12 PM
-    classes: CS170
-    interests: Backend, Full Stack
+    classes: EECS126, EECS127, CS170, CS189, CS162, CS194-26, EECS229A
+    interests: Probability
+    interview: Data Structures / Algorithms, Quant Trading
+    advising: AI/ML, Theory, Getting into research
     link: https://berkeley.zoom.us/j/93940912265?pwd=ZS9USnBBRG9Ic05lcTNqb1QxN0FtQT09
-  - avatar: /images/office-holders/sp21/FelixYan.jpg
+  - avatar: /images/office-holders/fa21/Felix_Yan.jpg
     name: Felix Yan
-    hours: Monday, 12 PM - 1 PM
-    classes: CS 161, CS 170, CS 186
-    interests: Backend, Full Stack
+    hours: Tuesday, 8 AM - 9 AM
+    classes: DATA100, CS161, CS162, CS170, CS186, CS188
+    interests: Backend, ML Infrastructure
+    interview: Data Structures / Algorithms
+    advising: Systems, Getting into research
     link: https://berkeley.zoom.us/j/94960705357?pwd=NVJPV1VUYnRsNm1FdzJWRnZGdFYzdz09
-  - avatar: /images/office-holders/sp21/YinDeng.jpg
-    name: Yin Deng
-    hours: Monday/Wednesday, 1 PM - 2 PM
-    classes: CS 162, CS 170, CS 186
-    interests: Backend, AI/ML
-    link: https://berkeley.zoom.us/j/98132195907?pwd=S2czSG1nRUdwMEw0cHJucnVPTlZWdz09
-  - avatar: /images/office-holders/sp21/RyanChao.jpg
-    name: Ryan Chao
-    hours: Monday, 2 PM - 3 PM
-    classes: CS 170, CS 186
-    interests: Full Stack
-    link: https://berkeley.zoom.us/j/96991291490?pwd=ZlRzTS9LdmRGTnYvdnlCODNZNWZ1Zz09
-  - avatar: /images/office-holders/sp21/StellaWan.jpg
-    name: Stella Wan
-    hours: Monday, 4 PM - 5 PM
-    classes: CS 161, CS 170, CS 186
-    interests: Backend
-    link:  https://berkeley.zoom.us/j/93128741069?pwd=VFF3c0syL0k5ZVZkS3dHaEZDMFR2dz09
-  - avatar: /images/office-holders/sp21/EricXu.jpg
-    name: Eric Xu
-    hours: Tuesday, 7 AM - 8 AM
-    classes: 186, 161, 170, 126, 131, 110, 169
-    interests: Full stack
-    link: https://berkeley.zoom.us/j/92579543669?pwd=VkV1YUVvUENtalRmbW5jdlJMTzVqZz09
-  - avatar: /images/office-holders/sp21/XinyunCao.jpeg
-    name: Xinyun Cao
-    hours: Tuesday, 10 AM - 11 AM
-    classes: CS 170, CS 188, EECS 127, CS 294-137
-    interests: Backend, AR/VR, Game Development
-    link: https://berkeley.zoom.us/j/98746194504?pwd=WDBLMXZvQytHcjByaU9PVDg5UU8wZz09
-  - avatar: /images/office-holders/sp21/OscarXu.jpeg
-    name: Oscar Xu
-    hours: Tuesday, 10 AM - 11 AM
-    classes: CS 170, CS 189, Math H110
-    interests: AI/ML 
-    link: https://berkeley.zoom.us/j/9203038518
-  - avatar: /images/office-holders/sp21/AmitBhat.png
-    name: Amit Bhat
-    hours: Tuesday, 1 PM - 2 PM
-    classes: CS 170, Data 100
-    interests: Backend, Data Science, ML/AI 
-    link: https://berkeley.zoom.us/j/8481127963
-  - avatar: /images/office-holders/sp21/ChaseNorman.png
-    name: Chase Norman
-    hours: Tuesday, 2 PM - 3 PM
-    classes: CS170, CS161 
-    interests: Theoretical Computer Science, Full Stack
-    link:   https://berkeley.zoom.us/j/97913061139?pwd=clQzSEhWRHpnS2xYVGRQU3hHbU5Odz09
-  - avatar: /images/office-holders/sp21/NalaChen.jpg
-    name: Nala Chen
-    hours: Tuesday, 6 PM - 7 PM
-    classes: CS 186, CS 160, CS 188
-    interests: Backend, Frontend, Full Stack 
-    link: https://berkeley.zoom.us/j/97189205013?pwd=WWRLMU5iWFgzVDljYmxNVlJaVzA1Zz09
-  - avatar: /images/office-holders/sp21/ChiTsai.jpeg
+  - avatar: /images/office-holders/fa21/Chi_Tsai.jpg
     name: Chi Tsai
-    hours: Tuesday, 7 PM - 8 PM
-    classes: CS 170, CS 162, CS 188, STAT 133
-    interests: Backend, Full Stack, Mobile Development
-    link: https://berkeley.zoom.us/j/99284745201
-  - avatar: /images/office-holders/sp21/KathyWu.jpg
-    name: Kathy Wu
-    hours: Wednesday, 10 AM - 11 AM
-    classes: CS 170, CS 162, CS 161, CS 188, Data 100
-    interests: Full Stack, Computational Biology, ML
-    link: https://berkeley.zoom.us/j/3236709619
-  - avatar: /images/office-holders/sp21/TimLee.jpg
-    name: Tim Lee
-    hours: Wednesday, 3 PM - 4 PM
-    classes: CS 152, CS 161, CS 162, CS 170, CS 186, CS 188
+    hours: Monday, 10 AM - 11 AM (Every other week)
+    classes: CS162, CS170, CS188, STAT133
     interests: Backend
-    link:  https://berkeley.zoom.us/j/95326562105?pwd=MHBRMW1KYmNuazNPdWp0K1NLd1kvZz09
-  - avatar: /images/office-holders/sp21/EnyaXing.jpg
-    name: Enya Xing
-    hours: Wednesday, 4 PM - 5 PM
-    classes: CS 170
-    interests: Full Stack, Mobile 
-    link:  https://berkeley.zoom.us/j/94769138548?pwd=T2V0RFZzOCtaSjNZZlNGSTFJS1JnUT09
-  - avatar: /images/office-holders/sp21/LukeLiu.JPG
-    name: Luke Liu
-    hours: Thursday, 9 AM - 10 AM
-    classes: Data C100, CS 170, EECS 127, CS W186, CS 161 
+    interview: Data Structures / Algorithms, Behavioral
+    advising: Systems, Internships, Teaching
+    link: N/A
+  - avatar: /images/office-holders/fa21/Ryan_Chao.jpg
+    name: Ryan Chao
+    hours: Monday, 6 PM - 7 PM
+    classes: CS 170, CS 161, CS W186, EECS 127, Data C100
     interests: Backend, Full Stack, Data Science
-    link: https://berkeley.zoom.us/my/lukeliu
-  - avatar: /images/office-holders/sp21/DebbieLiang.jpg
-    name: Debbie Liang
-    hours: Thursday, 10 AM - 11 AM
-    classes: CS 162, CS 170, CS 189, CS 188, CS 267, CS 184, CS 161, CS 186 
-    interests: Backend (Database), ML (Application)
-    link: https://berkeley.zoom.us/j/95347813059?pwd=MXk0dG1PWTRSMHRVT2dacXRrR21CUT09
-  - avatar: /images/office-holders/sp21/ShayanIslam.jpg
-    name: Shayan Islam
-    hours: Thursday, 1 PM - 2 PM
-    classes: DS 100, DS 104, EECS 127, CS 170
-    interests: Full Stack, Systems, Algorithms, Data Science, AI/ML
-    link: https://berkeley.zoom.us/j/98227841873?pwd=V2FKV3h5YjB4M01JSXd6OEVCdE91QT09
-  - avatar: /images/office-holders/sp21/NeelSen.jpg
-    name: Neel Sen
-    hours: Thursday, 10 PM - 11 PM
-    classes: CS 170
-    interests: Backend, ML, Full Stack
-    link: TBD
-  - avatar: /images/office-holders/sp21/MantejPanesar.png
-    name: Mantej Panesar
-    hours: Friday, 11 AM - 12 PM
-    classes: CS 170, CS 162, CS 186, CS 161, CS 188, Data 100
-    interests: Backend, Data Science, ML/AI, Distributed Systems
-    link:  TBD
-  - avatar: /images/office-holders/sp21/BrianLee.png
-    name: Brian Lee
-    hours: Friday, 2 PM - 3 PM
-    classes: CS 170, CS 182, CS 188, CS 189, CS 194-26, CS 270, CS C281A, CS 285, CS 294s, EECS 126, EE 229A, Stat 135, Stat 210A, Stat 260, IEOR 221A, VS 265
-    interests: AI/ML, Data Science, Theory, Financial Engineering
-    link: https://berkeley.zoom.us/j/91600426653?pwd=NkxPdWdDeEQxVzE3VFcvYXA0VUN0UT09
-  - avatar: /images/office-holders/sp21/AnkitAgarwal.jpg
-    name: Ankit Agarwal
-    hours: Friday, 4 PM - 5 PM
-    classes: CS 161, CS 162, CS 170, EECS 126, EECS 127, CS 189, EECS 149, CS 194-26, CS 186
-    interests: AI/ML, Machine Learning Systems, Full Stack Web Development 
-    link: https://berkeley.zoom.us/j/94714097921?pwd=TVlPNkJaRFdjQ0lTdVp3cC9SYnd3Zz09
-  - avatar: /images/office-holders/sp21/JacquelineYeung.png
-    name: Jacqueline Yeung
+    interview: Data Structures / Algorithms
+    advising: classes, teaching (ta/csm), recruiting
+    link: N/A
+  - avatar: /images/office-holders/fa21/Stella_Wan.jpg
+    name: Stella Wan
+    hours: Thursday, 2 PM - 3 PM
+    classes: CS 161, CS 170, CS 186, CS 188, CS 162
+    interests: Backend
+    interview: Data Structures/ Algorithms, Behavioral
+    advising: Systems, Internships, Classes, Teaching
+    link:  https://berkeley.zoom.us/j/93128741069?pwd=VFF3c0syL0k5ZVZkS3dHaEZDMFR2dz09
+  - avatar: /images/office-holders/fa21/Ellen_Xiong.jpg
+    name: Ellen Xiong
+    hours: Monday, 7 PM - 8 PM
+    classes: 186, 161, 170, 126, 131, 110, 169
+    interests: Backend
+    interview: Data Structures / Algorithms, System Design, Behavioral
+    advising: Systems
+    link: https://berkeley.zoom.us/j/6998658643
+  - avatar: /images/office-holders/fa21/Xinyun_Cao.jpg
+    name: Xinyun Cao
     hours: Friday, 5 PM - 6 PM
-    classes: CS 170, CS 188, Data 100, CS 161, CS 162, CS 186, Indeng 162
+    classes: CS170, CS188, CS 162(P), CS184, CS294-137, EE127
+    interests: GameDev(Backend and Frontend, Unity C#), ML/AI, Graphics
+    interview: Data Structures / Algorithms, Behavioral
+    advising: AI/ML, Theory, Getting into research
+    link: https://berkeley.zoom.us/j/98746194504?pwd=WDBLMXZvQytHcjByaU9PVDg5UU8wZz09
+  - avatar: /images/office-holders/fa21/Daniel_Li.jpeg
+    name: Daniel Li
+    hours: Tuesday, 9 AM - 10 AM
+    classes: CS170, CS186 (in progress)
+    interests: Backend, Full stack, AI/ML
+    interview: Data Structures / Algorithms
+    advising: General
+    link: https://berkeley.zoom.us/j/9203038518
+  - avatar: /images/office-holders/fa21/Ryan_Sun.jpg
+    name: Ryan Sun
+    hours: Friday, 10 AM - 11 AM
+    classes: CS161, CS170, CS188
+    interests: backend, frontend, fullstack
+    interview: Data Structures / Algorithms, Behavioral
+    advising: Resume/LI building
+    link: https://berkeley.zoom.us/my/ryansun
+  - avatar: /images/office-holders/fa21/Chase_Norman.png
+    name: Chase Norman
+    hours: Monday, 4 PM - 5 PM
+    classes: CS 270, CS 170, CS 161
+    interests: Algorithms, Automated Reasoning
+    interview: Data Structures / Algorithms
+    advising: Theory, Getting into research
+    link:   https://berkeley.zoom.us/my/chasenorman
+  - avatar: /images/office-holders/fa21/Wallace_Lim.JPG
+    name: Wallace Lim
+    hours: Friday, 12 PM - 1 PM
+    classes: CS189, CS188, CS182, CS180, CS162, CS161, EECS127, DATA100, DATA140
+    interests: backend, full stack
+    interview: Data Structures / Algorithms, System Design, Behavioral
+    advising: Systems
+    link: N/A
+  - avatar: /images/office-holders/fa21/Kathy_Wu.JPG
+    name: Kathy Wu
+    hours: Monday, 11 AM - 12 PM
+    classes: CS162, CS170, CS188, CS189, EECS126, CS161, Data100
+    interests: AI/ML, full stack
+    interview: Data Structures / Algorithms, Behavioral
+    advising: AI/ML, Getting into research
+    link: https://berkeley.zoom.us/my/kathywu
+  - avatar: /images/office-holders/fa21/Sagnik_Bhattacharya.jpg
+    name: Sagnik Bhattacharya
+    hours: Wednesday, 9 PM - 10 PM
+    classes: CS 127, 161, 162, 170, 182, 189, 280, 285, 294-176 (neural network math), Stat 135, 140, 151A, 153, 156, 210A, Math 113
+    interests: AI/ML, systems
+    interview: Data Structures / Algorithms, Behavioral, quant research
+    advising: Systems, AI/ML, Theory, Getting into research
+    link:  https://berkeley.zoom.us/my/sagnibak
+  - avatar: /images/office-holders/fa21/Justin_Thein.jpg
+    name: Justin Thein
+    hours: Wednesday, 3 PM - 4 PM
+    classes: 161, 170, 186, 188
+    interests: mostly backend & systems programming
+    interview: Data Structures / Algorithms
+    advising: Systems
+    link:  https://berkeley.zoom.us/j/7571822151
+  - avatar: /images/office-holders/fa21/Luke_Liu.jpg
+    name: Luke Liu
+    hours: Monday, 3 PM - 4 PM
+    classes: CS 170, CS 161, CS W186, EECS 127, Data C100 
     interests: Backend, Full Stack, Data Science
-    link: https://berkeley.zoom.us/j/93964962243?pwd=WllqMDB2TVBiQTRwNDc1bDk2cDZ3dz09
-  - avatar: /images/office-holders/sp21/VanshajSinghania.jpg
-    name: Vanshaj Singhania
+    interview: Data Structures / Algorithms, Behavioral
+    advising: Industry, Teaching, Clubs / Navigating Berkeley
+    link: https://berkeley.zoom.us/my/lukeliu
+  - avatar: /images/office-holders/fa21/Debbie_Liang.jpg
+    name: Debbie Liang
+    hours: Tuesday, 1 PM - 2 PM
+    classes: CS162, CS170, CS186, CS161, CS188, CS189, CS267, CS184
+    interests: backend/ infrastructure, systems, ML
+    interview: Data Structures / Algorithms
+    advising: Systems, AI/ML, Getting into research, recruiting, networking
+    link: https://berkeley.zoom.us/j/95347813059?pwd=MXk0dG1PWTRSMHRVT2dacXRrR21CUT09
+  - avatar: /images/office-holders/fa21/Phoebe_Li.jpg
+    name: Phoebe Li
+    hours: Wednesday, 11 AM - 12 PM
+    classes: CS170, CS162, Data 100, CS161 (IP), CS188 (IP)
+    interests: backend, full stack
+    interview: Data Structures / Algorithms, Behavioral
+    advising: Systems, Theory
+    link: N/A
+  - avatar: /images/office-holders/fa21/James_Nguyen.jpg
+    name: James Nguyen
+    hours: Tuesday, 11 AM - 12 PM
+    classes: CS170 and CS188
+    interests: AI/ML, Data Science, and Backend
+    interview: Data Structures / Algorithms
+    advising: AI/ML, Theory
+    link: http://berkeley.zoom.us/my/j.nguyen
+  - avatar: /images/office-holders/fa21/Tim_Tu.jpg
+    name: Tim Tu
+    hours: Wednesday, 7 PM - 8 PM
+    classes: CS 170, CS 162, CS 186, CS 161, CS 188, Data 100
+    interests: backend, AI/ML, teaching
+    interview: Data Structures / Algorithms
+    advising: Systems
+    link:  N/A
+  - avatar: /images/office-holders/fa21/Rishi_Parikh.jpg
+    name: Rishi Parikh
+    hours: Tuesday, 10 AM - 11 AM
+    classes: Cs188, cs170, data 100
+    interests: Data science, ai/ml 
+    interview: Data Structures / Algorithms
+    advising: General
+    link: https://berkeley.zoom.us/j/5696178572
+  - avatar: /images/office-holders/fa21/Catherine_Gai.jpeg
+    name: Catherine Gai
+    hours: Monday, 2 PM - 3 PM
+    classes: CS188, CS189, Math 110, Math 128A, Math 104, Math 185, Math 113
+    interests: data science, AI/ML
+    interview: Data Structures / Algorithms
+    advising: AI/ML
+    link: https://berkeley.zoom.us/j/7623345432
+  - avatar: /images/office-holders/fa21/Kenneth_Shyle.jpeg
+    name: Kenneth Shyle
+    hours: Sunday, 3 PM - 4 PM
+    classes: CS162, CS161, CS188, CS170, CS186
+    interests: Data Science, ML, Backend
+    interview: Data Structures / Algorithms
+    advising:  AI/ML
+    link:  https://berkeley.zoom.us/j/91791262556?pwd=Sy8ydEErVzhidHFOM2NhQ3JCWjRXZz09
+  - avatar: /images/office-holders/fa21/Dayne_Tran.jpg
+    name: Dayne Tran
     hours: Saturday, 4 PM - 5 PM
-    classes: Data 100
-    interests: Backend, Full Stack, Data Science
-    link: https://berkeley.zoom.us/j/97095633786?pwd=VngvQ2JhNzhBMFZKT1cxbGpXL3ovdz09
-  - avatar: /images/office-holders/sp21/CarolXie.jpg
-    name: Carol Xie
-    hours: TBD
-    classes: CS 170, CS 162, CS 186
-    interests: Full Stack, Data Science
-    link: TBD
-  - avatar: /images/office-holders/sp21/ValerieYip.jpg
+    classes: Data 100, Stat 140, CS 189, CS 186
+    interests: data science, ML
+    interview: Data Structures / Algorithms, Behavioral
+    advising: Getting into research
+    link: https://berkeley.zoom.us/j/7950480963
+  - avatar: /images/office-holders/fa21/Valerie_Yip.jpg
     name: Valerie Yip
-    hours: TBD
-    classes: CS 170, CS 162, CS 186
-    interests: Full Stack, Data Science
-    link:  TBD
-  - avatar: /images/office-holders/sp21/GraceChen.png
+    hours: Saturday, 11 AM - 12 PM
+    classes: CS 170, CS 189, CS 188, CS 162, CS 186
+    interests: full stack
+    interview: Data Structures / Algorithms, Behavioral
+    advising: Getting into research
+    link:  https://berkeley.zoom.us/j/4422981190?pwd=TDY2MjRmT1kra3Y1eHVtRU00UEZ4UT09
+  - avatar: /images/office-holders/fa21/Grace_Chen.jpg
     name: Grace Chen
-    hours: TBD
-    classes: CS 170, Data 100
-    interests: Backend, Frontend, Full Stack, Data Science, AI/ML
-    link: TBD
+    hours: Thursday, 1 PM - 2 PM
+    classes: CS170, CS161, CS188, Data100
+    interests: full stack, AI/ML
+    interview: Data Structures / Algorithms, Behavioral
+    advising: General
+    link: https://berkeley.zoom.us/j/93942350519?pwd=b2VoMUNSRFRXbmRRZTFYNktUWmJXQT09
