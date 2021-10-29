@@ -778,7 +778,7 @@ oh-holders:
   - avatar: /images/office-holders/fa21/Rahul_Shah.jpeg
     name: Rahul Shah
     hours: Friday, 2 PM - 3 PM
-    classes: DATA C100
+    classes: EECS127, CS161, CS170, CS194-177, DATA C100
     interests: backend, frontend, full stack, data science, AI/ML
     interview: Data Structures / Algorithms, Behavioral, Quant Trading
     advising: AI/ML, Theory

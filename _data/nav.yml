@@ -21,6 +21,6 @@
 - name: Industrial Relations
   section_id: indrel
   path: /indrel
-- name: Interview Advice (beta)
+- name: Interview Advice
   section_id: int-advice
   path: /profdev/int-advice
