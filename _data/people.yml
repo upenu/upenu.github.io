@@ -1,21 +1,21 @@
-fa21-officers:
-  name: Fall 2021
-  path: /about/officers/fa21
+sp22-officers:
+  name: Spring 2022
+  path: /about/officers/sp22
   cover-pic: /images/officer-board/fa21.jpg
   members:
-    - avatar: /images/officers/Debbie_Liang.jpg
-      hoveravatar: /images/officers/Debbie_Liang_Fun.jpeg
-      name: Debbie Liang
+    - avatar: /images/officers/Chase_Norman.png
+      hoveravatar: /images/officers/Chase_Norman_Fun.jpg
+      name: Chase Norman
       email: president (at) upe.berkeley.edu
       desc: President
-    - avatar: /images/officers/Luke_Liu.jpg
-      hoveravatar: /images/officers/Luke_Liu_Fun.JPG
-      name: Luke Liu
+    - avatar: /images/officers/Grace_Chen.jpg
+      hoveravatar: /images/officers/Grace_Chen_Fun.JPG
+      name: Grace Chen
       email: execvp (at) upe.berkeley.edu
       desc: Executive Vice President
-    - avatar: /images/officers/Xinyun_Cao.jpg
-      hoveravatar: /images/officers/Xinyun_Cao_Fun.jpg
-      name: Xinyun Cao
+    - avatar: /images/officers/Ryan_Sun.jpg
+      hoveravatar: /images/officers/Ryan_Sun_Fun.jpg
+      name: Ryan Sun
       email: external (at) upe.berkeley.edu
       desc: External Vice President
     - avatar: /images/officers/Prakash_Srivastava.jpg
@@ -23,9 +23,9 @@ fa21-officers:
       name: Prakash Srivastava
       email: finance (at) upe.berkeley.edu
       desc: Finance Vice President
-    - avatar: /images/officers/Chi_Tsai.heic
-      hoveravatar: /images/officers/Chi_Tsai_Fun.jpg
-      name: Chi Tsai
+    - avatar: /images/officers/Stella_Wan.jpg
+      hoveravatar: /images/officers/Stella_Wan.jpg
+      name: Stella Wan
       email: internal (at) upe.berkeley.edu
       desc: Internal Vice President
 
@@ -34,30 +34,35 @@ fa21-officers:
       name: Sagnik Bhattacharya
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
-    - avatar: /images/officers/Ryan_Sun.jpg
-      hoveravatar: /images/officers/Ryan_Sun.jpg
-      name: Ryan Sun
+    - avatar: /images/officers/Roy_Huang.png
+      hoveravatar: /images/officers/Roy_Huang.png
+      name: Roy Huang
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
-    - avatar: /images/officers/Daniel_Li.jpeg
-      hoveravatar: /images/officers/Daniel_Li_Fun.jpeg
-      name: Daniel Li
+    - avatar: /images/officers/Smit_Dagli.png
+      hoveravatar: /images/officers/Smit_Dagli.png
+      name: Smit Dagli
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+    - avatar: /images/officers/Matt_Yan.png
+      hoveravatar: /images/officers/Matt_Yan.png
+      name: Matt Yan
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
 
-    - avatar: /images/officers/Patrick_Chen.jpeg
-      hoveravatar: /images/officers/Patrick_Chen_Fun.jpeg
-      name: Patrick Chen
+    - avatar: /images/officers/Gene_Pan.png
+      hoveravatar: /images/officers/Gene_Pan.png
+      name: Gene Pan
       email: profdev (at) upe.berkeley.edu
       desc: Professional Development Chair
-    - avatar: /images/officers/Yuwen_Zhang.jpg
-      hoveravatar: /images/officers/Yuwen_Zhang_Fun.jpg
-      name: Yuwen Zhang
+    - avatar: /images/officers/Jerry_Zhang.png
+      hoveravatar: /images/officers/Jerry_Zhang.png
+      name: Jerry Zhang
       email: profdev (at) upe.berkeley.edu
       desc: Professional Development Chair
-    - avatar: /images/officers/Stella_Wan.jpg
-      hoveravatar: /images/officers/Stella_Wan.jpg
-      name: Stella Wan
+    - avatar: /images/officers/Jacky_Kwok.png
+      hoveravatar: /images/officers/Jacky_Kwok.png
+      name: Jacky Kwok
       email: profdev (at) upe.berkeley.edu
       desc: Professional Development Chair
 
@@ -66,22 +71,12 @@ fa21-officers:
       name: Ryan Chao
       email: publicity (at) upe.berkeley.edu
       desc: Publicity Chair
-    - avatar: /images/officers/Dayne_Tran.jpg
-      hoveravatar: /images/officers/Dayne_Tran_Fun.jpg
-      name: Dayne Tran
-      email: publicity (at) upe.berkeley.edu
-      desc: Publicity Chair
-    - avatar: /images/officers/Christian_Chiong.png
-      hoveravatar: /images/officers/Christian_Chiong_Fun.png
-      name: Christian Chiong
+    - avatar: /images/officers/Yuto_Nishida.png
+      hoveravatar: /images/officers/Yuto_Nishida.png
+      name: Yuto_Nishida
       email: publicity (at) upe.berkeley.edu
       desc: Publicity Chair
 
-    - avatar: /images/officers/Grace_Chen.jpg
-      hoveravatar: /images/officers/Grace_Chen.jpg
-      name: Grace Chen
-      email: social (at) upe.berkeley.edu
-      desc: Social Chair
     - avatar: /images/officers/Ellen_Xiong.jpg
       hoveravatar: /images/officers/Ellen_Xiong_Fun.jpg
       name: Ellen Xiong
@@ -93,14 +88,14 @@ fa21-officers:
       email: social (at) upe.berkeley.edu
       desc: Social Chair
 
-    - avatar: /images/officers/Kathy_Wu.JPG
-      hoveravatar: /images/officers/Kathy_Wu.JPG
-      name: Kathy Wu
+    - avatar: /images/officers/Julian_Meyn.png
+      hoveravatar: /images/officers/Julian_Meyn.png
+      name: Julian Meyn
       email: comrel (at) upe.berkeley.edu
       desc: Community Relations Chair
-    - avatar: /images/officers/Phoebe_Li.jpg
-      hoveravatar: /images/officers/Phoebe_Li_Fun.jpg
-      name: Phoebe Li
+    - avatar: /images/officers/Eric_Zhao.png
+      hoveravatar: /images/officers/Eric_Zhao.png
+      name: Eric Zhao
       email: comrel (at) upe.berkeley.edu
       desc: Community Relations Chair
     - avatar: /images/officers/Tim_Tu.jpg
@@ -109,9 +104,9 @@ fa21-officers:
       email: comrel (at) upe.berkeley.edu
       desc: Community Relations Chair
 
-    - avatar: /images/officers/Valerie_Yip.jpg
-      hoveravatar: /images/officers/Valerie_Yip.jpg
-      name: Valerie Yip
+    - avatar: /images/officers/Xinyun_Cao.jpg
+      hoveravatar: /images/officers/Xinyun_Cao_Fun.jpg
+      name: Xinyun Cao
       email: memeng (at) upe.berkeley.edu
       desc: Member Engagement Chair
 
@@ -120,18 +115,156 @@ fa21-officers:
       name: James Nguyen
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
-    - avatar: /images/officers/Chase_Norman.png
-      hoveravatar: /images/officers/Chase_Norman_Fun.jpg
-      name: Chase Norman
+    - avatar: /images/officers/Joshua_Li.png
+      hoveravatar: /images/officers/Joshua_Li.png
+      name: Joshua Li
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
-    - avatar: /images/officers/Rahul_Shah.jpeg
-      hoveravatar: /images/officers/Rahul_Shah_Fun.png
-      name: Rahul Shah
+    - avatar: /images/officers/Ishaan_Mishra.png
+      hoveravatar: /images/officers/Ishaan_Mishra.png
+      name: Ishaan Mishra
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
     - avatar: /images/officers/Justin_Thein.jpg
       hoveravatar: /images/officers/Justin_Thein.jpg
+      name: Justin Thein
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+
+fa21-officers:
+  name: Fall 2021
+  path: /about/officers/fa21
+  cover-pic: /images/officer-board/fa21.jpg
+  members:
+    - avatar: /images/past-officers/Debbie_Liang.jpg
+      hoveravatar: /images/past-officers/Debbie_Liang_Fun.jpeg
+      name: Debbie Liang
+      email: president (at) upe.berkeley.edu
+      desc: President
+    - avatar: /images/past-officers/Luke_Liu.jpg
+      hoveravatar: /images/past-officers/Luke_Liu_Fun.JPG
+      name: Luke Liu
+      email: execvp (at) upe.berkeley.edu
+      desc: Executive Vice President
+    - avatar: /images/past-officers/Xinyun_Cao.jpg
+      hoveravatar: /images/past-officers/Xinyun_Cao_Fun.jpg
+      name: Xinyun Cao
+      email: external (at) upe.berkeley.edu
+      desc: External Vice President
+    - avatar: /images/past-officers/Prakash_Srivastava.jpg
+      hoveravatar: /images/past-officers/Prakash_Srivastava_Fun.jpg
+      name: Prakash Srivastava
+      email: finance (at) upe.berkeley.edu
+      desc: Finance Vice President
+    - avatar: /images/past-officers/Chi_Tsai.heic
+      hoveravatar: /images/past-officers/Chi_Tsai_Fun.jpg
+      name: Chi Tsai
+      email: internal (at) upe.berkeley.edu
+      desc: Internal Vice President
+
+    - avatar: /images/past-officers/Sagnik_Bhattacharya.jpg
+      hoveravatar: /images/past-officers/Sagnik_Bhattacharya_Fun.jpg
+      name: Sagnik Bhattacharya
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+    - avatar: /images/past-officers/Ryan_Sun.jpg
+      hoveravatar: /images/past-officers/Ryan_Sun.jpg
+      name: Ryan Sun
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+    - avatar: /images/past-officers/Daniel_Li.jpeg
+      hoveravatar: /images/past-officers/Daniel_Li_Fun.jpeg
+      name: Daniel Li
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+
+    - avatar: /images/past-officers/Patrick_Chen.jpeg
+      hoveravatar: /images/past-officers/Patrick_Chen_Fun.jpeg
+      name: Patrick Chen
+      email: profdev (at) upe.berkeley.edu
+      desc: Professional Development Chair
+    - avatar: /images/past-officers/Yuwen_Zhang.jpg
+      hoveravatar: /images/past-officers/Yuwen_Zhang_Fun.jpg
+      name: Yuwen Zhang
+      email: profdev (at) upe.berkeley.edu
+      desc: Professional Development Chair
+    - avatar: /images/past-officers/Stella_Wan.jpg
+      hoveravatar: /images/past-officers/Stella_Wan.jpg
+      name: Stella Wan
+      email: profdev (at) upe.berkeley.edu
+      desc: Professional Development Chair
+
+    - avatar: /images/past-officers/Ryan_Chao.jpg
+      hoveravatar: /images/past-officers/Ryan_Chao.jpg
+      name: Ryan Chao
+      email: publicity (at) upe.berkeley.edu
+      desc: Publicity Chair
+    - avatar: /images/past-officers/Dayne_Tran.jpg
+      hoveravatar: /images/past-officers/Dayne_Tran_Fun.jpg
+      name: Dayne Tran
+      email: publicity (at) upe.berkeley.edu
+      desc: Publicity Chair
+    - avatar: /images/past-officers/Christian_Chiong.png
+      hoveravatar: /images/past-officers/Christian_Chiong_Fun.png
+      name: Christian Chiong
+      email: publicity (at) upe.berkeley.edu
+      desc: Publicity Chair
+
+    - avatar: /images/past-officers/Grace_Chen.jpg
+      hoveravatar: /images/past-officers/Grace_Chen.jpg
+      name: Grace Chen
+      email: social (at) upe.berkeley.edu
+      desc: Social Chair
+    - avatar: /images/past-officers/Ellen_Xiong.jpg
+      hoveravatar: /images/past-officers/Ellen_Xiong_Fun.jpg
+      name: Ellen Xiong
+      email: social (at) upe.berkeley.edu
+      desc: Social Chair
+    - avatar: /images/past-officers/Rishi_Parikh.jpg
+      hoveravatar: /images/past-officers/Rishi_Parikh.jpg
+      name: Rishi Parikh
+      email: social (at) upe.berkeley.edu
+      desc: Social Chair
+
+    - avatar: /images/past-officers/Kathy_Wu.JPG
+      hoveravatar: /images/past-officers/Kathy_Wu.JPG
+      name: Kathy Wu
+      email: comrel (at) upe.berkeley.edu
+      desc: Community Relations Chair
+    - avatar: /images/past-officers/Phoebe_Li.jpg
+      hoveravatar: /images/past-officers/Phoebe_Li_Fun.jpg
+      name: Phoebe Li
+      email: comrel (at) upe.berkeley.edu
+      desc: Community Relations Chair
+    - avatar: /images/past-officers/Tim_Tu.jpg
+      hoveravatar: /images/past-officers/Tim_Tu_Fun.PNG
+      name: Tim Tu
+      email: comrel (at) upe.berkeley.edu
+      desc: Community Relations Chair
+
+    - avatar: /images/past-officers/Valerie_Yip.jpg
+      hoveravatar: /images/past-officers/Valerie_Yip.jpg
+      name: Valerie Yip
+      email: memeng (at) upe.berkeley.edu
+      desc: Member Engagement Chair
+
+    - avatar: /images/past-officers/James_Nguyen.jpg
+      hoveravatar: /images/past-officers/James_Nguyen_Fun.jpeg
+      name: James Nguyen
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+    - avatar: /images/past-officers/Chase_Norman.png
+      hoveravatar: /images/past-officers/Chase_Norman_Fun.jpg
+      name: Chase Norman
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+    - avatar: /images/past-officers/Rahul_Shah.jpeg
+      hoveravatar: /images/past-officers/Rahul_Shah_Fun.png
+      name: Rahul Shah
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+    - avatar: /images/past-officers/Justin_Thein.jpg
+      hoveravatar: /images/past-officers/Justin_Thein.jpg
       name: Justin Thein
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
@@ -842,7 +975,7 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Debbie_Liang.png
     name: Debbie Liang
     hours: Monday, 4pm-5pm
-    classes: CS161,CS162,CS170,CS184,CS186,CS188,CS189,Data100,CS267,CS285,CS262
+    classes: CS161, CS162, CS170, CS184, CS186, CS188, CS189, Data100, CS267, CS285, CS262
     interests: System to support ML, backend
     interview: Data Structures / Algorithms
     advising: Systems, AI/ML, Getting into research
@@ -908,7 +1041,7 @@ oh-holders:
     hours: Tuesday, 11am-12pm
     classes: CS188, CS189, CS170, Data100
     interests: robotics
-    interview: Data Structures / Algorithms, Haven't rlly done much mock interviews / interview prep. 
+    interview: Data Structures / Algorithms
     advising: AI/ML, Getting into research
     link: https://berkeley.zoom.us/j/5696178572
   - avatar: /images/office-holders/sp22/Ryan_Chao.png
