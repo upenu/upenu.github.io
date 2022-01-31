@@ -951,7 +951,7 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Tim_Tu.png
     name: Tim Tu
     hours: Wednesday, 11am-12pm
-    classes: CS161,CS162,CS170,CS189,EE127,EE16B,CS188
+    classes: CS161, CS162, CS170, CS189, EE127, EE16B, CS188
     interests: backend, AI/ML
     interview: Data Structures / Algorithms, Behavioral
     advising: teaching and general SWE stuff are fine.
