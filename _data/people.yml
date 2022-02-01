@@ -141,7 +141,7 @@ fa21-officers:
       name: Debbie Liang
       email: president (at) upe.berkeley.edu
       desc: President
-    - avatar: /images/past-officers/Luke_Liu.jpg
+    - avatar: /images/past-officers/Luke_Liu.JPG
       hoveravatar: /images/past-officers/Luke_Liu_Fun.JPG
       name: Luke Liu
       email: execvp (at) upe.berkeley.edu
@@ -226,8 +226,8 @@ fa21-officers:
       email: social (at) upe.berkeley.edu
       desc: Social Chair
 
-    - avatar: /images/past-officers/Kathy_Wu.JPG
-      hoveravatar: /images/past-officers/Kathy_Wu.JPG
+    - avatar: /images/past-officers/Kathy_Wu.jpg
+      hoveravatar: /images/past-officers/Kathy_Wu_Fun.jpg
       name: Kathy Wu
       email: comrel (at) upe.berkeley.edu
       desc: Community Relations Chair
@@ -903,15 +903,15 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Ryan_Sun.png
     name: Ryan Sun
     hours: Monday, 11am-12pm
-    classes: CS 161, CS 170, CS 188, Data 100
-    interests: backend, data science
+    classes: CS 161, CS 170, CS 188, DATA 100
+    interests: Backend, Data Science
     interview: Data Structures / Algorithms, Behavioral
     advising: Recruitment
     link: berkeley.zoom.us/my/ryansun
   - avatar: /images/office-holders/sp22/James_Nguyen.png
     name: James Nguyen
     hours: Thursday, 5pm-6pm
-    classes: CS170, CS188, EECS127, CS189, CS161
+    classes: CS 170, CS 188, EECS 127, CS 189, CS 161
     interests: Full-Stack, AI/ML, Mobile Apps
     interview: Data Structures / Algorithms, Behavioral
     advising: AI/ML, Theory
@@ -919,15 +919,15 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Yuto_Nishida.png
     name: Yuto Nishida
     hours: Tuesday, 12pm-1pm
-    classes: CS170, EECS126
-    interests: backend, full stack, AI/ML
+    classes: CS 170, EECS 126
+    interests: Backend, Full Stack, AI/ML
     interview: Data Structures / Algorithms
     advising: AI/ML
     link: N/A
   - avatar: /images/office-holders/sp22/Matt_Yan.png
     name: Matt Yan
     hours: Monday, 12pm-1pm
-    classes: EECS126, CS170, CS186, CS188
+    classes: EECS 126, CS 170, CS 186, CS 188
     interests: Backend, AI
     interview: Data Structures / Algorithms, Behavioral
     advising: AI/ML, Theory
@@ -935,7 +935,7 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Xinyun_Cao.png
     name: Xinyun Cao
     hours: Monday, 5pm-6pm
-    classes: CS188, CS170, EECS 127, CS 294-137, CS162, CS184, CS294-164, CS194-26, CS284B(current)
+    classes: CS 188, CS 170, EECS 127, CS 294-137, CS 162, CS 184, CS 294-164, CS 194-26, CS 284B(IP)
     interests: GameDev, VR/AR, HCI, Graphics, Backend
     interview: Data Structures / Algorithms
     advising: AI/ML, Getting into research, VR/AR
@@ -943,7 +943,7 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Julian_Meyn.png
     name: Julian Meyn
     hours: Wednesday, 2pm-3pm
-    classes: CS162, CS170, CS188
+    classes: CS 162, CS 170, CS 188
     interests: Backend, Infrastructure
     interview: Data Structures / Algorithms, Behavioral
     advising: Systems, Courses, Industry/Professional stuff, Resume
@@ -951,15 +951,15 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Tim_Tu.png
     name: Tim Tu
     hours: Wednesday, 11am-12pm
-    classes: CS161, CS162, CS170, CS189, EE127, EE16B, CS188
-    interests: backend, AI/ML
+    classes: CS 161, CS 162, CS 170, CS 189, EECS 127, EECS 16B, CS 188
+    interests: Backend, AI/ML
     interview: Data Structures / Algorithms, Behavioral
     advising: teaching and general SWE stuff are fine.
     link: N/A
   - avatar: /images/office-holders/sp22/Eric_Zhao.png
     name: Eric Zhao
     hours: Friday, 12pm-1pm
-    classes: CS170, CS186
+    classes: CS 170, CS 186
     interests: Backend (Still deciding)
     interview: Data Structures / Algorithms
     advising: N/A
@@ -975,8 +975,8 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Debbie_Liang.png
     name: Debbie Liang
     hours: Monday, 4pm-5pm
-    classes: CS161, CS162, CS170, CS184, CS186, CS188, CS189, Data100, CS267, CS285, CS262
-    interests: System to support ML, backend
+    classes: CS 161, CS 162, CS 170, CS 184, CS 186, CS 188, CS 189, DATA 100, CS 267, CS 285, CS 262
+    interests: Systems to support ML, Backend
     interview: Data Structures / Algorithms
     advising: Systems, AI/ML, Getting into research
     link: N/A
@@ -984,15 +984,15 @@ oh-holders:
     name: Roy Huang
     hours: Monday, 1pm-2pm
     classes: CS 170
-    interests: Backend, full-stack, AI/ML, NLP, Cloud Computing
+    interests: Backend, Full Stack, AI/ML, NLP, Cloud Computing
     interview: Data Structures / Algorithms, Behavioral
     advising: Classes, clubs
     link: https://berkeley.zoom.us/my/royh021
   - avatar: /images/office-holders/sp22/Ishaan_Mishra.png
     name: Ishaan Mishra
     hours: Friday, 3pm-4pm
-    classes: CS170, Data100, CS188
-    interests: Backend, Full stack
+    classes: CS 170, DATA 100, CS 188
+    interests: Backend, Full Stack
     interview: Data Structures / Algorithms, System Design
     advising: Systems, Theory
     link: https://berkeley.zoom.us/j/7048480017
@@ -1007,23 +1007,23 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Ellen_Xiong.png
     name: Ellen Xiong
     hours: Monday, 2pm-3pm
-    classes: CS170 CS161 DATA100 CS186
-    interests: backend, fullstack
+    classes: CS 170, CS 161, DATA 100, CS 186
+    interests: Backend, Full Stack
     interview: Behavioral
     advising: Systems, AI/ML
     link: https://berkeley.zoom.us/j/95728742133
   - avatar: /images/office-holders/sp22/Justin_Thein.png
     name: Justin Thein
     hours: Thursday, 3pm-4pm
-    classes: CS 161, 162, 170, 186, 188
-    interests: backend
+    classes: CS 161, CS 162, CS 170, CS 186, CS 188
+    interests: Backend
     interview: Data Structures / Algorithms, System Design, Behavioral
     advising: Systems
     link: N/A
   - avatar: /images/office-holders/sp22/Luke_Liu.png
     name: Luke Liu
     hours: Friday, 11am-12pm
-    classes: CS 161, CS 162, CS 186, CS 170, Data 100, EECS 127, Data C140
+    classes: CS 161, CS 162, CS 186, CS 170, DATA 100, EECS 127, DATA 140
     interests: Backend, Full Stack, ML
     interview: Data Structures / Algorithms, Behavioral
     advising: Systems, AI/ML, Theory
@@ -1032,38 +1032,38 @@ oh-holders:
     name: Smit Dagli
     hours: Friday, 10am-11am
     classes: CS 161, EECS 126, CS 188
-    interests: Haven't really figured out
+    interests: Still exploring
     interview: Data Structures / Algorithms, Behavioral
     advising: Networking for Internships
     link: N/A
   - avatar: /images/office-holders/sp22/Rishi_Parikh.png
     name: Rishi Parikh
     hours: Tuesday, 11am-12pm
-    classes: CS188, CS189, CS170, Data100
-    interests: robotics
+    classes: CS 188, CS 189, CS 170, DATA 100
+    interests: Robotics
     interview: Data Structures / Algorithms
     advising: AI/ML, Getting into research
     link: https://berkeley.zoom.us/j/5696178572
   - avatar: /images/office-holders/sp22/Ryan_Chao.png
     name: Ryan Chao
     hours: Thursday, 2pm-3pm
-    classes: CS170, CS162, CS186, CS161, Data 100, Data 140
-    interests: backend/full stack
+    classes: CS 170, CS 162, CS 186, CS 161, DATA 100, DATA 140
+    interests: Backend, Full Stack
     interview: Data Structures / Algorithms
-    advising: courses
+    advising: Courses
     link: N/A
   - avatar: /images/office-holders/sp22/Joshua_Li.png
     name: Joshua Li
     hours: Wednesday, 1pm-2pm
-    classes: CS170, Math 110
-    interests: backend
+    classes: CS 170, MATH 110
+    interests: Backend
     interview: Data Structures / Algorithms, Behavioral
     advising: Systems
     link: https://berkeley.zoom.us/j/99557641801?pwd=eUc0d0NRMUhFVEU1OWFUUGRsMmZDUT09
   - avatar: /images/office-holders/sp22/Sagnik_Bhattacharya.png
     name: Sagnik Bhattacharya
     hours: Tuesday, 6pm-7pm
-    classes: EECS/CS 127, 161, 162, 170, 182, 188, 189, 280, 284a, 285 Stat 133, 135, 140, 151a, 153, 155, 210a Math 113, 143, 191
+    classes: EECS 127, CS 161, CS 162, CS 170, CS 182, CS 188, CS 189, CS 280, CS 284a, CS 285, STAT 133, STAT 135, DATA 140, STAT 151a, STAT 153, STAT 155, STAT 210a, MATH 113, MATH 143, MATH 191
     interests: AI/ML, systems, quantitative research
     interview: Data Structures / Algorithms, Behavioral, Quant research (NOT trading)
     advising: AI/ML, Theory, Getting into research
@@ -1071,15 +1071,15 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Grace_Chen.png
     name: Grace Chen
     hours: Tuesday, 1pm-2pm
-    classes: CS 161, CS 162, CS 170, CS 188, Data 100, Data 140, CS 186(IP), CS 189(IP)
-    interests: all of the above, still exploring
+    classes: CS 161, CS 162, CS 170, CS 188, DATA 100, DATA 140, CS 186(IP), CS 189(IP)
+    interests: All, Still exploring
     interview: Data Structures / Algorithms, Behavioral
     advising: general advice
     link: https://berkeley.zoom.us/j/97994331939?pwd=SDEyRFJvcEVFRzAySTBXbUVXcXRvQT09
   - avatar: /images/office-holders/sp22/Chi_Tsai.png
     name: Chi Tsai
     hours: Tuesday, 4pm-5pm
-    classes: CS161, CS162, CS170, CS186, CS188, STAT133
+    classes: CS 161, CS 162, CS 170, CS 186, CS 188, STAT 133
     interests: Backend
     interview: Data Structures / Algorithms, Behavioral
     advising: Systems, classes, berkeley life, internships
@@ -1087,7 +1087,7 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Prakash_Srivastava.png
     name: Prakash Srivastava
     hours: Friday, 1pm-2pm
-    classes: CS 270, CS 189, EECS 126, EECS 127, EE 120, CS 188, CS 170, CS 161, Data 102, Data 100, Econ 141, Econ 101A/B, Econ 139, Econ 134, Econ C142, IEOR 221, Econ 104, Stat 153, Stat 150, Stat 135
+    classes: CS 270, CS 189, EECS 126, EECS 127, EE 120, CS 188, CS 170, CS 161, DATA 102, DATA 100, ECON 141, ECON 101A/B, ECON 139, ECON 134, ECON C142, IEOR 221, ECON 104, STAT 153, STAT 150, STAT 135
     interests: Data Science, ML, Backend, NLP
     interview: Data Structures / Algorithms, Quant Trading
     advising: AI/ML, Theory
@@ -1095,24 +1095,24 @@ oh-holders:
   - avatar: /images/office-holders/sp22/Felix_Yan.png
     name: Felix Yan
     hours: Tuesday, 2pm-3pm
-    classes: DATA100, CS161, CS162, CS164, CS170, CS186, CS188
-    interests: Cloud Computing & Infrastructure
+    classes: DATA 100, CS 161, CS 162, CS 164, CS 170, CS 186, CS 188
+    interests: Cloud Computing, Infrastructure
     interview: Data Structures / Algorithms, Behavioral
     advising: Systems
     link: https://berkeley.zoom.us/j/94960705357?pwd=NVJPV1VUYnRsNm1FdzJWRnZGdFYzdz09
   - avatar: /images/office-holders/sp22/Zoey_Sun.png
     name: Mengzhu (Zoey) Sun 
     hours: Wednesday, 4pm-5pm
-    classes: CS 189, CS182, CS 186, CS 170, CS 161
-    interests: backend, database
+    classes: CS 189, CS 182, CS 186, CS 170, CS 161
+    interests: Backend, Databases
     interview: Data Structures / Algorithms, Behavioral
     advising: Systems, Getting into research
     link: N/A
   - avatar: /images/office-holders/sp22/Jerry_Zhang.png
     name: Jerry Zhang
     hours: Monday, 6pm-7pm
-    classes: CS161, CS170, CS188, CS194-26, Data 100, Data 140
-    interests: backend, full stack, AI/ML
+    classes: CS 161, CS 170, CS 188, CS 194-26, DATA 100, DATA 140
+    interests: Backend, Full Stack, AI/ML
     interview: Data Structures / Algorithms, Behavioral
     advising: Teaching, Courses
     link: https://berkeley.zoom.us/j/99417713066?pwd=ZlFzSEdIUnhzZnhra0RXdXRORVZRQT09
@@ -1120,22 +1120,22 @@ oh-holders:
     name: Gene Pan
     hours: Monday, 3pm-4pm
     classes: CS 170
-    interests: backend, full stack
+    interests: Backend, Full Stack
     interview: Data Structures / Algorithms, System Design, Behavioral
     advising: Getting into research
     link: https://berkeley.zoom.us/my/pangene
   - avatar: /images/office-holders/sp22/Andrew_Lee.png
     name: Andrew Lee
     hours: Monday, 7pm-8pm
-    classes: Math 110, Data 100, CS 170, CS 186, Data 140
-    interests: backend, performance
+    classes: MATH 110, DATA 100, CS 170, CS 186, DATA 140
+    interests: Backend, performance
     interview: Data Structures / Algorithms, Behavioral
     advising: Getting into research
     link: https://berkeley.zoom.us/j/6535618397
   - avatar: /images/office-holders/sp22/Jacky_Kwok.png
     name: Jacky Kwok
     hours: Thursday, 4pm-5pm
-    classes: CS188, CS161
+    classes: CS 188, CS 161
     interests: Backend, AI/ML
     interview: Data Structures / Algorithms, System Design
     advising: AI/ML
