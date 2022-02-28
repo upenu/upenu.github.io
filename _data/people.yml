@@ -29,6 +29,17 @@ sp22-officers:
       email: internal (at) upe.berkeley.edu
       desc: Internal Vice President
 
+    - avatar: /images/officers/Luke_Liu.jpg
+      hoveravatar: /images/officers/Luke_Liu_Fun.JPG
+      name: Luke Liu
+      email: advisors (at) upe.berkeley.edu
+      desc: Advisor
+    - avatar: /images/officers/Debbie_Liang.jpg
+      hoveravatar: /images/officers/Debbie_Liang_Fun.jpeg
+      name: Debbie Liang
+      email: advisors (at) upe.berkeley.edu
+      desc: Advisor
+
     - avatar: /images/officers/Sagnik_Bhattacharya.jpg
       hoveravatar: /images/officers/Sagnik_Bhattacharya_Fun.jpg
       name: Sagnik Bhattacharya
