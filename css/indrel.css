@@ -1,12 +1,14 @@
 .section > .modClients {
-  width: 100%
+  width: 100%;
 }
 
 .client-image {
   padding: 15px;
 }
 
-table tr td, table tr th {
+table tr td,
+table tr th {
   text-align: center;
   padding: 15px;
+  color: #545454;
 }
