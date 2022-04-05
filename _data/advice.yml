@@ -11,7 +11,7 @@ slides:
       items:
         - text: Book a Resume Review
           link_to: /profdev/services
-  - bg: /images/advice/breifcase.jpg
+  - bg: /images/advice/briefcase.jpg
     title:
       klass: bottom-to-top
       text: Apply to the Right Job
@@ -58,7 +58,7 @@ slides:
     small_title:
       klass: bottom-to-top
       text: Use a language you are comfortable with. Higher level languages such as javascript and python help you to get more things coded up in an interview setting
-  - bg: /images/advice/communication.png
+  - bg: /images/advice/communication.jpg
     title:
       klass: bottom-to-top
       text: Communicatate
