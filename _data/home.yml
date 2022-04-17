@@ -23,7 +23,7 @@ slides:
       items:
         - text: About Us
           link_to: /about/upe
-  - bg: /images/group/denero.jpg
+  - bg: /images/group/denero-cropped.jpg
     small_title:
       klass: bottom-to-top
       text: Hosting events that bring together the
