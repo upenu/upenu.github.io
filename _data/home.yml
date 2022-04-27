@@ -2,7 +2,7 @@ slides:
   - bg: /images/group/blm.jpg
     small_title:
       klass: bottom-to-top
-      text: The UC Berkeley Chapter of 
+      text: The UC Berkeley Chapter of
     title:
       klass: bottom-to-top
       text: UPE Stands With BlackLivesMatter
@@ -11,7 +11,7 @@ slides:
       items:
         - text: Read Our Statement
           link_to: /docs/blm.pdf
-  - bg: /images/group/retreatsp19-copy.jpg
+  - bg: /images/group/retreatsp20.jpg
     small_title:
       klass: bottom-to-top
       text: UC Berkeley's
@@ -23,7 +23,7 @@ slides:
       items:
         - text: About Us
           link_to: /about/upe
-  - bg: /images/group/alumnifa18.jpg
+  - bg: /images/group/denero-cropped.jpg
     small_title:
       klass: bottom-to-top
       text: Hosting events that bring together the
@@ -47,7 +47,7 @@ slides:
       items:
         - text: Career Services
           link_to: /profdev/services
-  - bg: /images/group/trivia-1.jpg
+  - bg: /images/group/imc-event.jpg
     small_title:
       klass: bottom-to-top
       text: Bridging the gap between

@@ -3,7 +3,7 @@
   path: /
 - name: About
   section_id: about
-  children: 
+  children:
     - name: Our History
       path: /about/history
     - name: Officers
@@ -15,7 +15,7 @@
 - name: Professional Services
   section_id: career-services
   path: /profdev/services
-  # I recognize this removes oh-reviews. I will integrate this with the main OH page. 
+  # I recognize this removes oh-reviews. I will integrate this with the main OH page.
 - name: Events
   path: /events
 - name: Industrial Relations
@@ -24,3 +24,6 @@
 - name: Interview Advice
   section_id: int-advice
   path: /profdev/int-advice
+- name: Blog
+  section_id: blog
+  path: https://medium.com/@upenublog
