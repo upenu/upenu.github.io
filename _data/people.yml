@@ -566,7 +566,6 @@ sp20-officers:
       email: external (at) upe.berkeley.edu
       desc: External Vice President
     - avatar: /images/past-officers/Celena_Chang.jpg
-      hoveravatar: /images/past-officers/Celena_Chang_Fun.jpg
       name: Celena Chang
       email: finance (at) upe.berkeley.edu
       desc: Finance Vice President
@@ -688,7 +687,6 @@ fa19-officers:
       email: vp (at) upe.berkeley.edu
       desc: Vice President
     - avatar: /images/past-officers/Celena_Chang.jpg
-      hoveravatar: /images/past-officers/Celena_Chang_Fun.jpg
       name: Celena Chang
       email: treasurer (at) upe.berkeley.edu
       desc: Treasurer
@@ -848,7 +846,6 @@ sp19-officers:
       desc: Social Chair
 
     - avatar: /images/past-officers/Celena.jpg
-      hoveravatar: /images/past-officers/Celena_Fun.jpg
       name: Celena Chang
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
