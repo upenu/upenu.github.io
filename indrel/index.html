@@ -25,13 +25,14 @@ UPE_faq:
   - title: What is the student turnout for the event?
     answer: This depends on <b>the company, the speaker, and time of year</b>. It ranges from <b>30 to 150 students</b>. With more information about your event, we can provide a more precise estimate.
   - title: How much does it cost?
-    answer: We currently offer two price plans - Gold Level at $1,000 and Silicon Level at $1,500.
+    answer: We currently offer two price plans - Gold Level at $1,200 and Silicon Level at $1,900.
   - title: Have you worked with startups before?
     answer: We have, and the response has been very positive! We have found that employees of startups are usually better equipped to talk about the company as a whole, so it often results in a fun learning experience for all attendees.
 ---
 
 <div class="title-section">
-  {% include section-header.html title="Industrial Relations" tagline="Connecting Students to Industry" color="#000" class="big" %}
+  {% include section-header.html title="Industrial Relations"
+  tagline="Connecting Students to Industry" color="#000" class="big" %}
 </div>
 
 <div class="section fadein">
@@ -39,11 +40,11 @@ UPE_faq:
   <div class="mod modClients" data-slides_to_show="4">
     <div class="clients">
       {% for client in site.data.indrel.clients %}
-        <div class="client-image">
-          <a href="{{client.link_to}}" target="_blank">
-            <img alt="" src="{{client.image}}" />
-          </a>
-        </div>
+      <div class="client-image">
+        <a href="{{client.link_to}}" target="_blank">
+          <img alt="" src="{{client.image}}" />
+        </a>
+      </div>
       {% endfor %}
     </div>
   </div>
@@ -51,75 +52,126 @@ UPE_faq:
 
 <div class="section fadein">
   {% include section-header.html title="Why UPE?" %}
-  <p>Upsilon Pi Epsilon (UPE) is the <b>Computer Science Honor Society</b> at UC Berkeley, and we are endorsed by ACM and IEEE. UPE aims to recognize academic excellence and promote academic and professional growth of its members.  Each semester, we extend membership to the <b>top third of declared CS majors</b> as provided by the CS department.
-    Our vision is to <b>connect brilliant students in UC Berkeley to great companies like yours</b>. In the past, we have held <b>10+ events per semester</b> of all types, ranging from info-sessions, tech talks, coffee chats, competitions and the EECS career fair.</p>
+  <p>
+    <b
+      >Upsilon Pi Epsilon, Nu Chapter (UPE) is the largest Computer Science
+      Honor Society at UC Berkeley</b
+    >, and we are endorsed by ACM and IEEE. UPE aims to recognize academic
+    excellence and promote academic and professional growth of its members. Each
+    semester, we extend membership to the
+    <b>top third of declared CS majors</b> by GPA (minimum GPA of 3.8). Our
+    vision is to
+    <b
+      >connect brilliant students in UC Berkeley to great companies like
+      yours</b
+    >. In the past, we have held <b>6+ events per semester</b> of all types,
+    ranging from info-sessions, tech talks, coffee chats, competitions and the
+    EECS career fair. In the past two semesters we have held several in-person,
+    virtual, and hybrid events with 100-200 attendees.
+  </p>
 </div>
 
 <div class="section fadein">
   {% include section-header.html title="Hosting CAP Events" %}
-  <p>We help host events at UC Berkeley for companies in the <a href="https://eecs.berkeley.edu/industry/recruit-students">EECS Corporate Access Program (CAP)</a>. </p>
+  <p>
+    We help host events at UC Berkeley for companies in the
+    <a href="https://eecs.berkeley.edu/industry/recruit-students"
+      >EECS Corporate Access Program (CAP)</a
+    >.
+  </p>
   {% for question in page.CAP_faq %}
-    <div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
-      <h3>{{question.title}}</h3>
-      <p>{{question.answer}}</p>
-    </div>
+  <div
+    class="fadein mod modIconText"
+    data-delay="{{ 100 | times:forloop.index0 }}"
+  >
+    <h3>{{question.title}}</h3>
+    <p>{{question.answer}}</p>
+  </div>
   {% endfor %}
 </div>
 
 <div class="section fadein">
-  {% include section-header.html title="Hosting UPE Events" %}
-  {% for question in page.UPE_faq %}
-    <div class='fadein mod modIconText' data-delay='{{ 100 | times:forloop.index0 }}'>
-      <h3>{{question.title}}</h3>
-      <p>{{question.answer}}</p>
-    </div>
+  {% include section-header.html title="Hosting UPE Events" %} {% for question
+  in page.UPE_faq %}
+  <div
+    class="fadein mod modIconText"
+    data-delay="{{ 100 | times:forloop.index0 }}"
+  >
+    <h3>{{question.title}}</h3>
+    <p>{{question.answer}}</p>
+  </div>
   {% endfor %}
 </div>
 
 <div class="section fadein">
   {% include section-header.html title="Resume Book" %}
-  <p>The Berkeley UPE Resume Book contains resumes of our members, who are in the <b>top third of the declared Computer Science students</b> at UC Berkeley. <br>
-    Our resume book is <b>updated every semester</b> and includes resumes from our alumni, graduate students, and undergraduate students (mostly seniors and juniors). <br>
-    The resumes in the book are grouped by students’ graduation years and ordered alphabetically. Our resume book costs <b>$200</b>, and it comes in the form of a <b>downloadable PDF</b>.</p>
+  <p>
+    The Berkeley UPE Resume Book contains resumes of our members, who are in the
+    <b>top third of the declared Computer Science students</b> at UC Berkeley.
+    <br />
+    Our resume book is <b>updated every semester</b> and includes resumes from
+    our alumni, graduate students, and undergraduate students (mostly seniors
+    and juniors). <br />
+    The resumes in the book are grouped by students’ graduation years and
+    ordered alphabetically. Our resume book costs <b>$200</b>, and it comes in
+    the form of a <b>downloadable PDF</b>.
+  </p>
 </div>
 
 <div class="section fadein">
   {% include section-header.html title="UPE Event Pricing" %}
-  <table style="width:100%">
+  <table style="width: 100%">
     <tr>
-      <th>Gold Level - $1000</th>
-      <th>Silicon Level - $1500</th>
+      <th>Gold Level</th>
+      <th>Silicon Level</th>
     </tr>
     <tr>
-      <td>1 Campus-wide Tech Talk/Info-session</td>
+      <td>1 Campus-wide/UPE-only Event</td>
       <td>1 Campus-wide Tech Talk/Info-session</td>
     </tr>
     <tr>
       <td>-</td>
-      <td>1 UPE-only Tech Talk/Lunch Meet and greet</td>
+      <td>1 UPE-only Tech Talk/Lunch meet and greet</td>
     </tr>
-    
+
     <tr>
-      <td>1 semester engagement period</td>
-      <td>2 semester engagement period</td>
-    </tr>
-    <tr>
-      <td colspan="2">Publicity of event to respective audience</td>
+      <td>1 semester <b>engagement period</b></td>
+      <td>2 semester <b>engagement period</b></td>
     </tr>
     <tr>
-      <td colspan="2">Display on website, publicity of your openings/outside events to UPE members</td>
+      <td colspan="2">
+        Promotion of your events through newsletters, website, social media
+      </td>
     </tr>
     <tr>
-      <td colspan="2">Resume Book</td>
+      <td colspan="2"><b>Resume Book</b></td>
+    </tr>
+    <tr>
+      <td>
+        <b>$1200</b> (+ admin fees) with $700 (+ admin fees) for additional
+        event
+      </td>
+      <td>
+        <b>$1900</b> (+ admin fees) with $700 (+ admin fees) for additional
+        event
+      </td>
     </tr>
   </table>
-  <p>We also offer one time purchases of events - one public/UPE-only event of any time at $900. For more, please read our <a href="/docs/UPE_Price_Plan.pdf">Price Plan Doc</a>.</p> 
+  <p>
+    We also offer one time purchases of events - one public/UPE-only event of
+    any time at $900. For more, please read our
+    <a href="/docs/UPE_Price_Plan.pdf">Price Plan Doc</a>.
+  </p>
 </div>
 
 <div class="section fadein">
   {% include section-header.html title="Interested in partnering with us?" %}
-  <p>If you are interested in partnering with us or have any questions about holding events, feel free to contact us at <a href="mailto:ir@upe.berkeley.edu">ir@upe.berkeley.edu</a>! <br>
-    It would be great if the first contact could be made 4+ weeks prior to the date of your event. This ensures that we have enough time and flexibility to find a space for the event and maximize publicity.
-    </p>
+  <p>
+    If you are interested in partnering with us or have any questions about
+    holding events, feel free to contact us at
+    <a href="mailto:ir@upe.berkeley.edu">ir@upe.berkeley.edu</a>! <br />
+    It would be great if the first contact could be made 4+ weeks prior to the
+    date of your event. This ensures that we have enough time and flexibility to
+    find a space for the event and maximize publicity.
+  </p>
 </div>
-
