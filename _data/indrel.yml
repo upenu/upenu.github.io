@@ -5,3 +5,13 @@ clients:
     link_to: https://www.bloomberg.com
   - image: /images/logos/JaneStreet.png
     link_to: https://www.janestreet.com
+  - image: /images/logos/Mayfield.jpeg
+    link_to: https://www.mayfield.com/
+  - image: /images/logos/DRW.png
+    link_to: https://drw.com/
+  - image: /images/logos/Optiver.png
+    link_to: https://optiver.com/
+  - image: /images/logos/Nvidia.png
+    link_to: https://www.nvidia.com/en-us/
+  - image: /images/logos/IXL.jpeg
+    link_to: https://www.ixl.com/
