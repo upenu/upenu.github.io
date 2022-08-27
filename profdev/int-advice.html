@@ -1,65 +1,60 @@
 ---
 layout: default
 title: Interview Advice
-section_id: career-services
+section_id: int-advice
 
 custom_css: home.css
 ---
+
 <!-- @Author Michelle D'Souza -->
 
-<div class='mod modDefaultSlider'>
-  <div class='sequence' data-autostop='on' data-timeout='0'>
-    <a class='sequence-prev' href='javascript:void(0);'>
+<div class="mod modDefaultSlider">
+  <div class="sequence" data-autostop="on" data-timeout="0">
+    <a class="sequence-prev" href="javascript:void(0);">
       <span></span>
     </a>
-    <a class='sequence-next' href='javascript:void(0);'>
+    <a class="sequence-next" href="javascript:void(0);">
       <span></span>
     </a>
-    <ul class='sequence-pagination'>
-      {% for slide in site.data.advice.slides %}
-        {% if forloop.first %}
-          {% assign class = 'current' %}
-        {% else %}
-          {% assign class = '' %}
-        {% endif %}
-        <li class="{{class}}"></li>
+    <ul class="sequence-pagination">
+      {% for slide in site.data.advice.slides %} {% if forloop.first %} {%
+      assign class = 'current' %} {% else %} {% assign class = '' %} {% endif %}
+      <li class="{{class}}"></li>
       {% endfor %}
     </ul>
-    <ul class='sequence-canvas'>
-      {% for slide in site.data.advice.slides %}
-        {% if forloop.first %}
-          {% assign style = 'static' %}
-        {% else %}
-          {% assign style = '' %}
-        {% endif %}
-        <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='title {{ slide.title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2>{{ slide.title.text }}</h2>
-              </div>
+    <ul class="sequence-canvas">
+      {% for slide in site.data.advice.slides %} {% if forloop.first %} {%
+      assign style = 'static' %} {% else %} {% assign style = '' %} {% endif %}
+      <li class="frame {{style}} {{ slide.klass }}">
+        <div class="title {{ slide.title.klass }}">
+          <div class="row">
+            <div class="large-12 columns">
+              <h2>{{ slide.title.text }}</h2>
             </div>
           </div>
-          <div class='small-title {{ slide.small_title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2>{{ slide.small_title.text }}</h2>
-              </div>
+        </div>
+        <div class="small-title {{ slide.small_title.klass }}">
+          <div class="row">
+            <div class="large-12 columns">
+              <h2>{{ slide.small_title.text }}</h2>
             </div>
           </div>
-          <div class='buttons-wrapper {{ slide.buttons.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <div class='two spacing'></div>
-                {% for button in slide.buttons.items %}
-                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
-                {% endfor %}
-              </div>
+        </div>
+        <div class="buttons-wrapper {{ slide.buttons.klass }}">
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="two spacing"></div>
+              {% for button in slide.buttons.items %}
+              <a class="button {{ button.klass }}" href="{{ button.link_to }}"
+                >{{ button.text }}</a
+              >
+              {% endfor %}
             </div>
           </div>
-          <div class="overlay"></div>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
-        </li>
+        </div>
+        <div class="overlay"></div>
+        <div class="bg" style="background-image: url({{ slide.bg}});"></div>
+      </li>
       {% endfor %}
     </ul>
   </div>
@@ -67,13 +62,25 @@ custom_css: home.css
 
 <div class="section">
   {% include section-header.html title="Advice" %}
-  <p>Interviews are quite a challenge. Even coders with years of experience under their belts tend to struggle with interviews. Nonetheless, interviews are a necessary evil. With the right advice and preparation tips, you'll be able to boost your interview skills and land your dream job! <a href="../profdev/services">Book a session with our professional services</a> to futher guide you on the track to acing an interview!</p>
-  <p>Additionally, share your interview advice and experience below! You'll be able to see more responses after you submit your own, thereby building upon your interview advice repertoire.</p>
-  <div class='center'>
-<!--     <iframe src="https://www.powr.io/comments/u/bcd7b0f6_1598133993#platform=iframe" style="width:100%;" height="1000px" frameborder="0"></iframe> -->
-<!--     <div class="powr-comments" id="e4224fdb_1598133835" style="width:80%;"></div><script src="https://www.powr.io/powr.js?platform=iframe"></script> -->
-  <div class="powr-comments" id="a3513b6e_1598140390"></div><script src="https://www.powr.io/powr.js?platform=embed"></script>
+  <p>
+    Interviews are quite a challenge. Even coders with years of experience under
+    their belts tend to struggle with interviews. Nonetheless, interviews are a
+    necessary evil. With the right advice and preparation tips, you'll be able
+    to boost your interview skills and land your dream job!
+    <a href="../profdev/services"
+      >Book a session with our professional services</a
+    >
+    to futher guide you on the track to acing an interview!
+  </p>
+  <p>
+    Additionally, share your interview advice and experience below! You'll be
+    able to see more responses after you submit your own, thereby building upon
+    your interview advice repertoire.
+  </p>
+  <div class="center">
+    <!--     <iframe src="https://www.powr.io/comments/u/bcd7b0f6_1598133993#platform=iframe" style="width:100%;" height="1000px" frameborder="0"></iframe> -->
+    <!--     <div class="powr-comments" id="e4224fdb_1598133835" style="width:80%;"></div><script src="https://www.powr.io/powr.js?platform=iframe"></script> -->
+    <div class="powr-comments" id="a3513b6e_1598140390"></div>
+    <script src="https://www.powr.io/powr.js?platform=embed"></script>
   </div>
 </div>
-
-
