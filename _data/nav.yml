@@ -17,6 +17,7 @@
   path: /profdev/services
   # I recognize this removes oh-reviews. I will integrate this with the main OH page.
 - name: Events
+  section_id: events
   path: /events
 - name: Industrial Relations
   section_id: indrel
