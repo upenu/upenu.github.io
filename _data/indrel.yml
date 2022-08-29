@@ -13,3 +13,5 @@ clients:
     link_to: https://www.ixl.com/
   - image: /images/logos/IMC.png
     link_to: https://www.imc.com/us/
+  - image: /images/logos/Visa.jpeg
+    link_to: https://usa.visa.com/
