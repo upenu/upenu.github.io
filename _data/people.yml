@@ -1,3 +1,28 @@
+fa22-officers:
+  name: Fall 2022
+  path: /about/officers/fa22
+  cover-pic: /images/officer-board/fa21.jpg
+  members:
+    - avatar: /images/officers/Stella_Wan.jpg
+      hoveravatar: /images/officers/Stella_Wan.jpg
+      name: Stella Wan
+      email: president (at) upe.berkeley.edu
+      desc: President
+    - avatar: /images/officers/Jerry_Zhang.jpg
+      hoveravatar: /images/officers/Jerry_Zhang.jpg
+      name: Jerry Zhang
+      email: execvp (at) upe.berkeley.edu
+      desc: Executive Vice President
+    - avatar: /images/officers/Smit_Dagli.jpg
+      hoveravatar: /images/officers/Smit_Dagli.jpg
+      name: Smit Dagli
+      email: external (at) upe.berkeley.edu
+      desc: External Vice President
+    - avatar: /images/officers/Prakash_Srivastava.jpg
+      hoveravatar: /images/officers/Prakash_Srivastava_Fun.jpg
+      name: Prakash Srivastava
+      email: finance (at) upe.berkeley.edu
+      desc: Finance Vice President
 sp22-officers:
   name: Spring 2022
   path: /about/officers/sp22
@@ -279,7 +304,6 @@ fa21-officers:
       name: Justin Thein
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
-      
 
 sp21-officers:
   name: Spring 2021
@@ -542,8 +566,6 @@ fa20-officers:
       name: Wallace Lim
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
-
-
 
 sp20-officers:
   name: Spring 2020
@@ -1109,7 +1131,7 @@ oh-holders:
     advising: Systems
     link: https://berkeley.zoom.us/j/94960705357?pwd=NVJPV1VUYnRsNm1FdzJWRnZGdFYzdz09
   - avatar: /images/office-holders/sp22/Zoey_Sun.jpg
-    name: Mengzhu (Zoey) Sun 
+    name: Mengzhu (Zoey) Sun
     hours: Wednesday, 4pm-5pm
     classes: CS 189, CS 182, CS 186, CS 170, CS 161
     interests: Backend, Databases
