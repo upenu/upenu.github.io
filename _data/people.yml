@@ -23,6 +23,112 @@ fa22-officers:
       name: Prakash Srivastava
       email: finance (at) upe.berkeley.edu
       desc: Finance Vice President
+
+    - avatar: /images/officers/Gene_Pan.jpg
+      hoveravatar: /images/officers/Gene_Pan.jpg
+      name: Gene Pan
+      email: internal (at) upe.berkeley.edu
+      desc: Internal Vice President
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Ivan Savchuk
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Elaine Qian
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Alex Liang
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Jonathan Lu
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Karthik Balakrishnan
+      email: comrel (at) upe.berkeley.edu
+      desc: Community Relations Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Tim Tu
+      email: comrel (at) upe.berkeley.edu
+      desc: Community Relations Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Chris Liu
+      email: comrel (at) upe.berkeley.edu
+      desc: Community Relations Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Arjun Patrawala
+      email: comrel (at) upe.berkeley.edu
+      desc: Community Relations Chair
+
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Oscar Xu
+      email: profdev (at) upe.berkeley.edu
+      desc: Professional Development Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Katherine Ma
+      email: profdev (at) upe.berkeley.edu
+      desc: Professional Development Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Rahul Kaparaboyna
+      email: profdev (at) upe.berkeley.edu
+      desc: Professional Development Chair
+
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Rohan Mathur
+      email: social (at) upe.berkeley.edu
+      desc: Social Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Joy Liu
+      email: social (at) upe.berkeley.edu
+      desc: Social Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Levy Deng
+      email: social (at) upe.berkeley.edu
+      desc: Social Chair
+
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Ryan Zhu
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Yuerou Tang
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Avi Mehra
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Huy Tran
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+    - avatar: /images/avatar.png
+      hoveravatar: /images/avatar.png
+      name: Brian Chung
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+
 sp22-officers:
   name: Spring 2022
   path: /about/officers/sp22
