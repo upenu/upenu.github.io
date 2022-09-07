@@ -1,23 +1,27 @@
 <div class="officer">
   {% assign person = include.person %}
   <img alt="" src="{{ person.avatar }}" />
-  <img alt="" class="fun" src="{{ person.hoveravatar }}" />
+  <!-- <img alt="" class="fun" src="{{ person.hoveravatar }}" /> -->
   <div class="officer-desc">
     <div class="intro">
-      <h3 class="intro-text">{{ person.name }}</h3>
+      <h3 class="intro-text">{{ person.name }} ({{ person.pronouns }})</h3>
       {% if person.desc %}
-        <p class="intro-text">{{ person.desc }}</p>
-        <p class="intro-text intro-email">{{ person.email }}</p>
+      <p class="intro-text">{{ person.desc }}</p>
+      <p class="intro-text intro-email">{{ person.email }}</p>
       {% else %}
-        <p class="intro-text"><b>{{ person.hours }}</b></p>
-        <p class="intro-text"><b>Upper Division Classes Taken: </b>{{ person.classes }}</p>
-        <p class="intro-text"><b>Professional Interests: </b>{{ person.interests }}</p>
+      <p class="intro-text"><b>{{ person.hours }}</b></p>
+      <p class="intro-text">
+        <b>Upper Division Classes Taken: </b>{{ person.classes }}
+      </p>
+      <p class="intro-text">
+        <b>Professional Interests: </b>{{ person.interests }}
+      </p>
       {% endif %}
-      <ul class="socials">
+      <!-- <ul class="socials">
         {% for social in person.socials %}
           <li><a href="{{ social.link }}"><i class="fa fa-{{ social.icon }}"></i></a></li>
         {% endfor %}
-      </ul>
+      </ul> -->
     </div>
   </div>
 </div>
