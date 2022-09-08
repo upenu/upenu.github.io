@@ -24,7 +24,7 @@ fa22-officers:
       email: finance (at) upe.berkeley.edu
       desc: Finance Vice President
     - avatar: /images/officers/Gene_Pan.jpeg
-      hoveravatar: /images/officers/Gene_Pan.jpeg
+      hoveravatar: /images/officers/Gene_Pan_Fun.jpg
       name: Gene Pan
       email: internal (at) upe.berkeley.edu
       desc: Internal Vice President
@@ -51,7 +51,7 @@ fa22-officers:
       desc: Industrial Relations Chair
 
     - avatar: /images/officers/Karthik_Balakrishnan.jpg
-      hoveravatar: /images/officers/Karthik_Balakrishnan.jpg
+      hoveravatar: /images/officers/Karthik_Balakrishnan_Fun.JPG
       name: Karthik Balakrishnan
       email: comrel (at) upe.berkeley.edu
       desc: Community Relations Chair
@@ -66,13 +66,13 @@ fa22-officers:
       email: comrel (at) upe.berkeley.edu
       desc: Community Relations Chair
     - avatar: /images/officers/Arjun_Patrawala.jpg
-      hoveravatar: /images/officers/Arjun_Patrawala.jpg
+      hoveravatar: /images/officers/Arjun_Patrawala_Fun.jpg
       name: Arjun Patrawala
       email: comrel (at) upe.berkeley.edu
       desc: Community Relations Chair
 
     - avatar: /images/officers/Oscar_Xu.jpeg
-      hoveravatar: /images/officers/Oscar_Xu.jpeg
+      hoveravatar: /images/officers/Oscar_Xu_Fun.jpeg
       name: Oscar Xu
       email: profdev (at) upe.berkeley.edu
       desc: Professional Development Chair
@@ -88,12 +88,12 @@ fa22-officers:
       desc: Professional Development Chair
 
     - avatar: /images/officers/Rohan_Mathur.jpg
-      hoveravatar: /images/officers/Rohan_Mathur.jpg
+      hoveravatar: /images/officers/Rohan_Mathur_Fun.jpg
       name: Rohan Mathur
       email: social (at) upe.berkeley.edu
       desc: Social Chair
     - avatar: /images/officers/Joy_Liu.png
-      hoveravatar: /images/officers/Joy_Liu.png
+      hoveravatar: /images/officers/Joy_Liu_Fun.png
       name: Joy Liu
       email: social (at) upe.berkeley.edu
       desc: Social Chair
@@ -109,7 +109,7 @@ fa22-officers:
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
     - avatar: /images/officers/Yuerou_Tang.jpg
-      hoveravatar: /images/officers/Yuerou_Tang.jpg
+      hoveravatar: /images/officers/Yuerou_Tang_Fun.jpg
       name: Yuerou Tang
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
@@ -123,8 +123,8 @@ fa22-officers:
       name: Huy Tran
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
-    - avatar: /images/avatar.png
-      hoveravatar: /images/avatar.png
+    - avatar: /images/officers/Brian_Chung.jpg
+      hoveravatar: /images/officers/Brian_Chung.jpg
       name: Brian Chung
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair

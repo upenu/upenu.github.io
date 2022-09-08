@@ -1,10 +1,13 @@
 <div class="officer">
   {% assign person = include.person %}
   <img alt="" src="{{ person.avatar }}" />
-  <!-- <img alt="" class="fun" src="{{ person.hoveravatar }}" /> -->
+  <img alt="" class="fun" src="{{ person.hoveravatar }}" />
   <div class="officer-desc">
     <div class="intro">
-      <h3 class="intro-text">{{ person.name }} ({{ person.pronouns }})</h3>
+      <h3 class="intro-text">
+        {{ person.name }} {% if person.pronouns %}({{ person.pronouns }}) {%
+        endif %}
+      </h3>
       {% if person.desc %}
       <p class="intro-text">{{ person.desc }}</p>
       <p class="intro-text intro-email">{{ person.email }}</p>
