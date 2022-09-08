@@ -1035,7 +1035,148 @@ past:
   name: Past
   path: https://www.linkedin.com/company/upsilon-pi-epsilon-nu-chapter
 
-oh-holders:
+fa22-oh-holders:
+  - avatar: /images/office-holders/fa22/Katherine_Ma.jpg
+    name: Katherine Ma
+    hours: Tuesday, 11am-12pm (Hybrid)
+    pronouns: she/her
+    classes: CS 188
+    interests: Backend, Full Stack
+  - avatar: /images/office-holders/fa22/Chris_Liu.png
+    name: Chris Liu
+    hours: Monday, 3pm-4pm (In Person)
+    pronouns: he/him
+    classes: CS 170, CS 188, CS 161, EECS 127
+    interests: Algorithms, Teaching
+  - avatar: /images/office-holders/fa22/Jerry_Zhang.png
+    name: Jerry Zhang
+    hours: Monday, 1pm-2pm (Hybrid)
+    pronouns: he/him
+    classes: CS 161, CS 170, CS 188, CS 194-26, DATA 100, INFO 159
+    interests: Backend, Teaching
+  - avatar: /images/office-holders/fa22/Karthik_Balakrishnan.jpg
+    name: Karthik Balakrishnan
+    hours: Friday, 11am-12pm (Hybrid)
+    pronouns: he/him
+    classes: CS 162, CS 170, CS 171, CS 189, MATH 104, MATH 110, MATH 113, MATH 128A, MATH 185, STAT 135, STAT 150, DATA 100, EECS 126
+    interests: Software Engineering
+  - avatar: /images/office-holders/fa22/Jonathan_Lu.jpeg
+    name: Jonathan Lu
+    hours: Thursday, 3pm-4pm (Hybrid)
+    pronouns: he/him
+    classes: CS 189, CS 170, EECS 127, CS 161
+    interests: AI/ML, Full Stack, Teaching
+  - avatar: /images/office-holders/fa22/Arjun_Patrawala.jpg
+    name: Arjun Patrawala
+    hours: Wednesday, 11am-12pm (Hybrid)
+    pronouns: he/him
+    classes: CS 170, EECS 126, MATH 113, EECS 127, CS 189
+    interests: AI/ML, Teaching
+  - avatar: /images/office-holders/fa22/Brian_Chung.jpg
+    name: Brian Chung
+    hours: Tuesday, 4pm-5pm (Hybrid)
+    pronouns: he/him
+    classes: CS 170
+    interests: Full Stack, Backend
+  - avatar: /images/office-holders/fa22/Joy_Liu.png
+    name: Joy Liu
+    hours: Monday, 2pm-3pm (Hybrid)
+    pronouns: she/her
+    classes: CS 189, EECS 127, COGSCI 131, CS 170, CS 188, EE 120, COGSCI 126, LING 100
+    interests: Teaching, AI/ML
+  - avatar: /images/office-holders/fa22/Oscar_Xu.jpeg
+    name: Oscar Xu
+    hours: Wednesday, 3pm-4pm (Hybrid)
+    pronouns: he/him
+    classes: CS 170, CS 188, CS 189, CS 162, CS 186, CS 182
+    interests: AI/ML, Computer Vision
+  - avatar: /images/office-holders/fa22/Timothy_Tu.jpg
+    name: Tim Tu
+    hours: Wednesday, 12pm-1pm (In Person)
+    pronouns: he/him
+    classes: BIOE 145, EECS 127, EECS 126, CS 189, CS 170, CS 152, CS 161, CS 162
+    interests: Teaching, AI/ML
+  - avatar: /images/office-holders/fa22/Rahul_Kaparaboyna.jpg
+    name: Rahul Kaparaboyna
+    hours: Friday, 12pm-1pm (Hybrid)
+    pronouns: he/him
+    classes: CS 170, CS 161, CS 186
+    interests: Backend
+  - avatar: /images/office-holders/fa22/Andrew_Lee.png
+    name: Andrew Lee
+    hours: Monday, 11am-12pm (Hybrid)
+    pronouns: he/him
+    classes: CS 170, CS 186, CS 161, CS 162, STAT 140, STAT 102, DATA 100, MATH 110, UGBA 147, COGSCI 131
+    interests: AI/ML Research, Performance Engineering, Backend, Full Stack
+  - avatar: /images/office-holders/fa22/Gene_Pan.jpeg
+    name: Gene Pan
+    hours: Thursday, 2pm-3pm (Hybrid)
+    pronouns: he/him
+    classes: CS 170, CS 161, CS 162, CS 186
+    interests: AI/ML, Teaching
+  - avatar: /images/office-holders/fa22/Peter_Zhang.jpg
+    name: Peter Zhang
+    hours: Monday, 4pm-5pm (Hybrid)
+    pronouns: he/him
+    classes: CS 170, DATA 100, CS 188, CS 189
+    interests: AI/ML, NLP, Quant Trading/Research, Social Sciences
+  - avatar: /images/office-holders/fa22/Rohan_Mathur.jpg
+    name: Rohan Mathur
+    hours: Monday, 12pm-1pm (In Person)
+    pronouns: he/him
+    classes: CS 170, DATA 100, ECON 115, ECON 155, DATA 140
+    interests: Full Stack, Teaching
+  - avatar: /images/office-holders/fa22/Haodi_Zou.jpg
+    name: Haodi Zou
+    hours: Wednesday, 4pm-5pm (Hybrid)
+    pronouns: she/her
+    classes: CS 170, CS 184, CS 188, DATA 100
+    interests: Full Stack
+  - avatar: /images/office-holders/fa22/Yuerou_Tang.jpg
+    name: Yuerou Tang
+    hours: Monday, 9am-10am (Hybrid)
+    pronouns: she/her
+    pronouns: they/them
+    classes: DATA 100, GEOG 185
+    interests: Applications in Conservation
+  - avatar: /images/office-holders/fa22/Huy_Tran.jpg
+    name: Huy Tran
+    hours: Tuesday, 5pm-6pm (In Person)
+    pronouns: he/him
+    classes: CS 170, CS W186, CS W169A, DATA 100, DATA 140
+    interests: Full Stack, Backend, Teaching
+  - avatar: /images/office-holders/fa22/Ryan_Zhu.jpg
+    name: Ryan Zhu
+    hours: Wednesday, 1pm-2pm (In Person)
+    pronouns: he/him
+    classes: CS 162, CS 169, CS 170, CS 176, CS 188, DATA 100, LING 100, LING 120, LING 121
+    interests: Algorithms, Complexity, Education, Linguistics
+  - avatar: /images/office-holders/fa22/Ryan_Sun.jpg
+    name: Ryan Sun
+    hours: Tuesday, 2pm-3pm (Hybrid)
+    pronouns: he/him
+    classes: DATA 100, DATA 140, CS 161, CS 170, CS 186, CS 188
+    interests: Backend, Full Stack
+  - avatar: /images/office-holders/fa22/Elaine_Qian.jpg
+    name: Elaine Qian
+    hours: Thursday, 4pm-5pm (In Person)
+    pronouns: she/her
+    classes: CS 161, CS 168, CS 170, DATA 100
+    interests: Backend, Full Stack
+  - avatar: /images/office-holders/fa22/James_Nguyen.jpeg
+    name: James Nguyen
+    hours: Tuesday, 1pm-2pm (In Person)
+    pronouns: he/him
+    classes: CS 170, CS 188, CS 189, EECS 127, CS 186, CS 161, CS 169, DATA 100
+    interests: Full Stack, AI/ML
+  - avatar: /images/office-holders/fa22/Ivan_Savchuk.jpeg
+    name: Ivan Savchuk
+    hours: Tuesday, 9am-10am (Online)
+    pronouns: he/him
+    classes: MCB 135, MCB 140, MCB 110, MCB 100A
+    interests: AI/ML
+
+sp22-oh-holders:
   - avatar: /images/office-holders/sp22/Ryan_Sun.jpg
     name: Ryan Sun
     hours: Monday, 11am-12pm
