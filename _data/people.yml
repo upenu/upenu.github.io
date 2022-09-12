@@ -1,7 +1,7 @@
 fa22-officers:
   name: Fall 2022
   path: /about/officers/fa22
-  cover-pic: /images/officer-board/fa21.jpg
+  cover-pic: /images/officer-board/fa22-temp.jpg
   members:
     - avatar: /images/officers/Stella_Wan.jpg
       hoveravatar: /images/officers/Stella_Wan.jpg
@@ -29,18 +29,18 @@ fa22-officers:
       email: internal (at) upe.berkeley.edu
       desc: Internal Vice President
 
-    - avatar: /images/avatar.png
-      hoveravatar: /images/avatar.png
+    - avatar: /images/officers/Ivan_Savchuk.jpeg
+      hoveravatar: /images/officers/Ivan_Savchuk.jpeg
       name: Ivan Savchuk
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
-    - avatar: /images/avatar.png
-      hoveravatar: /images/avatar.png
+    - avatar: /images/officers/Elaine_Qian.jpg
+      hoveravatar: /images/officers/Elaine_Qian.jpg
       name: Elaine Qian
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
-    - avatar: /images/avatar.png
-      hoveravatar: /images/avatar.png
+    - avatar: /images/@stock/member-1.jpg
+      hoveravatar: /images/@stock/member-1.jpg
       name: Alex Liang
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
@@ -97,8 +97,8 @@ fa22-officers:
       name: Joy Liu
       email: social (at) upe.berkeley.edu
       desc: Social Chair
-    - avatar: /images/avatar.png
-      hoveravatar: /images/avatar.png
+    - avatar: /images/officers/Levy_Deng.jpg
+      hoveravatar: /images/officers/Levy_Deng.jpg
       name: Levy Deng
       email: social (at) upe.berkeley.edu
       desc: Social Chair
