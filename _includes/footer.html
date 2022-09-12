@@ -1,7 +1,9 @@
 <div id="footer">
   <div class="two spacing"></div>
-  <p class="centered-text">We are a student group acting independently of the University of California. We take full
-    responsibility for our organization and this web site.</p>
+  <p class="centered-text">
+    We are a student group acting independently of the University of California.
+    We take full responsibility for our organization and this web site.
+  </p>
   <div class="spacing"></div>
   <div class="row">
     <div class="large-3 medium-3 columns">
@@ -20,21 +22,18 @@
       <div class="links">
         <h4>Pages</h4>
         <ul>
-          {% for item in site.data.nav %}
-            {% if item.children %}
-              {% for child in item.children %}
-                <li>
-                  {% if child.redirect == null %}
-                    <a href="{{child.path}}">{{child.name}}</a>
-                  {% else %}
-                    <a href="{{child.path}}" target="_blank">{{child.name}}</a>
-                  {% endif %}
-                </li>
-              {% endfor %}
+          {% for item in site.data.nav %} {% if item.children %} {% for child in
+          item.children %}
+          <li>
+            {% if child.redirect == null %}
+            <a href="{{child.path}}">{{child.name}}</a>
             {% else %}
-              <li><a href="{{ item.path }}">{{ item.name }}</a></li>
+            <a href="{{child.path}}" target="_blank">{{child.name}}</a>
             {% endif %}
-          {% endfor %}
+          </li>
+          {% endfor %} {% else %}
+          <li><a href="{{ item.path }}">{{ item.name }}</a></li>
+          {% endif %} {% endfor %}
         </ul>
       </div>
       <div class="spacing"></div>
@@ -44,11 +43,16 @@
       <div class="links">
         <h4>Sponsors</h4>
         <div id="sponsor-images">
-          <div class="img-col"><img alt="Sponsor" src="/images/asuc-logo.png"></div>
+          <div class="img-col">
+            <img alt="Sponsor" src="/images/asuc-logo.png" />
+          </div>
           <div class="spacing"></div>
           <div class="img-col">
-            <a href="https://www.ocf.berkeley.edu"><img alt="Hosted by the OCF"
-                src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_mini8.png"></a>
+            <a href="https://www.ocf.berkeley.edu"
+              ><img
+                alt="Hosted by the OCF"
+                src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_mini8.png"
+            /></a>
           </div>
         </div>
       </div>
@@ -58,8 +62,8 @@
       <div class="spacing"></div>
       <h4>Contact us</h4>
       <ul>
-        <li>Email:{{site.email}}</li>
-        <li>Location:{{site.data.constants.address}}</li>
+        <li>Email: {{site.email}}</li>
+        <li>Location: {{site.data.constants.address}}</li>
       </ul>
       <div class="spacing"></div>
       <ul class="socials">
