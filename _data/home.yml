@@ -1,16 +1,4 @@
 slides:
-  - bg: /images/group/blm.jpg
-    small_title:
-      klass: bottom-to-top
-      text: The UC Berkeley Chapter of
-    title:
-      klass: bottom-to-top
-      text: UPE Stands With BlackLivesMatter
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Read Our Statement
-          link_to: /docs/blm.pdf
   - bg: /images/group/retreatsp20.jpg
     small_title:
       klass: bottom-to-top
