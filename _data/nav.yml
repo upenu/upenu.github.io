@@ -4,8 +4,6 @@
 - name: About
   section_id: about
   children:
-    - name: Our History
-      path: /about/history
     - name: Officers
       path: /about/officers
     - name: The Family
