@@ -1054,6 +1054,13 @@ fa22-oh-holders:
     pronouns: he/him
     classes: CS 162, CS 170, CS 171, CS 189, MATH 104, MATH 110, MATH 113, MATH 128A, MATH 185, STAT 135, STAT 150, DATA 100, EECS 126
     interests: Software Engineering
+  - avatar: /images/office-holders/fa22/Stella_Wan.jpg
+    hoveravatar: /images/office-holders/fa22/Stella_Wan.jpg
+    name: Stella Wan
+    hours: Friday, 11am-12pm (Online)
+    pronouns: she/her
+    classes: CS 162, CS 170, CS 161, CS 186, CS 188
+    interests: Backend
   - avatar: /images/office-holders/fa22/Jonathan_Lu.jpeg
     hoveravatar: /images/office-holders/fa22/Jonathan_Lu.jpeg
     name: Jonathan Lu
@@ -1188,6 +1195,19 @@ fa22-oh-holders:
     pronouns: he/him
     classes: MCB 135, MCB 140, MCB 110, MCB 100A
     interests: AI/ML
+  - avatar: /images/office-holders/fa22/Avi_Mehra.jpeg
+    hoveravatar: /images/office-holders/fa22/Avi_Mehra.jpeg
+    name: Avi Mehra
+    hours: Wednesday, 2pm-3pm (Online)
+    pronouns: he/him
+    classes: CS 162, MATH 143, MATH 185, MATH 198, MATH 199, MATH 225B, MATH 250A, MATH 250B, MATH 254A
+    interests: At-Scale Architecture, ML, Computability Theory
+  - avatar: /images/office-holders/fa22/Prakash_Srivastava.jpg
+    hoveravatar: /images/office-holders/fa22/Prakash_Srivastava.jpg
+    name: Prakash Srivastava
+    hours: Friday, 1pm-2pm (Online)
+    classes: CS 270, CS 189, EECS 126, EECS 127, EE 120, CS 188, CS 170, CS 161, DATA 102, DATA 100, ECON 141, ECON 101A/B, ECON 139, ECON 134, ECON C142, IEOR 221, ECON 104, STAT 153, STAT 150, STAT 135
+    interests: ML, Systems
 
 sp22-oh-holders:
   - avatar: /images/office-holders/sp22/Ryan_Sun.jpg
