@@ -47,14 +47,3 @@ slides:
       items:
         - text: About Our Infosessions
           link_to: /indrel
-
-cards:
-  - title: Services
-    icon: chalkboard-teacher
-    content: UPE freely offers career mentorship, mock interviews, and resume reviews to all students at Berkeley. Although only Computer Science majors are eligible for membership in our society, our services and other resources are available to all.
-  - title: Events
-    icon: calendar-alt
-    content: In partnership with the Berkeley EECS department, we work closely with a large portfolio of companies—from major corporations to startups—to organize recruitment infosessions and tech talks centered around innovative technologies and industry trends.
-  - title: Community
-    icon: user-friends
-    content: As an honor society, we take pride in the community we build at Berkeley and the network we retain after graduation. For our members on campus, we host socials throughout the semester, as well as a semesterly retreat. Meanwhile, our alumni flourish at just about every company you can imagine.
