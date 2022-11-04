@@ -22,7 +22,7 @@
   path: /indrel
 - name: Interview Advice
   section_id: int-advice
-  path: /profdev/int-advice
+  path: https://www.notion.so/Tech-Resource-Repository-655d01a259e045aa9240cb409849a4cb
 - name: Blog
   section_id: blog
   path: https://medium.com/@upenublog
