@@ -2,6 +2,7 @@
 layout: default
 title: Industrial Relations
 section_id: indrel
+cover-pic: /images/group/imc-event-story.jpg
 
 custom_css:
   - indrel.css
@@ -32,10 +33,13 @@ UPE_faq:
     answer: We have, and the response has been very positive! We have found that employees of startups are usually better equipped to talk about the company as a whole, so it often results in a fun learning experience for all attendees.
 ---
 
-<div class="title-section">
+<div class="title-section cover" style="background-image: url({{page.cover-pic}})">
   {% include section-header.html title="Industrial Relations"
-  tagline="Connecting Students to Industry" color="#000" class="big" %}
+  tagline="Connecting Students to Industry" color="#fff" class="big" %}
 </div>
+
+<br />
+<br />
 
 <div class="section fadein">
   Last Updated: {{ page.last_updated | date: '%B %-d, %Y' }}
