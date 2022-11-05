@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Nu Chapter",
+    "year": "Founded in 1996",
+    "id": "upenu@berkeley.edu"
+  },
+  {
+    "name": "Christina Fan",
+    "year": "Class of 2021",
+    "id": "christina.fan@berkeley.edu",
+    "parentId": "upenu@berkeley.edu"
+  },
+  {
+    "name": "Ashley Chiu",
+    "year": "class of 2025",
+    "id": "ashmchiu@berkeley.edu",
+    "parentId": "christina.fan@berkeley.edu"
+  },
+  {
+    "name": "Brian Chung",
+    "year": "Class of 2024",
+    "id": "voldlord@berkeley.edu",
+    "parentId": "upenu@berkeley.edu"
+  },
+  {
+    "name": "Aadi Rane",
+    "year": "class of 2025",
+    "id": "aadirane@berkeley.edu",
+    "parentId": "voldlord@berkeley.edu"
+  },
+  {
+    "name": "Teja Kanthamneni",
+    "year": "class of 2025",
+    "id": "teja@berkeley.edu",
+    "parentId": "voldlord@berkeley.edu"
+  }
+]
