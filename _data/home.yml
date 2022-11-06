@@ -10,7 +10,7 @@ slides:
       klass: bottom-to-top
       items:
         - text: About Us
-          link_to: /about/upe
+          link_to: "#upenu-about"
   - bg: /images/group/denero-cropped.jpg
     small_title:
       klass: bottom-to-top
