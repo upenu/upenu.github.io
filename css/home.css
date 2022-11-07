@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
 .modDefaultSlider .sequence .bg {
   background-attachment: fixed;
   z-index: -2;
