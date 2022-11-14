@@ -34,7 +34,7 @@ slides:
       klass: bottom-to-top
       items:
         - text: Career Services
-          link_to: /profdev/services
+          link_to: /services
   - bg: /images/group/imc-event.jpg
     small_title:
       klass: bottom-to-top

@@ -5,14 +5,14 @@
   section_id: about
   children:
     - name: Officers
-      path: /about/officers
+      path: /officers
     - name: The Family
-      path: /about/family
+      path: /family
     - name: Professional Mentors
-      path: /profdev/oh-holders
+      path: /oh-holders
 - name: Professional Services
   section_id: career-services
-  path: /profdev/services
+  path: /services
   # I recognize this removes oh-reviews. I will integrate this with the main OH page.
 - name: Events
   section_id: events
