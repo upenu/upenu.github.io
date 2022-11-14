@@ -1,6 +1,6 @@
 fa22-officers:
   name: Fall 2022
-  path: /about/officers/fa22
+  path: /officers/fa22
   cover-pic: /images/officer-board/fa22-temp.jpg
   members:
     - avatar: /images/officers/Stella_Wan.jpg
@@ -121,7 +121,7 @@ fa22-officers:
 
 sp22-officers:
   name: Spring 2022
-  path: /about/officers/sp22
+  path: /officers/sp22
   cover-pic: /images/officer-board/fa21.jpg
   members:
     - avatar: /images/past-officers/Chase_Norman.jpg
@@ -265,7 +265,7 @@ sp22-officers:
 
 fa21-officers:
   name: Fall 2021
-  path: /about/officers/fa21
+  path: /officers/fa21
   cover-pic: /images/officer-board/fa21.jpg
   members:
     - avatar: /images/past-officers/Debbie_Liang.jpg
@@ -403,7 +403,7 @@ fa21-officers:
 
 sp21-officers:
   name: Spring 2021
-  path: /about/officers/sp21
+  path: /officers/sp21
   cover-pic: /images/officer-board/sp21.png
   members:
     - avatar: /images/past-officers/Michelle_DSouza.jpg
@@ -532,7 +532,7 @@ sp21-officers:
 
 fa20-officers:
   name: Fall 2020
-  path: /about/officers/fa20
+  path: /officers/fa20
   cover-pic: /images/officer-board/fa20.jpg
   members:
     - avatar: /images/past-officers/Ankit_Agarwal.jpg
@@ -665,7 +665,7 @@ fa20-officers:
 
 sp20-officers:
   name: Spring 2020
-  path: /about/officers/sp20
+  path: /officers/sp20
   cover-pic: /images/officer-board/sp20.jpg
   members:
     - avatar: /images/past-officers/Leon_Ming.jpg
@@ -791,7 +791,7 @@ sp20-officers:
 
 fa19-officers:
   name: Fall 2019
-  path: /about/officers/fa19
+  path: /officers/fa19
   cover-pic: /images/officer-board/fa19.jpg
   members:
     - avatar: /images/past-officers/Sarah_Young.jpg
@@ -907,7 +907,7 @@ fa19-officers:
 
 sp19-officers:
   name: Spring 2019
-  path: /about/officers/sp19
+  path: /officers/sp19
   cover-pic: /images/officer-board/sp19.jpg
   members:
     - avatar: /images/past-officers/Lindsay.jpg
