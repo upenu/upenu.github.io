@@ -2,36 +2,76 @@
   {
     "name": "Nu Chapter",
     "year": "Founded in 1996",
-    "id": "upenu@berkeley.edu"
+    "id": "upenu"
   },
   {
     "name": "Christina Fan",
-    "year": "Class of 2021",
-    "id": "christina.fan@berkeley.edu",
-    "parentId": "upenu@berkeley.edu"
+    "id": "christina.fan",
+    "parentId": "upenu"
   },
   {
     "name": "Ashley Chiu",
-    "year": "class of 2025",
-    "id": "ashmchiu@berkeley.edu",
-    "parentId": "christina.fan@berkeley.edu"
+    "id": "ashmchiu",
+    "parentId": "christina.fan"
   },
   {
     "name": "Brian Chung",
-    "year": "Class of 2024",
-    "id": "voldlord@berkeley.edu",
-    "parentId": "upenu@berkeley.edu"
+    "id": "voldlord",
+    "parentId": "upenu"
   },
   {
     "name": "Aadi Rane",
-    "year": "class of 2025",
-    "id": "aadirane@berkeley.edu",
-    "parentId": "voldlord@berkeley.edu"
+    "id": "aadirane",
+    "parentId": "voldlord"
   },
   {
     "name": "Teja Kanthamneni",
-    "year": "class of 2025",
-    "id": "teja@berkeley.edu",
-    "parentId": "voldlord@berkeley.edu"
+    "id": "teja",
+    "parentId": "voldlord"
+  },
+  {
+    "name": "Haodi Zou",
+    "id": "haodi.zou",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Yiwei Yu",
+    "id": "yuyiwei",
+    "parentId": "haodi.zou"
+  },
+  {
+    "name": "Gavin Yu",
+    "id": "gavinyu2003",
+    "parentId": "haodi.zou"
+  },
+  {
+    "name": "Oscar Xu",
+    "id": "oscar.xzq",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Charlie Cheng-Jie Ji",
+    "id": "charliechengjieji",
+    "parentId": "oscar.xzq"
+  },
+  {
+    "name": "Hanning Xu",
+    "id": "hanning.xu",
+    "parentId": "oscar.xzq"
+  },
+  {
+    "name": "Stella Wan",
+    "id": "stella.wan",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Elizabeth Yeh",
+    "id": "elizabeth.yeh",
+    "parentId": "stella.wan"
+  },
+  {
+    "name": "Amanda Yao",
+    "id": "amanda.yao",
+    "parentId": "stella.wan"
   }
 ]
