@@ -1439,7 +1439,7 @@ $topbar-menu-icon-color: #545454;
 // $topbar-transition-speed: 300ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
 // $topbar-breakpoint: #{lower-bound($medium-range)}; // Change to 9999px for always mobile layout
-$topbar-media-query: '#{$screen} and (min-width:960px)';
+$topbar-media-query: '#{$screen} and (min-width:1200px)';
 
 // Top-bar input styles
 // $topbar-input-height: rem-calc(28);
