@@ -23,7 +23,7 @@ custom_js: famtree.js
 
     <script>
       var chart
-      d3.json('test.json').then((dataFlattened) => {
+      d3.json('famtree-new.json').then((dataFlattened) => {
         chart = new d3.OrgChart()
           .container('.chart-container')
           .data(dataFlattened)
@@ -34,6 +34,31 @@ custom_js: famtree.js
           .compactMarginBetween((d) => 15)
           .compactMarginPair((d) => 80)
           .nodeContent(function (d, i, arr, state) {
+            if (d.data.name == 'Nu Chapter') {
+              return `
+                <div style="padding-top:0px;background-color:none;margin-left:1px;height:${
+                  d.height
+                }px;border-radius:2px;overflow:visible">
+                  <div style="height:${
+                    d.height
+                  }px;padding-top:0px;background-color:white;border:1px solid lightgray;">
+
+                  <div style="margin-top:0px;background-color:#095586;height:10px;width:${
+                    d.width - 2
+                  }px;border-radius:1px"></div>
+
+                  <div style="padding:20px; padding-top:35px;text-align:center">
+                      <div style="color:#111672;font-size:16px;font-weight:bold"> ${
+                        d.data.name
+                      } </div>
+                  </div> 
+                  <div style="display:flex;justify-content:center;padding-left:15px;padding-right:15px;">
+                    <div > Bigs:  ${d.data._directSubordinates} 👤</div>  
+                  </div>
+                  </div>     
+                </div>
+              `
+            }
             return `
             <div style="padding-top:0px;background-color:none;margin-left:1px;height:${
               d.height
@@ -52,13 +77,14 @@ custom_js: famtree.js
                    } </div>
                </div> 
                <div style="display:flex;justify-content:center;padding-left:15px;padding-right:15px;">
-                 <div > Littles:  ${d.data._directSubordinates} 👤</div>  
+                <div > Littles:  ${d.data._directSubordinates} 👤</div>  
                </div>
               </div>     
-      </div>
-  `
+            </div>
+            `
           })
           .render()
+        chart.expandAll()
       })
     </script>
   </body>
