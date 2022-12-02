@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Nu Chapter",
+    "year": "Founded in 1996",
+    "id": "upenu"
+  },
+  {
+    "name": "Christina Fan",
+    "id": "christina.fan",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Ashley Chiu",
+    "id": "ashmchiu",
+    "parentId": "christina.fan"
+  },
+  {
+    "name": "Brian Chung",
+    "id": "voldlord",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Aadi Rane",
+    "id": "aadirane",
+    "parentId": "voldlord"
+  },
+  {
+    "name": "Teja Kanthamneni",
+    "id": "teja",
+    "parentId": "voldlord"
+  },
+  {
+    "name": "Haodi Zou",
+    "id": "haodi.zou",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Yiwei Yu",
+    "id": "yuyiwei",
+    "parentId": "haodi.zou"
+  },
+  {
+    "name": "Gavin Yu",
+    "id": "gavinyu2003",
+    "parentId": "haodi.zou"
+  },
+  {
+    "name": "Oscar Xu",
+    "id": "oscar.xzq",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Charlie Cheng-Jie Ji",
+    "id": "charliechengjieji",
+    "parentId": "oscar.xzq"
+  },
+  {
+    "name": "Hanning Xu",
+    "id": "hanning.xu",
+    "parentId": "oscar.xzq"
+  },
+  {
+    "name": "Stella Wan",
+    "id": "stella.wan",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Elizabeth Yeh",
+    "id": "elizabeth.yeh",
+    "parentId": "stella.wan"
+  },
+  {
+    "name": "Amanda Yao",
+    "id": "amanda.yao",
+    "parentId": "stella.wan"
+  },
+  {
+    "name": "Joshua Wong",
+    "id": "joshw",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Aaron Janse",
+    "id": "aaronjanse",
+    "parentId": "joshw"
+  },
+  {
+    "name": "Muadh Thaika",
+    "id": "muadh22",
+    "parentId": "joshw"
+  },
+  {
+    "name": "Jerry Zhang",
+    "id": "jerrywzhang",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Max Ye",
+    "id": "maxye",
+    "parentId": "jerrywzhang"
+  },
+  {
+    "name": "Jessica Hsu",
+    "id": "jessh459",
+    "parentId": "jerrywzhang"
+  },
+  {
+    "name": "Peter Zhang",
+    "id": "petez",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Jessica Lin",
+    "id": "linjessica",
+    "parentId": "petez"
+  },
+  {
+    "name": "Rohan Mathur",
+    "id": "rohanmathur",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Joshua Chandiramani",
+    "id": "joshuac",
+    "parentId": "rohanmathur"
+  },
+  {
+    "name": "Ashwin Dara",
+    "id": "adara",
+    "parentId": "rohanmathur"
+  },
+  {
+    "name": "Joy Liu",
+    "id": "joy.liu",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Stephanie Wong",
+    "id": "stwong2",
+    "parentId": "joy.liu"
+  },
+  {
+    "name": "SooHyuk Cho",
+    "id": "soohyuk.cho",
+    "parentId": "joy.liu"
+  },
+  {
+    "name": "Tianchen Liu",
+    "id": "tianchenliu",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Curtis Yu",
+    "id": "curtis_yu",
+    "parentId": "tianchenliu"
+  },
+  {
+    "name": "Amudha Sairam",
+    "id": "amudha.sairam",
+    "parentId": "tianchenliu"
+  },
+  {
+    "name": "Chris Liu",
+    "id": "chris-liu",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Nikki Suzani",
+    "id": "nikkisuzani",
+    "parentId": "chris-liu"
+  },
+  {
+    "name": "Charlotte Le",
+    "id": "charlottele",
+    "parentId": "chris-liu"
+  },
+  {
+    "name": "Gene Pan",
+    "id": "pangene",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Mario Zhang",
+    "id": "shaolun_zhang",
+    "parentId": "pangene"
+  },
+  {
+    "name": "Yuerou Tang",
+    "id": "yuerou.tang",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Claire Wen",
+    "id": "clairewen",
+    "parentId": "yuerou.tang"
+  },
+  {
+    "name": "Yihuan Bu",
+    "id": "kevinbu233",
+    "parentId": "yuerou.tang"
+  },
+  {
+    "name": "Jonathan Lu",
+    "id": "jonathan.lu",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Andrew McGuire",
+    "id": "andrewmcguire",
+    "parentId": "jonathan.lu"
+  },
+  {
+    "name": "Ian Dong",
+    "id": "ihdong",
+    "parentId": "jonathan.lu"
+  },
+  {
+    "name": "Rahul Kaparaboyna",
+    "id": "rahul.kaparaboyna",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Isaac Ong",
+    "id": "isaacong",
+    "parentId": "rahul.kaparaboyna"
+  },
+  {
+    "name": "Rishi Khare",
+    "id": "rishi.khare",
+    "parentId": "rahul.kaparaboyna"
+  },
+  {
+    "name": "Ryan Zhu",
+    "id": "ryanzhu",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Lawrence Shieh",
+    "id": "lawrence92",
+    "parentId": "ryanzhu"
+  },
+  {
+    "name": "Henric Zhang",
+    "id": "henriczhang",
+    "parentId": "ryanzhu"
+  },
+  {
+    "name": "Levy Deng",
+    "id": "dengchun",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Ryan Cheng",
+    "id": "ryancheng",
+    "parentId": "dengchun"
+  },
+  {
+    "name": "Andy Chen",
+    "id": "achen9734",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Kai Wang",
+    "id": "kwang999",
+    "parentId": "achen9734"
+  },
+  {
+    "name": "Sidhant Rajadnya",
+    "id": "srajadnya",
+    "parentId": "achen9734"
+  },
+  {
+    "name": "Andrew Lee",
+    "id": "andrew_lee",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Yile Hu",
+    "id": "yhu422",
+    "parentId": "andrew_lee"
+  },
+  {
+    "name": "Ethan Zhang",
+    "id": "ethanzhang",
+    "parentId": "andrew_lee"
+  },
+  {
+    "name": "Katherine Ma",
+    "id": "katherinema",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Danny Geisz",
+    "id": "dannygeisz",
+    "parentId": "katherinema"
+  },
+  {
+    "name": "Matthew Lee",
+    "id": "matthewlee3",
+    "parentId": "katherinema"
+  },
+  {
+    "name": "Avi Mehra",
+    "id": "avi.mehra",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Tanush Talati",
+    "id": "ttalati",
+    "parentId": "avi.mehra"
+  },
+  {
+    "name": "Andrew Wang",
+    "id": "awang4",
+    "parentId": "avi.mehra"
+  },
+  {
+    "name": "Huy Tran",
+    "id": "huytran",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Edison Chen",
+    "id": "zx.chen",
+    "parentId": "huytran"
+  },
+  {
+    "name": "Tim Tu",
+    "id": "timothyktu",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Richard Wang",
+    "id": "richardrwang",
+    "parentId": "timothyktu"
+  },
+  {
+    "name": "Liheng Lai",
+    "id": "liheng",
+    "parentId": "timothyktu"
+  },
+  {
+    "name": "Smit Dagli",
+    "id": "smitdagli",
+    "parentId": "upenu"
+  },
+  {
+    "name": "Arman Kazmi",
+    "id": "armankazmi",
+    "parentId": "smitdagli"
+  }
+]
