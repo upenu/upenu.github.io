@@ -1045,7 +1045,7 @@ sp23-oh-holders:
     name: SooHyuk Cho
     hours: Monday, 4pm-5pm (In Person)
     pronouns: he/him
-    classes: CS 170, EECS 120, EE 120
+    classes: CS 170, EECS 126, EE 120
     interests: Teaching, Systems & Architecture, CS Theory
   - avatar: /images/office-holders/sp23/Zeeshan_Patel.JPG
     hoveravatar: /images/office-holders/sp23/Zeeshan_Patel.JPG
@@ -1067,7 +1067,7 @@ sp23-oh-holders:
     hours: Thursday, 6pm-7pm (In Person)
     pronouns: he/him
     classes: CS 169A, CS 170, CS 186, CS 161, CS 162, DATA 100, DATA 140
-    interests: Full Stack, Teaching
+    interests: Full Stack, Backend, Teaching
   - avatar: /images/office-holders/sp23/Katherine_Ma.jpg
     hoveravatar: /images/office-holders/sp23/Katherine_Ma.jpg
     name: Katherine Ma
@@ -1081,7 +1081,7 @@ sp23-oh-holders:
     hours: Monday, 3pm-4pm (Online)
     pronouns: she/her
     classes: DATA 100, CS 170, CS 186, CS 188
-    interests: Full Stack, Backend
+    interests: Backend
   - avatar: /images/office-holders/sp23/Angie_Qin.jpeg
     hoveravatar: /images/office-holders/sp23/Angie_Qin.jpeg
     name: Angie Qin
@@ -1101,7 +1101,7 @@ sp23-oh-holders:
     name: Chris Liu
     hours: Monday, 5pm-6pm (In Person)
     pronouns: he/him
-    classes: CS 170, CS 127, CS 176, CS 161
+    classes: CS 170, CS 188, EECS 127, CS 176, CS 161
     interests: Teaching Algorithms, Distributed Systems Research
   - avatar: /images/office-holders/sp23/Pete_Zhang.jpg
     hoveravatar: /images/office-holders/sp23/Pete_Zhang.jpg
