@@ -3,14 +3,14 @@ sp23-officers:
   path: /officers/sp23
   cover-pic: /images/officer-board/fa22-temp.jpg
   members:
-    - avatar: /images/officers/Yuerou_Tang.jpg
-      hoveravatar: /images/officers/Yuerou_Tang_Fun.jpg
+    - avatar: /images/officers/Stella_Wan.jpg
+      hoveravatar: /images/officers/Stella_Wan.jpg
       name: Yuerou Tang
       email: president (at) upe.berkeley.edu
       desc: President
       pronouns: they/them
-    - avatar: /images/officers/Avi_Mehra.jpeg
-      hoveravatar: /images/officers/Avi_Mehra.jpeg
+    - avatar: /images/officers/Jerry_Zhang.png
+      hoveravatar: /images/officers/Jerry_Zhang.png
       name: Avi Mehra
       email: execvp (at) upe.berkeley.edu
       desc: Executive Vice President
@@ -21,33 +21,33 @@ sp23-officers:
       email: finance (at) upe.berkeley.edu
       desc: Finance Vice President
       pronouns: he/him
-    - avatar: /images/officers/Katherine_Ma.jpg
-      hoveravatar: /images/officers/Katherine_Ma.jpg
+    - avatar: /images/officers/Gene_Pan.jpeg
+      hoveravatar: /images/officers/Gene_Pan_Fun.jpg
       name: Katherine Ma
       email: internal (at) upe.berkeley.edu
       desc: Internal Vice President
       pronouns: she/her
-    - avatar: /images/officers/Junsang_Yoon.png
-      hoveravatar: /images/officers/Junsang_Yoon.png
-      name: Junsang Yoon
+    - avatar: /images/officers/Gene_Pan.jpeg
+      hoveravatar: /images/officers/Gene_Pan_Fun.jpg
+      name: Junsang Cho
       email: memeng (at) upe.berkeley.edu
       desc: Member Engagement Chair
       pronouns: he/him
 
-    - avatar: /images/officers/Angie_Qin.jpeg
-      hoveravatar: /images/officers/Angie_Qin.jpeg
+    - avatar: /images/officers/Ivan_Savchuk.jpeg
+      hoveravatar: /images/officers/Ivan_Savchuk.jpeg
       name: Angie Qin
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
       pronouns: she/her
-    - avatar: /images/officers/Gavin_Yu.jpeg
-      hoveravatar: /images/officers/Gavin_Yu.jpeg
+    - avatar: /images/officers/Elaine_Qian.jpg
+      hoveravatar: /images/officers/Elaine_Qian.jpg
       name: Gavin Yu
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
       pronouns: he/him
-    - avatar: /images/officers/Levy_Deng.jpg
-      hoveravatar: /images/officers/Levy_Deng.jpg
+    - avatar: /images/officers/Jonathan_Lu.png
+      hoveravatar: /images/officers/Jonathan_Lu.png
       name: Levy Deng
       email: ir (at) upe.berkeley.edu
       desc: Industrial Relations Chair
@@ -60,27 +60,27 @@ sp23-officers:
       desc: Community Relations Chair
       pronouns: he/him
 
-    - avatar: /images/officers/Elizabeth_Yeh.jpg
-      hoveravatar: /images/officers/Elizabeth_Yeh.jpg
+    - avatar: /images/officers/Oscar_Xu.jpeg
+      hoveravatar: /images/officers/Oscar_Xu_Fun.jpeg
       name: Elizabeth Yeh
       email: profdev (at) upe.berkeley.edu
       desc: Professional Development Chair
       pronouns: she/her
-    - avatar: /images/officers/Mark_Deng.jpg
-      hoveravatar: /images/officers/Mark_Deng.jpg
+    - avatar: /images/officers/Katherine_Ma.jpg
+      hoveravatar: /images/officers/Katherine_Ma.jpg
       name: Mark Deng
       email: profdev (at) upe.berkeley.edu
       desc: Professional Development Chair
       pronouns: he/him
 
-    - avatar: /images/officers/Danny_Geisz.JPG
-      hoveravatar: /images/officers/Danny_Geisz.JPG
-      name: Danny Geisz
+    - avatar: /images/officers/Rohan_Mathur.jpg
+      hoveravatar: /images/officers/Rohan_Mathur_Fun.jpg
+      name: Daniel Geisz
       email: social (at) upe.berkeley.edu
       desc: Social Chair
       pronouns: he/him
-    - avatar: /images/officers/SooHyuk_Cho.jpg
-      hoveravatar: /images/officers/SooHyuk_Cho.jpg
+    - avatar: /images/officers/Joy_Liu.png
+      hoveravatar: /images/officers/Joy_Liu_Fun.png
       name: SooHyuk Cho
       email: social (at) upe.berkeley.edu
       desc: Social Chair
@@ -92,20 +92,20 @@ sp23-officers:
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
       pronouns: he/him
-    - avatar: /images/@stock/member-1.jpg
-      hoveravatar: /images/@stock/member-1.jpg
+    - avatar: /images/officers/Yuerou_Tang.jpg
+      hoveravatar: /images/officers/Yuerou_Tang_Fun.jpg
       name: Bowen Wang
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
       pronouns: he/him
-    - avatar: /images/officers/Curtis_Yu.jpeg
-      hoveravatar: /images/officers/Curtis_Yu.jpeg
+    - avatar: /images/officers/Avi_Mehra.jpeg
+      hoveravatar: /images/officers/Avi_Mehra.jpeg
       name: Curtis Yu
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
       pronouns: he/him
-    - avatar: /images/officers/Huy_Tran.jpeg
-      hoveravatar: /images/officers/Huy_Tran.jpeg
+    - avatar: /images/officers/Huy_Tran.jpg
+      hoveravatar: /images/officers/Huy_Tran.jpg
       name: Huy Tran
       email: softdev (at) upe.berkeley.edu
       desc: Software Development Chair
