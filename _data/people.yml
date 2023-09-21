@@ -1,3 +1,96 @@
+fa23-oh-holders:
+  - avatar: /images/office-holders/fa23/Mark_Deng.jpg
+    hoveravatar: /images/office-holders/fa23/Mark_Deng.jpg
+    name: Mark Deng
+    hours: Wednesday, 2pm-3pm (Online)
+    pronouns: he/him
+    classes: CS 170, CS 186, DATA 100, STAT 134, ECON C110
+    interests: Software Engineering, LLMs, Startups
+  - avatar: /images/office-holders/fa23/Zeeshan_Patel.JPG
+    hoveravatar: /images/office-holders/fa23/Zeeshan_Patel.JPG
+    name: Zeeshan Patel
+    hours: Wednesday, 3pm-4pm (Hybrid)
+    pronouns: he/him
+    classes: EE 120, EECS 126, CS 170, CS 189, CS 162, CS 280, CS 285, CS 288
+    interests: AI/ML, Computer Vision, NLP, Quant Finance
+  - avatar: /images/office-holders/fa23/Katherine_Ma.jpg
+    hoveravatar: /images/office-holders/fa23/Katherine_Ma.jpg
+    name: Katherine Ma
+    hours: Tuesday, 2pm-3pm (Hybrid)
+    pronouns: she/her
+    classes: CS 161, CS 162, CS 186, CS 188, EECS 126, DATA 100
+    interests: Backend
+  - avatar: /images/office-holders/fa23/Elizabeth_Yeh.jpg
+    hoveravatar: /images/office-holders/fa23/Elizabeth_Yeh.jpg
+    name: Elizabeth Yeh
+    hours: Tuesday, 1pm-2pm (Hybrid)
+    pronouns: she/her
+    classes: DATA 100, CS 170, CS 186, CS 188
+    interests: Teaching, Backend
+  - avatar: /images/office-holders/fa23/Angie_Qin.JPG
+    hoveravatar: /images/office-holders/fa23/Angie_Qin.JPG
+    name: Angie Qin
+    hours: Monday, 12pm-1pm (Hybrid)
+    pronouns: she/her
+    classes: CS 170, EECS 126, MATH 104, MATH 110, MATH 113, MATH 185, MATH 128A, MCB 102, MCB 104, MCB 160, PHILOS 108, PHILOS 161, ART 119
+    interests: Pure Math, Philosophy, Computational Biology
+  - avatar: /images/office-holders/fa23/Chris_Liu.jpg
+    hoveravatar: /images/office-holders/fa23/Chris_Liu.jpg
+    name: CHRIS Liu
+    hours: Wednesday, 12pm-1pm (In Person)
+    pronouns: he/him
+    classes: CS 170, CS 188, EECS 127, CS 176, CS 161, CS 270
+    interests: Teaching, Distributed Systems
+  - avatar: /images/office-holders/fa23/Peter_Zhang.jpg
+    hoveravatar: /images/office-holders/fa23/Peter_Zhang.jpg
+    name: (Pirate) Pete Zhang
+    hours: Wednesday, 11am-12pm (Hybrid)
+    pronouns: he/him
+    classes: DATA 100, EECS 127, CS 170, CS 172, CS 182, CS 188, CS 189, CS 281A, CS 288
+    interests: Quant Trading/Research, Machine Learning (NLP/AI Safety), Human Resources
+  - avatar: /images/office-holders/fa23/Gavin_Yu.jpeg
+    hoveravatar: /images/office-holders/fa23/Gavin_Yu.jpeg
+    name: Gavin Yu
+    hours: Friday, 10am-11am (Online)
+    pronouns: he/him
+    classes: EECS 126, CS 162, CS 170, CS 188, CS 189
+    interests: Quant Trading
+  - avatar: /images/office-holders/fa23/Nitya_Sri_Adapala.jpg
+    hoveravatar: /images/office-holders/fa23/Nitya_Sri_Adapala.jpg
+    name: Nitya Sri Adapala
+    hours: Friday, 4pm-5pm (Online)
+    pronouns: she/her
+    classes: EECS 126, DATA 100
+    interests: AI/ML
+  - avatar: /images/office-holders/fa23/Alina_Sheng.jpg
+    hoveravatar: /images/office-holders/fa23/Alina_Sheng.jpg
+    name: Alina Sheng
+    hours: Friday, 9am-10am (Online)
+    pronouns: she/her
+    classes: CS 189, Physics 110A
+    interests: AI/ML
+  - avatar: /images/office-holders/fa23/Rahul_Shah.png
+    hoveravatar: /images/office-holders/fa23/Rahul_Shah.png
+    name: Rahul Shah
+    hours: Friday, 11am-12pm (In Person)
+    pronouns: he/him
+    classes: EECS 120, EECS 126, EECS 127, CS 160, CS 161, CS 164, CS 170, CS 180, CS 182, CS 184, CS 189
+    interests: Full Stack, AI/ML, Teaching
+  - avatar: /images/office-holders/fa23/Zhihan_Cheng.jpg
+    hoveravatar: /images/office-holders/fa23/Zhihan_Cheng.jpg
+    name: Zhihan Cheng
+    hours: Monday, 11am-12pm (Hybrid)
+    pronouns: she/her
+    classes: CS 188, CS 186, CS 184, EECS 106A, CS 189, DATA 100
+    interests: Full Stack
+  - avatar: /images/office-holders/fa23/William_Fei.jpg
+    hoveravatar: /images/office-holders/fa23/William_Fei.jpg
+    name: William Fei
+    hours: Tuesday, 5pm-6pm (Online)
+    pronouns: he/him
+    classes: CS 160, CS 170, CS 184, CS 194 (Ethics), DATA 100
+    interests: Cyber-Physical Systems
+
 sp23-officers:
   name: Spring 2023
   path: /officers/sp23
