@@ -1,3 +1,80 @@
+fa23-officers:
+  name: Fall 2023
+  path: /officers/fa23
+  cover-pic: /images/officer-board/fa22-temp.jpg
+  members:
+    - avatar: /images/officers/Angie_Qin.jpeg
+      hoveravatar: /images/officers/Angie_Qin.jpeg
+      name: Angie Qin
+      email: president (at) upe.berkeley.edu
+      desc: President
+      pronouns: she/her
+    - avatar: /images/officers/Gavin_Yu.jpeg
+      hoveravatar: /images/officers/Gavin_Yu.jpeg
+      name: Gavin Yu
+      email: president (at) upe.berkeley.edu
+      desc: President
+      pronouns: he/him
+    - avatar: /images/officers/Zhihan_Cheng.jpg
+      hoveravatar: /images/officers/Zhihan_Cheng.jpg
+      name: Zhihan Cheng
+      email: finance (at) upe.berkeley.edu
+      desc: Finance Vice President
+      pronouns: she/her
+    - avatar: /images/officers/Mark_Deng.jpg
+      hoveravatar: /images/officers/Mark_Deng.jpg
+      name: Mark Deng
+      email: external (at) upe.berkeley.edu
+      desc: External Vice President
+      pronouns: he/him
+
+    - avatar: /images/officers/Nitya_Sri_Adapala.jpg
+      hoveravatar: /images/officers/Nitya_Sri_Adapala.jpg
+      name: Nitya Sri Adapala
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+      pronouns: she/her
+    - avatar: /images/officers/Alina_Sheng.jpg
+      hoveravatar: /images/officers/Alina_Sheng.jpg
+      name: Alina Sheng
+      email: ir (at) upe.berkeley.edu
+      desc: Industrial Relations Chair
+      pronouns: she/her
+
+    - avatar: /images/officers/Chris_Liu.jpeg
+      hoveravatar: /images/officers/Chris_Liu.jpeg
+      name: Chris Liu
+      email: comrel (at) upe.berkeley.edu
+      desc: Community Relations Chair
+      pronouns: he/him
+
+    - avatar: /images/officers/Elizabeth_Yeh.jpg
+      hoveravatar: /images/officers/Elizabeth_Yeh.jpg
+      name: Elizabeth Yeh
+      email: profdev (at) upe.berkeley.edu
+      desc: Professional Development Chair
+      pronouns: she/her
+    - avatar: /images/officers/Katherine_Ma.jpg
+      hoveravatar: /images/officers/Katherine_Ma.jpg
+      name: Katherine Ma
+      email: profdev (at) upe.berkeley.edu
+      desc: Professional Development Chair and Advisor
+      pronouns: she/her
+
+    - avatar: /images/officers/Saloni_Agarwal.jpg
+      hoveravatar: /images/officers/Saloni_Agarwal.jpg
+      name: Saloni Agarwal
+      email: social (at) upe.berkeley.edu
+      desc: Social Chair
+      pronouns: she/her
+
+    - avatar: /images/officers/Huy_Tran.jpeg
+      hoveravatar: /images/officers/Huy_Tran.jpeg
+      name: Huy Tran
+      email: softdev (at) upe.berkeley.edu
+      desc: Software Development Chair
+      pronouns: he/him
+
 fa23-oh-holders:
   - avatar: /images/office-holders/fa23/Mark_Deng.jpg
     hoveravatar: /images/office-holders/fa23/Mark_Deng.jpg
@@ -90,6 +167,13 @@ fa23-oh-holders:
     pronouns: he/him
     classes: CS 160, CS 170, CS 184, CS 194 (Ethics), DATA 100
     interests: Cyber-Physical Systems
+  - avatar: /images/office-holders/fa23/Saloni_Agarwal.jpg
+    hoveravatar: /images/office-holders/fa23/Saloni_Agarwal.jpg
+    name: Saloni Agarwal
+    hours: Thursday, 5pm-6pm (Hybrid)
+    pronouns: she/her
+    classes: CS 170, CS 188
+    interests: Teaching, Full Stack
 
 sp23-officers:
   name: Spring 2023
